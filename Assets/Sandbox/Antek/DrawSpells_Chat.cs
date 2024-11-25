@@ -1,56 +1,82 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class DrawSpells_Chat : MonoBehaviour
 {
-    public LineRenderer lineRenderer; // Assign in the Inspector
-    public Camera mainCamera;        // Assign the main camera
-    public float distanceFromCamera = 0f; // Distance in world space from the camera
+    [SerializeField] Camera drawCamera;
+    [SerializeField] GameObject brush;
 
-    private int currentPointIndex = 0;
+    LineRenderer lineRenderer;
 
-    void Start()
-    {
-        if (lineRenderer == null)
-        {
-            Debug.LogError("LineRenderer not assigned!");
-            return;
-        }
+    List<GameObject> drawList = new List<GameObject>();
 
-        // Initialize LineRenderer
-        lineRenderer.positionCount = 0;
+    
+    Vector2 lastPos;
 
-        // Assign the main camera if not already assigned
-        if (mainCamera == null)
-        {
-            mainCamera = Camera.main;
-        }
-    }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // Left mouse button starts drawing
-        {
-            lineRenderer.positionCount = 0; // Reset line
-            currentPointIndex = 0;
-        }
-
-        if (Input.GetMouseButton(0)) // Hold left mouse button to draw
-        {
-            Vector3 mousePosition = Input.mousePosition;
-            mousePosition.z = distanceFromCamera; // Set the depth
-
-            // Convert screen space to world space
-            Vector3 worldPosition = mainCamera.ScreenToWorldPoint(mousePosition);
-
-            // Add a new point to the line
-            AddPoint(worldPosition);
-        }
+        Draw();
     }
 
-    private void AddPoint(Vector3 point)
+    void Draw()
     {
-        lineRenderer.positionCount = currentPointIndex + 1;
-        lineRenderer.SetPosition(currentPointIndex, point);
-        currentPointIndex++;
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            CreateBrush();
+        }
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            Vector2 mousePos = drawCamera.ScreenToWorldPoint(Input.mousePosition);
+
+            if (mousePos != lastPos)
+            {
+                AddPoint(mousePos);
+                lastPos = mousePos;
+            }
+        }
+        else
+        {
+            lineRenderer = null;
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            RemoveLines();
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            ScreenShotHandler.TakeScreenshot_Static();
+        }
+    }
+    
+    
+    void CreateBrush()
+    {
+        GameObject brushInstance = Instantiate(brush);
+        drawList.Add(brushInstance);
+        lineRenderer = brushInstance.GetComponent<LineRenderer>();
+
+        Vector2 mousePos = drawCamera.ScreenToWorldPoint(Input.mousePosition);
+
+        lineRenderer.SetPosition(0,mousePos);
+        lineRenderer.SetPosition(1,mousePos);
+    }
+    
+    void AddPoint(Vector2 pointPos)
+    {
+        lineRenderer.positionCount++;
+        int positionIndex = lineRenderer.positionCount - 1;
+        lineRenderer.SetPosition(positionIndex, pointPos);
+    }
+    
+    void RemoveLines()
+    {
+        for (int i = 0; i < drawList.Count;)
+        {
+            Destroy(drawList[i]);
+            drawList.Remove(drawList[i]);
+        }
     }
 }
