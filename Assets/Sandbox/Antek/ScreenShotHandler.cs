@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,10 +9,17 @@ public class ScreenShotHandler : MonoBehaviour
 {
     static ScreenShotHandler instance;
     [SerializeField] RawImage image;
+    int pngNumber;
+    string path;
     
     void Awake()
     {
         instance = this;
+        path = Directory.GetCurrentDirectory() + "/Screenshots";
+        if (Directory.Exists(path) == false)
+        {
+            Directory.CreateDirectory(path);
+        }
     }
 
     private IEnumerator CoroutineScreenShot()
@@ -35,7 +43,8 @@ public class ScreenShotHandler : MonoBehaviour
         RenderTexture.ReleaseTemporary(renderTexture);
         
         byte[] byteArray = texture2D.EncodeToPNG();
-        System.IO.File.WriteAllBytes(Application.dataPath + "/cameraScreenshot.png",byteArray);
+        System.IO.File.WriteAllBytes( path + "/cameraScreenshot"+ pngNumber +".png" , byteArray);
+        pngNumber += 1;
     }
 
     void TakeScreenshot()
