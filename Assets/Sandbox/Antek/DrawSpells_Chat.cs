@@ -12,7 +12,8 @@ public class DrawSpells_Chat : MonoBehaviour
     List<GameObject> drawList = new List<GameObject>();
 
     
-    Vector2 lastPos;
+    Vector3 lastPos;
+    public LayerMask layerMask;
 
 
     void Update()
@@ -28,12 +29,17 @@ public class DrawSpells_Chat : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            Vector2 mousePos = drawCamera.ScreenToWorldPoint(Input.mousePosition);
-
-            if (mousePos != lastPos)
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
-                AddPoint(mousePos);
-                lastPos = mousePos;
+                Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                Debug.Log(hit.transform.position);
+                if (mousePosition != lastPos)
+                {
+                    AddPoint(mousePosition);
+                    lastPos = mousePosition;
+                }
             }
         }
         else
@@ -64,7 +70,7 @@ public class DrawSpells_Chat : MonoBehaviour
         lineRenderer.SetPosition(1,mousePos);
     }
     
-    void AddPoint(Vector2 pointPos)
+    void AddPoint(Vector3 pointPos)
     {
         lineRenderer.positionCount++;
         int positionIndex = lineRenderer.positionCount - 1;
