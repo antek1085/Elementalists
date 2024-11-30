@@ -25,6 +25,12 @@
 # Visual Studio cache directory
 .vs/
 
+# Ignore HotReload plugin files
+/HotReload/
+*.HotReload.dll
+/HotReloadCache/
+/HotReloadLogs/
+
 # Gradle cache directory
 .gradle/
 
