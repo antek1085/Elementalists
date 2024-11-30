@@ -26,6 +26,8 @@
 .vs/
 
 # Ignore HotReload plugin files
+/Packages/com.singularitygroup.hotreload/
+
 /HotReload/
 *.HotReload.dll
 /HotReloadCache/
