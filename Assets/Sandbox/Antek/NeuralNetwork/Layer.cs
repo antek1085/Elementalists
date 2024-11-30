@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class Layer
 {
-    int numNodesIn, numNodesOut;
+    public int numNodesIn, numNodesOut;
     public double[,] costGradientW;
     public double[] costGradientB;
-    double[,] weights;
-    double[] biases;
+    public double[,] weights;
+    public double[] biases;
     
     //Create the Layer
 
@@ -30,7 +30,7 @@ public class Layer
             biases[nodeOut] -= costGradientB[nodeOut] * learnRate;
             for (int nodeIn = 0; nodeIn < numNodesIn; nodeIn++)
             {
-                weights[nodeIn, nodeOut] = costGradientW[nodeIn, nodeOut] * learnRate;
+                weights[nodeIn, nodeOut] -= costGradientW[nodeIn, nodeOut] * learnRate;
             }
         }
     }
@@ -74,13 +74,54 @@ public class Layer
     //Sigmoid Fuction
     double ActivationFunction(double weightedInput)
     {
-        return 1 / (1 + Exp(-weightedInput));
-        return (weightedInput > 0) ? 1 : 0;
+        return 1 / (1 + System.Math.Exp(-weightedInput));
     }
+
+    double ActivationDerivative(double weightedInput)
+    {
+        double activation = ActivationFunction(weightedInput);
+        return activation * (1 - activation);
+    }
+    
 
     double NodeCost(double outputActivation, double expectedOutput)
     {
         double error = outputActivation - expectedOutput;
         return error * error;
+    }
+
+    double NodeCostDerivative(double outputActivation, double expectedOutput)
+    {
+        return 2 * (outputActivation - expectedOutput);
+    }
+    
+    
+    public double[] CalculateOutputsLayerNodeValues(double[] expectedOutputs)
+    {
+        double[] nodeValues = new double[expectedOutputs.Length];
+
+        for (int i = 0; i < nodeValues.Length; i++)
+        {
+            double costDerivative = NodeCostDerivative(activations[i], expectedOutputs[i]);
+            double actiavtionDerivative = ActivationDerivative(weightedInputs[i]);
+            nodeValues[i] = actiavtionDerivative * costDerivative;
+        }
+
+        return nodeValues;
+    }
+
+    public void UpdateGradients(double[] nodeValues)
+    {
+        for (int nodeOut = 0; nodeOut < numNodesOut; nodeOut++)
+        {
+            for (int nodeIn = 0; nodeIn < numNodesIn; nodeIn++)
+            {
+                double derevativeCostWrtWeight = inputs[nodeIn] * nodeValues[nodeOut];
+                costGradientW[nodeIn, nodeOut] += derevativeCostWrtWeight;
+            }
+
+            double derivativeCostWrtBias = 1 * nodeValues[nodeOut];
+            costGradientB[nodeOut] += derivativeCostWrtBias;
+        }
     }
 }

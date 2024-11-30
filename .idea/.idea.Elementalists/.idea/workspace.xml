@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8481c937-7b9a-42dd-af91-6d967feab3f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Elementalists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elementalists/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IMG_0449.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IMG_0449.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IMG_0450.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IMG_0450.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/BrushCanvas.renderTexture" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/BrushCanvas.renderTexture.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/BrushSample.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/BrushSample.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/DrawSpells.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/DrawSpells.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/DrawSpells.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/DrawSpells.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/DrawSpells_Chat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/DrawSpells_Chat.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/ScreenShotHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/ScreenShotHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/BrushCanvas.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/BrushCanvas.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/NeuralNetwork/Layer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/NeuralNetwork/Layer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/NeuralNetwork/NeuralNetwork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/NeuralNetwork/NeuralNetwork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,28 +34,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\PC\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\PC\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\PC\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Antek\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Antek\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\Antek\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$USER_HOME$/Desktop/Elementalist Build/Build\Elementalist.exe" />
@@ -138,6 +125,7 @@
       <workItem from="1732650089787" duration="3136000" />
       <workItem from="1732736953121" duration="4645000" />
       <workItem from="1732763592019" duration="16000" />
+      <workItem from="1732801016101" duration="6916000" />
     </task>
     <servers />
   </component>

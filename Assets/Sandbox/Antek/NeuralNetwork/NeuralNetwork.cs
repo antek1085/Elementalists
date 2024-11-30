@@ -43,4 +43,50 @@ public class NeuralNetwork
       }
       return totalCost / data.Length;
    }
+
+   public void Learn(DataPoint[] trainingData, double learnRate)
+   {
+      const double h = 0.0001;
+      double originalCost = Cost(trainingData);
+
+      foreach (Layer layer in layers)
+      {
+         
+         // Calculate the cost gradient for the current weights
+         for (int nodeIn = 0; nodeIn < layer.numNodesIn; nodeIn++)
+         {
+            for (int nodeOut = 0; nodeOut < layer.numNodesOut; nodeOut++)
+            {
+               layer.weights[nodeIn, nodeOut] += h;
+               double deltaCost = Cost(trainingData) - originalCost;
+               layer.weights[nodeIn, nodeOut] -= h;
+               layer.costGradientW[nodeIn, nodeOut] = deltaCost / h;
+            }
+         }
+
+         
+         // Calculate the cost gradient for the current biases
+         for (int biasIndex = 0; biasIndex < layer.biases.Length; biasIndex++)
+         {
+            layer.biases[biasIndex] += h;
+            double deltaCost = Cost(trainingData) - originalCost;
+            layer.biases[biasIndex] -= h;
+            layer.costGradientB[biasIndex] = deltaCost / h;
+         }
+
+
+         ApplyGradients(trainingData);
+      }
+   }
+
+
+   void UpdateAllGradients(DataPoint dataPoint)
+   {
+      CalculateOutputs(dataPoint.inputs);
+
+      Layer outputLayer = layers[layers.Length - 1];
+      double[] nodeValues = outputLayer.CalculateOutputsLayerNodeValues(dataPoint.expectedOutputs);
+      outputLayer.UpdateGradients(nodeValues);
+   }
+   
 }
