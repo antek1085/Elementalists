@@ -27,6 +27,8 @@
 
 # Ignore HotReload plugin files
 /Packages/com.singularitygroup.hotreload/
+/Assets/HotReload/
+/Assets/HotReload.meta
 
 /HotReload/
 *.HotReload.dll

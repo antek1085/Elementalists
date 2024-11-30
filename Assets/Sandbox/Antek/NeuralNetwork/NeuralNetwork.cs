@@ -7,7 +7,7 @@ public class NeuralNetwork
    
    // Create the Neural Network
 
-   public NeuralNetwork(params int[] layerSizes)
+  /* public NeuralNetwork(params int[] layerSizes)
    {
       layers = new Layer[layerSizes.Length - 1];
       for (int i = 0; i < layers.Length; i++)
@@ -87,6 +87,6 @@ public class NeuralNetwork
       Layer outputLayer = layers[layers.Length - 1];
       double[] nodeValues = outputLayer.CalculateOutputsLayerNodeValues(dataPoint.expectedOutputs);
       outputLayer.UpdateGradients(nodeValues);
-   }
+   }  */
    
 }

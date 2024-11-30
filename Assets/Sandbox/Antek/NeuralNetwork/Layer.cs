@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Layer
 {
-    public int numNodesIn, numNodesOut;
+   /* public int numNodesIn, numNodesOut;
     public double[,] costGradientW;
     public double[] costGradientB;
     public double[,] weights;
@@ -123,5 +123,5 @@ public class Layer
             double derivativeCostWrtBias = 1 * nodeValues[nodeOut];
             costGradientB[nodeOut] += derivativeCostWrtBias;
         }
-    }
+    } */
 }
