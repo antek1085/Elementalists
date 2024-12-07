@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class ScreenShotHandler : MonoBehaviour
 {
     static ScreenShotHandler instance;
+    public NetworkImageCheck runModel;
     [SerializeField] RawImage image;
     int pngNumber;
     string path;
@@ -15,7 +16,7 @@ public class ScreenShotHandler : MonoBehaviour
     void Awake()
     {
         instance = this;
-        path = Directory.GetCurrentDirectory() + "/Screenshots";
+        path = Directory.GetCurrentDirectory() + "/Assets"+"/Screenshots";
         if (Directory.Exists(path) == false)
         {
             Directory.CreateDirectory(path);
@@ -35,7 +36,7 @@ public class ScreenShotHandler : MonoBehaviour
         RenderTexture previous = RenderTexture.active;
         RenderTexture.active = renderTexture;
 
-        texture2D = new Texture2D(texture.width, texture.height, TextureFormat.RGBA32, false);
+        texture2D = new Texture2D(texture.width, texture.height, TextureFormat.RGB24, false);
         texture2D.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
         texture2D.Apply();
 
@@ -44,7 +45,8 @@ public class ScreenShotHandler : MonoBehaviour
         
         byte[] byteArray = texture2D.EncodeToPNG();
         System.IO.File.WriteAllBytes( path + "/cameraScreenshot"+ pngNumber +".png" , byteArray);
-        pngNumber += 1;
+        runModel.RunModel(texture2D);
+        Debug.Log("Save");
     }
 
     void TakeScreenshot()

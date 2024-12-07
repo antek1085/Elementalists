@@ -100,11 +100,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (grounded)
         {
-            rigidbody.drag = groundDrag;
+            rigidbody.linearDamping = groundDrag;
         }
         else
         {
-            rigidbody.drag = 0f;
+            rigidbody.linearDamping = 0f;
         }
     }
 
