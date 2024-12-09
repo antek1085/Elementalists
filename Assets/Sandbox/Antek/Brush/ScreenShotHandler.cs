@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class ScreenShotHandler : MonoBehaviour
 {
     static ScreenShotHandler instance;
-    public NetworkImageCheck runModel;
+    public NeuralNetworkImageCheck runModel;
     [SerializeField] RawImage image;
     int pngNumber;
     string path;
