@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8481c937-7b9a-42dd-af91-6d967feab3f2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Elementalists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elementalists/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/ScreenShotHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/ScreenShotHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/NeuralNetwork/NetworkImageCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/NeuralNetwork/NeuralNetworkImageCheck.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/NeuralNetwork/NetworkImageCheck.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/NeuralNetwork/NeuralNetworkImageCheck.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/DrawSpells_Chat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/DrawSpells_Chat.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
@@ -53,9 +51,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\PC\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\PC\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\PC\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\Antek\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Antek\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\Antek\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -102,10 +100,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="27140">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="27140" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -131,6 +129,7 @@
       <workItem from="1732801016101" duration="6916000" />
       <workItem from="1733595227361" duration="103000" />
       <workItem from="1733741167339" duration="3263000" />
+      <workItem from="1734022950394" duration="965000" />
     </task>
     <servers />
   </component>

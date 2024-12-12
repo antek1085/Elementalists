@@ -19,6 +19,19 @@ public class DrawSpells_Chat : MonoBehaviour
     void Update()
     {
         Draw();
+        
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            if (Input.GetKey(KeyCode.Mouse0))
+            {
+                return;
+            }
+            RemoveLines();
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            ScreenShotHandler.TakeScreenshot_Static();
+        }
     }
 
     void Draw()
@@ -27,16 +40,18 @@ public class DrawSpells_Chat : MonoBehaviour
         {
             RaycastHit hit;
 
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = drawCamera.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
                 CreateBrush(hit.point);
             }
         }
+        
+        if(lineRenderer == null) return;
         if (Input.GetKey(KeyCode.Mouse0))
         {
             RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = drawCamera.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
                // Vector3 mousePosition = Camera.main.ScreenToWorldPoint(hit.point);
@@ -51,19 +66,6 @@ public class DrawSpells_Chat : MonoBehaviour
         else
         {
             lineRenderer = null;
-        }
-
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            if (Input.GetKey(KeyCode.Mouse0))
-            {
-                return;
-            }
-            RemoveLines();
-        }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            ScreenShotHandler.TakeScreenshot_Static();
         }
     }
     
