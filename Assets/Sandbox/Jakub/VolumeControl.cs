@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class VolumeControl : MonoBehaviour
 {
-    //./ create empty and assign sliders 
+    //tldr - create empty and assign sliders 
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider soundSlider;
     
@@ -24,8 +24,7 @@ public class VolumeControl : MonoBehaviour
 
         SetMusicVolume(musicSlider.value);
         SetSoundVolume(soundSlider.value);
-
-        // Attach listeners to the sliders
+        
         musicSlider.onValueChanged.AddListener(OnMusicSliderChanged);
         soundSlider.onValueChanged.AddListener(OnSoundSliderChanged);
     }
