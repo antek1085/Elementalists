@@ -69,7 +69,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\UNITY\EDITORS\6000.0.28f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Unity\Elementalists -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Unity\Elementalists" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -85,7 +85,7 @@
       <method v="2" />
     </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\UNITY\EDITORS\6000.0.28f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath F:\GIT\CobbleGames\Elementalists -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="F:\GIT\CobbleGames\Elementalists" />
       <option name="PASS_PARENT_ENVS" value="1" />
