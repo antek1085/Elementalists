@@ -30,18 +30,30 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 moveDirection;
 
+    bool isCasting;
+
     void Awake()
     {
         playerHeight = 0.7f + transform.localScale.y / 2f;
+        
+        
         rigidbody = GetComponent<Rigidbody>();
         rigidbody.freezeRotation = true;
+        
+        
         grounded = true;
         canJump = true;
         moveSpeed = normalMoveSpeed;
+
+        
+        isCasting = true;
+        DrawingSpellsEvent.current.OnSpellStartCasting += () => isCasting = !isCasting;
+        DrawingSpellsEvent.current.OnSpellCast += floats => isCasting = !isCasting;
     }
     
     void Update()
     {
+        if(!isCasting) return;
         KeyboardInput();
 
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight, groundMask);
