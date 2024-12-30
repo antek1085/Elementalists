@@ -45,8 +45,18 @@ public class PlayerInteraction : MonoBehaviour
     void AnimalInteraction(IAnimalInteractable animalInteractable)
     {
         //Player Interact with Animal
+        
+        switch (animalInteractable.AnimalInteraction(EQList.objectList[slotChoosed]))
+        {
 
-        animalInteractable.AnimalInteraction();
+            case true:
+                EQList.objectList[slotChoosed] = null;
+                EQEvent.current.ItemStateChanged(false);
+                break;
+            case false:
+                Debug.Log("Something went wrong");
+                break;
+        }
     }
     
     
@@ -55,17 +65,20 @@ public class PlayerInteraction : MonoBehaviour
     {
         switch (EQList.objectList[slotChoosed] == null)
         {
-            
             //Item Picked Up
-            case true:
-                EQList.objectList[slotChoosed] = pickable.PickUp();
-                EQEvent.current.ItemStateChanged(true);
+            case true: 
+                GameObject pickUp = pickable.PickUp();
+                if (pickUp != null)
+                {
+                    EQList.objectList[slotChoosed] = pickable.PickUp(); 
+                    EQEvent.current.ItemStateChanged(true);
+                }
                 break;
             
             //Slot is not empty
-            case false:
-                Debug.Log("Full Slot");
+            case false: 
+                Debug.Log("Full Slot"); 
                 break;
-        }
+        }  
     }
 }

@@ -122,7 +122,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2272283777729854fac693ebcffed34d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireFlowerItem: {fileID: 0}
+  fireFlowerItem: {fileID: 201101733818804664}
+  canBePickedUp: 0
+  <SpellType>k__BackingField: 0
 --- !u!114 &-2413803718520655873
 MonoBehaviour:
   m_ObjectHideFlags: 0

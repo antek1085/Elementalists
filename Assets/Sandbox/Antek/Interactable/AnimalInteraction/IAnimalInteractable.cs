@@ -1,8 +1,7 @@
 using UnityEngine;
 
-public class IAnimalInteractable
+public interface IAnimalInteractable
 {
-    public void AnimalInteraction()
-    {
-    }
+    bool AnimalInteraction(GameObject item);
+    
 }

@@ -4,8 +4,8 @@ using UnityEngine;
 public interface IPickable
 {
     GameObject PickUp();
-    
-     public IEnumerator DestroyObject()
+    [field: SerializeField] public Spell.spellType SpellType { get; set; }
+    public IEnumerator DestroyObject()
     {
         yield return new WaitForEndOfFrame();
     }
