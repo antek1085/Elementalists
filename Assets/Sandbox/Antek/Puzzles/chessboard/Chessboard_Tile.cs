@@ -100,6 +100,7 @@ public class Chessboard_Tile : MonoBehaviour
     {
         materialComponent = tileNeutralMaterial;
         NumberOfTilesPressed = 0;
+        if(tileType == TileType.TileToPress) wasTilePressed = false;
     }
 
     void SolvedPuzzle()
