@@ -6,37 +6,43 @@ public class PlayerCamera : MonoBehaviour
     float mouseX, mouseY;
     [SerializeField] float sesitivityX, sesitivityY;
     float xRotation, yRotation;
-    bool isCasting;
+    bool input;
 
     [SerializeField] Transform orientation;
 
     
     void Awake()
     {
-        isCasting = false;
-        DrawingSpellsEvent.current.OnSpellStartCasting += SpellStartCasting;
-        DrawingSpellsEvent.current.OnSpellCast += SpellCast;
-    }
-    void SpellStartCasting()
-    {
-        isCasting = !isCasting;
-    }
-    void SpellCast(float[] obj)
-    {
-        isCasting = !isCasting;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        input = true;
     }
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        
+        StopInputEvent.current.OnStopInput += ChangeInput;
+        DrawingSpellsEvent.current.OnSpellCast += SpellCast;
     }
-
+    void ChangeInput(GameObject obj)
+    {
+        if (obj != gameObject)
+        {
+            input = false;
+        }
+        if (obj == null)
+        {
+            input = true;
+        }
+    }
+    void SpellCast(float[] obj)
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
 
     void Update()
     {
-        if (isCasting == false)
+        if (input == true)
         {
             mouseX = Input.GetAxisRaw("Mouse X") * Time.fixedDeltaTime * sesitivityX;
             mouseY = Input.GetAxisRaw("Mouse Y") * Time.fixedDeltaTime * sesitivityY;

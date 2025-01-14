@@ -9,15 +9,12 @@ public class AnimalUI : MonoBehaviour
     [SerializeField] string animalName;
     [SerializeField] Sprite animalSprite; 
     
-    [FormerlySerializedAs("massage")]
     [Header("First Interaction")]
     [SerializeField] List<String> message = new List<String>();
     
-    [FormerlySerializedAs("massageAfterGivenRightItem")]
     [Header("Second Interaction")]
     [SerializeField] List<String> messageAfterGivenRightItem = new List<String>();
     
-    [FormerlySerializedAs("massageAfterGivenWrongItem")]
     [Header("Wrong Item")]
     [SerializeField] List<String> messageAfterGivenWrongItem = new List<String>();
     [SerializeField] List<float> timeToTextDissapear = new List<float>();

@@ -4,20 +4,42 @@ using UnityEngine;
 public class ActivateSpellCasting : MonoBehaviour
 {
     GameObject brushObjects;
+    bool input;
     void Awake()
     {
-        DrawingSpellsEvent.current.OnSpellStartCasting += SpellStartCasting;
-        DrawingSpellsEvent.current.OnSpellCast += SpellCast;
         brushObjects = transform.GetChild(0).gameObject;
+    }
+    
+    void Start()
+    {
+        DrawingSpellsEvent.current.OnSpellCast += SpellCast;
+        StopInputEvent.current.OnStopInput += ChangeInput;
+        brushObjects.SetActive(false);
+    }
+    void ChangeInput(GameObject obj)
+    {
+        if (obj != gameObject)
+        {
+            input = false;
+        }
+        if (obj == null)
+        {
+            input = true;
+        }
     }
 
 
     void Update()
     {
+        if(input == false) return;
+        
+        
         if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             brushObjects.SetActive(!brushObjects.activeSelf);
-            DrawingSpellsEvent.current.SpellStartCasting();
+            
+            StopInputEvent.current.StopInput(gameObject);
+            
             if (Cursor.visible == false)
             {
                 Cursor.visible = true;
@@ -32,16 +54,8 @@ public class ActivateSpellCasting : MonoBehaviour
     }
     void SpellCast(float[] obj)
     {
+        StopInputEvent.current.StopInput(null);
         brushObjects.SetActive(false);
     }
-    void SpellStartCasting()
-    {
-    }
-    void Start()
-    {
-        brushObjects.SetActive(false);
-    }
-    
-    
     
 }

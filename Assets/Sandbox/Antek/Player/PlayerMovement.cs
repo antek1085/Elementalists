@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 moveDirection;
 
-    bool isCasting;
+    bool input;
 
     void Awake()
     {
@@ -46,14 +46,25 @@ public class PlayerMovement : MonoBehaviour
         moveSpeed = normalMoveSpeed;
 
         
-        isCasting = true;
-        DrawingSpellsEvent.current.OnSpellStartCasting += () => isCasting = !isCasting;
-        DrawingSpellsEvent.current.OnSpellCast += floats => isCasting = !isCasting;
+        input = true;
+        StopInputEvent.current.OnStopInput += ChangeInput;
     }
-    
+    void ChangeInput(GameObject obj)
+    {
+        if (obj != gameObject)
+        {
+            input = false;
+        }
+        if (obj == null)
+        {
+            input = true;
+        }
+    }
+
     void Update()
     {
-        if(!isCasting) return;
+        if(input == false) return;
+        
         KeyboardInput();
 
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight, groundMask);
