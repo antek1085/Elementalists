@@ -27,8 +27,8 @@ public class NeuralNetworkImageCheck : MonoBehaviour
           outputTensorFire.Dispose();
 
           // Fire Spell 0  ||| Water Spell 1
-          Debug.Log(outputData[0] + "Fire");
-          Debug.Log(outputData[1] + "Water");
+
+          DrawingSpellsEvent.current.SpellCast(outputData);
 
       }
 

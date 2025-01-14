@@ -30,18 +30,41 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 moveDirection;
 
+    bool input;
+
     void Awake()
     {
         playerHeight = 0.7f + transform.localScale.y / 2f;
+        
+        
         rigidbody = GetComponent<Rigidbody>();
         rigidbody.freezeRotation = true;
+        
+        
         grounded = true;
         canJump = true;
         moveSpeed = normalMoveSpeed;
+
+        
+        input = true;
+        StopInputEvent.current.OnStopInput += ChangeInput;
     }
-    
+    void ChangeInput(GameObject obj)
+    {
+        if (obj != gameObject)
+        {
+            input = false;
+        }
+        if (obj == null)
+        {
+            input = true;
+        }
+    }
+
     void Update()
     {
+        if(input == false) return;
+        
         KeyboardInput();
 
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight, groundMask);
