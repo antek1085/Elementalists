@@ -67,10 +67,10 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Elementalist Build/Build\Elementalist.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Elementalist Build/Build\Elementalist.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\PC\Desktop\Elementalist BuildScreenshots" />
       <option name="PASS_PARENT_ENVS" value="1" />
