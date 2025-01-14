@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(ItemInformation))]
 public class FireFlowerPickUp : MonoBehaviour,IPickable
 {
     [SerializeField] GameObject fireFlowerItem;
@@ -14,7 +15,7 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
 
     void Awake()
     {
-        canBePickedUp = false;
+        /*canBePickedUp = false;*/
     }
 
     void OnTriggerEnter(Collider other)

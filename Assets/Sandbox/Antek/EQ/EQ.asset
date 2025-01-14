@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EQ
   m_EditorClassIdentifier: 
   objectList:
-  - {fileID: 201101733818804664, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

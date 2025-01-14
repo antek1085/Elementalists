@@ -1145,7 +1145,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   groundDrag: 5
-  jumpForce: 5
+  jumpForce: 300
   jumpKey: 32
   jumpCD: 0.25
   airMultiplayer: 0.5
@@ -3917,7 +3917,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
       propertyPath: canBePickedUp
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
       propertyPath: fireFlowerItem
@@ -3973,6 +3973,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4728233556038708426, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7297842323958276186, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

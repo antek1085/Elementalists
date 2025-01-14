@@ -107,5 +107,6 @@ public class Chessboard_Tile : MonoBehaviour
     {
         tileType = TileType.NeutralTile;
         materialComponent = tileMaterialSolvedPuzzle;
+        
     }
 }

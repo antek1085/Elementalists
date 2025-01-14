@@ -1099,7 +1099,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 82.304886, y: -56.233578, z: 29.195312}
+    m_Target: {x: -2.5800936, y: 13.297381, z: -7.1050725}
     speed: 2
     m_Value: {x: 82.304886, y: -56.233578, z: 29.195312}
   m_RenderMode: 0
@@ -1147,11 +1147,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.21940033, y: 0.5285953, z: -0.14345242, w: 0.80751324}
+    m_Target: {x: 0.2546851, y: 0.3648155, z: -0.10412615, w: 0.8896474}
     speed: 2
     m_Value: {x: 0.21940033, y: 0.5285953, z: -0.14345242, w: 0.80751324}
   m_Size:
-    m_Target: 60.546017
+    m_Target: 6.1587877
     speed: 2
     m_Value: 60.546017
   m_Ortho:
@@ -1303,7 +1303,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sandbox/Antek/PickUp Items
+    - Assets/Sandbox/Antek
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1322,7 +1322,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 63.600006}
     m_SelectedIDs: 16b30000
     m_LastClickedID: 45846
-    m_ExpandedIDs: 00000000e4b10000e6b10000
+    m_ExpandedIDs: 0000000044b3000046b3000048b300004ab30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1351,7 +1351,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e4b10000e6b10000
+    m_ExpandedIDs: 0000000044b3000046b3000048b300004ab30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

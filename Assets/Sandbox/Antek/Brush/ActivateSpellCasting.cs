@@ -8,6 +8,7 @@ public class ActivateSpellCasting : MonoBehaviour
     void Awake()
     {
         brushObjects = transform.GetChild(0).gameObject;
+        input = true;
     }
     
     void Start()
@@ -47,6 +48,7 @@ public class ActivateSpellCasting : MonoBehaviour
             }
             else
             {
+                StopInputEvent.current.StopInput(null);
                 Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;
             }
