@@ -14,11 +14,32 @@ public class DrawSpells_Chat : MonoBehaviour
     
     Vector3 lastPos;
     public LayerMask layerMask;
+    bool isCasting;
+
+    void Awake()
+    {
+    }
+    void Start()
+    {
+        isCasting = false;
+        DrawingSpellsEvent.current.OnSpellStartCasting += SpellStartCasting;
+        DrawingSpellsEvent.current.OnSpellCast += floats => isCasting = false;
+    }
+    void SpellStartCasting()
+    {
+        isCasting = !isCasting;
+        if (isCasting)
+        {
+            RemoveLines();
+        }
+    }
 
 
     void Update()
     {
         Draw();
+        
+        //Cleaning the canvas of spell
         
         if (Input.GetKeyDown(KeyCode.C))
         {
@@ -28,6 +49,9 @@ public class DrawSpells_Chat : MonoBehaviour
             }
             RemoveLines();
         }
+        
+        //Sending information to Neural Network
+        
         if (Input.GetKeyDown(KeyCode.S))
         {
             ScreenShotHandler.TakeScreenshot_Static();
@@ -36,6 +60,9 @@ public class DrawSpells_Chat : MonoBehaviour
 
     void Draw()
     {
+        
+        //Drawing the spell
+        
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             RaycastHit hit;
@@ -54,8 +81,6 @@ public class DrawSpells_Chat : MonoBehaviour
             Ray ray = drawCamera.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
-               // Vector3 mousePosition = Camera.main.ScreenToWorldPoint(hit.point);
-               // Debug.Log(hit.transform.position);
                 if (hit.point != lastPos)
                 {
                     AddPoint(hit.point);
