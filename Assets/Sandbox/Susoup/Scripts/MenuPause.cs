@@ -6,13 +6,20 @@ public class MenuPause : MonoBehaviour
     // Przypisz obiekt, który ma być aktywowany
   public GameObject targetObject; // Przypisz menu pauzy
     private bool isPaused = false; // Czy gra jest w trybie pauzy
+    private bool input;
 
-
+ void Awake(){
+    StopInputEvent.current.OnStopInput += ChangeInput;
+    input = true;
+ }
     void Update()
     {
-        // Sprawdź, czy klawisz E został naciśnięty
+        if(input == false) return;
+        
+        // Sprawdź, czy klawisz j został naciśnięty
         if (Input.GetKeyDown(KeyCode.J))
         {
+           
             if (targetObject != null)
             {
                 TogglePause(); // Przełącz pauzę
@@ -28,10 +35,12 @@ public class MenuPause : MonoBehaviour
 
         if (isPaused)
         {
+            StopInputEvent.current.StopInput(gameObject);
             PauseGame();
         }
         else
         {
+            
             ResumeGame();
         }
     }
@@ -49,6 +58,7 @@ public class MenuPause : MonoBehaviour
     // Funkcja wyłączająca pauzę
      void ResumeGame()
     {
+        StopInputEvent.current.StopInput(null);
         isPaused = false; 
         Cursor.lockState = CursorLockMode.Locked; // Zablokowanie kursora
         Cursor.visible = false; // Ukrycie kursora
@@ -61,6 +71,18 @@ public class MenuPause : MonoBehaviour
         if (isPaused)
         {
             ResumeGame(); 
+        }
+    }
+
+    void ChangeInput(GameObject obj)
+    {
+         if (obj != gameObject)
+        {
+            input = false;
+        }
+        if (obj == null)
+        {
+            input = true;
         }
     }
 }

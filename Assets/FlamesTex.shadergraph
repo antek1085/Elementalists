@@ -1092,8 +1092,8 @@
     "m_ObjectId": "5f08d3ef06eb40838d42699320e22ac3",
     "m_Title": "DISSOLVE",
     "m_Position": {
-        "x": -2714.400390625,
-        "y": 690.4000854492188
+        "x": -2714.0,
+        "y": 690.9998779296875
     }
 }
 
@@ -1610,7 +1610,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 6.0,
+    "m_Value": 4.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -1784,7 +1784,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.5,
+    "m_Value": 4.099999904632568,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -1971,7 +1971,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.0,
+    "m_Value": 1.899999976158142,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
