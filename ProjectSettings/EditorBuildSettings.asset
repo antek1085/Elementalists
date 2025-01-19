@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Sandbox/Antek/Antek_Scene_Brush.unity
     guid: a9d5eb466798f9a4ba36312b8e07af35
+  - enabled: 1
+    path: Assets/Sandbox/Susoup/MainMenu.unity
+    guid: 02eaa74a2493c224db2382fffdfb6301
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
