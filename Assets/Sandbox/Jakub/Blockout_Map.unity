@@ -857,7 +857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 2
+  tileType: 1
   tpPoint: {fileID: 0}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
@@ -3719,10 +3719,6 @@ PrefabInstance:
     - target: {fileID: 284194574107244670, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 874849630983395836, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
-      propertyPath: layerMask.m_Bits
-      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 2834231367614045733, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: groundMask.m_Bits
@@ -8040,7 +8036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 2
+  tileType: 1
   tpPoint: {fileID: 0}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
@@ -9468,7 +9464,7 @@ MonoBehaviour:
   tpPoint: {fileID: 0}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1 &902907112
 GameObject:
   m_ObjectHideFlags: 0
@@ -10557,7 +10553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 2
+  tileType: 1
   tpPoint: {fileID: 0}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
@@ -33798,7 +33794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 2
+  tileType: 1
   tpPoint: {fileID: 0}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
@@ -33971,7 +33967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 2
+  tileType: 1
   tpPoint: {fileID: 0}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
@@ -36859,7 +36855,7 @@ MonoBehaviour:
   tpPoint: {fileID: 0}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &1617558582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39069,6 +39065,10 @@ PrefabInstance:
       propertyPath: tileType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 996309150629721830, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
+      propertyPath: tileMaterialSolvedPuzzle
+      value: 
+      objectReference: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
     - target: {fileID: 4473839092327991940, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
       propertyPath: m_Name
       value: ChessCube
@@ -39227,8 +39227,8 @@ Transform:
   m_GameObject: {fileID: 1953208427}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -178.8, y: 3.4499998, z: 444.2}
-  m_LocalScale: {x: 9.116707, y: 9.116707, z: 9.116707}
+  m_LocalPosition: {x: -178.8, y: 20.24, z: 444.2}
+  m_LocalScale: {x: 4.200796, y: 4.200796, z: 4.200796}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1711217731}
