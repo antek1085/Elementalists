@@ -444,7 +444,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.15306969, z: -0, w: 0.98821545}
   m_LocalPosition: {x: -335.04, y: -0.8, z: 413.64}
-  m_LocalScale: {x: 2.591, y: 8.654696, z: 16.989244}
+  m_LocalScale: {x: 2.591, y: 8.654696, z: 19.722815}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 562645360}
@@ -627,7 +627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -712,10 +712,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1 &91658993
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -858,10 +858,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 1
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &136799309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1478,7 +1478,7 @@ Transform:
   m_GameObject: {fileID: 222958434}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.035803743, z: -0, w: 0.99935883}
-  m_LocalPosition: {x: -86.98906, y: -1.8189168, z: 169.5598}
+  m_LocalPosition: {x: -84.4, y: -1.8189168, z: 169.5}
   m_LocalScale: {x: 18.358019, y: 6.7169213, z: 2.316935}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2387,7 +2387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2472,10 +2472,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1 &367031032
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,7 +2504,7 @@ Transform:
   m_GameObject: {fileID: 367031032}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.035803743, z: -0, w: 0.99935883}
-  m_LocalPosition: {x: 17.8, y: -1.8189168, z: 214}
+  m_LocalPosition: {x: 10.5, y: -1.8189168, z: 221}
   m_LocalScale: {x: 18.358019, y: 6.7169213, z: 2.316935}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2924,7 +2924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3009,10 +3009,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &422568226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3235,6 +3235,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6986371466421367663, guid: 124ad46aec1102e47a4cdae502be89aa, type: 3}
   m_PrefabInstance: {fileID: 464960174}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &467406094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 467406095}
+  m_Layer: 0
+  m_Name: Entry Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &467406095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467406094}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.64, y: 0, z: -18.09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1952591072}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &470236555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4466,7 +4497,7 @@ Transform:
   m_GameObject: {fileID: 604283111}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.035803743, z: -0, w: 0.99935883}
-  m_LocalPosition: {x: -277.94446, y: -3.57, z: 265.20004}
+  m_LocalPosition: {x: -276.3, y: -3.57, z: 265.6}
   m_LocalScale: {x: 3.3196988, y: 3.3196983, z: 3.3196988}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4494,7 +4525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4579,10 +4610,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &613320819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4980,7 +5011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5065,10 +5096,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &677030645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5395,7 +5426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5480,10 +5511,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1 &703609953
 GameObject:
   m_ObjectHideFlags: 0
@@ -7523,7 +7554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7608,10 +7639,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &724450683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7952,7 +7983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8037,10 +8068,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 1
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &745557417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8273,15 +8304,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5831418556628805832, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -75.56
+      value: -54.6
       objectReference: {fileID: 0}
     - target: {fileID: 5831418556628805832, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.91
+      value: -4.08
       objectReference: {fileID: 0}
     - target: {fileID: 5831418556628805832, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 133.73
+      value: 143.66
       objectReference: {fileID: 0}
     - target: {fileID: 5831418556628805832, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9064,7 +9095,7 @@ Transform:
   m_GameObject: {fileID: 844653843}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.82682836, z: -0, w: 0.5624544}
-  m_LocalPosition: {x: 99.399994, y: 11.05, z: 364.39975}
+  m_LocalPosition: {x: 103.5, y: 11.05, z: 362.8}
   m_LocalScale: {x: 2.591, y: 12.285227, z: 82.00976}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9376,7 +9407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9461,7 +9492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
   tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
@@ -9696,7 +9727,7 @@ Transform:
   m_GameObject: {fileID: 918401671}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.035803743, z: -0, w: 0.99935883}
-  m_LocalPosition: {x: -59.2, y: -1.8189168, z: 320}
+  m_LocalPosition: {x: -65.5, y: -1.8189168, z: 321.3}
   m_LocalScale: {x: 18.358019, y: 6.7169213, z: 2.316935}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10469,7 +10500,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10554,10 +10585,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 1
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &995616895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11308,7 +11339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11393,10 +11424,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 1
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1 &1128823410
 GameObject:
   m_ObjectHideFlags: 0
@@ -12450,7 +12481,7 @@ Transform:
   m_GameObject: {fileID: 1209518261}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.035803743, z: -0, w: 0.99935883}
-  m_LocalPosition: {x: -85.56292, y: -1.8189168, z: 241.14128}
+  m_LocalPosition: {x: -86.1, y: -1.8189168, z: 244.1}
   m_LocalScale: {x: 18.358019, y: 6.7169213, z: 2.316935}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13797,7 +13828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13882,10 +13913,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &1397611604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13908,7 +13939,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13993,10 +14024,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &1400586195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33008,7 +33039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -33093,10 +33124,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &1430866005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33710,7 +33741,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -33795,10 +33826,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 1
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &1486498718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33883,7 +33914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -33968,10 +33999,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 1
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &1498374729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34256,7 +34287,7 @@ Transform:
   m_GameObject: {fileID: 1505294525}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 63.4, y: 6.6, z: -59.3}
+  m_LocalPosition: {x: 69, y: 6.6, z: -50.1}
   m_LocalScale: {x: 6.7169213, y: 6.7169213, z: 6.7169213}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36767,7 +36798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -36852,7 +36883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
   tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
@@ -37100,7 +37131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -37185,10 +37216,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1 &1696487349
 GameObject:
   m_ObjectHideFlags: 0
@@ -38089,7 +38120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -38174,10 +38205,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &1768579506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39062,6 +39093,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 996309150629721830, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
+      propertyPath: tpPoint
+      value: 
+      objectReference: {fileID: 467406095}
+    - target: {fileID: 996309150629721830, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
       propertyPath: tileType
       value: 0
       objectReference: {fileID: 0}
@@ -39076,6 +39111,10 @@ PrefabInstance:
     - target: {fileID: 6474432957823744132, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474432957823744132, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.36
       objectReference: {fileID: 0}
     - target: {fileID: 9136312578982435424, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39192,6 +39231,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9136312578982435424, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
       insertIndex: -1
       addedObject: {fileID: 987141720}
+    - targetCorrespondingSourceObject: {fileID: 9136312578982435424, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 467406095}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
 --- !u!4 &1952591072 stripped
@@ -39329,7 +39371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -39414,10 +39456,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1 &1965533003
 GameObject:
   m_ObjectHideFlags: 0
@@ -39746,7 +39788,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -39831,10 +39873,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &2054499393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40001,7 +40043,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40086,10 +40128,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1 &2094095537
 GameObject:
   m_ObjectHideFlags: 0
@@ -40305,7 +40347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.36000013
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40390,10 +40432,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 2
-  tpPoint: {fileID: 0}
+  tpPoint: {fileID: 467406095}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileMaterialSolvedPuzzle: {fileID: 0}
+  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
 --- !u!1001 &2137355860
 PrefabInstance:
   m_ObjectHideFlags: 0
