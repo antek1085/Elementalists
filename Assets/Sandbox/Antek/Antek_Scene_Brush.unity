@@ -7192,7 +7192,7 @@ MonoBehaviour:
   waterSpell: {fileID: 0}
   fireSpell: {fileID: 0}
   boolCastThreshold: 0.953
-  fireForce: 0
+  fireForce: 3
   waterForce: 0
 --- !u!1 &2132775637
 GameObject:
