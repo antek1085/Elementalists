@@ -27,6 +27,9 @@ public class Chessboard_Tile : MonoBehaviour
     int NumberOfTilesPressed;
     bool wasTilePressed;
 
+
+    [SerializeField] GameObject objectToShow;
+
     void Awake()
     {
        materialComponent = GetComponent<MeshRenderer>().material;
@@ -107,6 +110,6 @@ public class Chessboard_Tile : MonoBehaviour
     {
         tileType = TileType.NeutralTile;
         materialComponent = tileMaterialSolvedPuzzle;
-        
+        objectToShow.SetActive(true);
     }
 }

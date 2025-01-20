@@ -120,4 +120,9 @@ public class DrawSpells_Chat : MonoBehaviour
             drawList.Remove(drawList[i]);
         }
     }
+
+    void OnDisable()
+    {
+        RemoveLines();
+    }
 }

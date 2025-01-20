@@ -26,6 +26,8 @@ public class CastSpell : MonoBehaviour
     // Fire Spell 0  ||| Water Spell 1
     void SpellCast(float[] output)
     {
+        Debug.Log(output[0] + "Fire");
+        Debug.Log(output[1] + "Water");
         //Fire Spell cast
         if (output[0] > boolCastThreshold)
         {

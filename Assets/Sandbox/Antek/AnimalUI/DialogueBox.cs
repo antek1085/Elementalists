@@ -90,6 +90,7 @@ public class DialogueBox : MonoBehaviour
         }
         else
         {
+            DialogueBoxOpen = false;
             StopInputEvent.current.StopInput(null);
             dialogueBoxGameObject.SetActive(false);
         }
