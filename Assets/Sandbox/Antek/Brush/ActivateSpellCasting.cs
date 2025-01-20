@@ -19,6 +19,7 @@ public class ActivateSpellCasting : MonoBehaviour
     }
     void ChangeInput(GameObject obj)
     {
+        Debug.Log(obj);
         if (obj != gameObject)
         {
             input = false;
@@ -39,10 +40,9 @@ public class ActivateSpellCasting : MonoBehaviour
         {
             brushObjects.SetActive(!brushObjects.activeSelf);
             
-            StopInputEvent.current.StopInput(gameObject);
-            
             if (Cursor.visible == false)
             {
+                StopInputEvent.current.StopInput(gameObject);
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
             }
