@@ -4,175 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8481c937-7b9a-42dd-af91-6d967feab3f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Elementalists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elementalists/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b9c650ff-27fc-4e00-ac06-7cf0c7bf8720" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/AnimalUI/DialogueBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/AnimalUI/DialogueBox.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Antek_Scene_Brush.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Antek_Scene_Brush.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/AnimalInteraction/IAnimalInteractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/AnimalInteraction/IAnimalInteractable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/ActivateSpellCasting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/ActivateSpellCasting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/CastSpell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/CastSpell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/DrawSpells_Chat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/DrawSpells_Chat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/AnimalInteraction/AnimalInteractionScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/AnimalInteraction/AnimalInteractionScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/PickUp Items/FireFlower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/PickUp Items/FireFlower.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/PickUp Items/FireFlowerPickUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/PickUp Items/FireFlowerPickUp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/PickUp Items/IPickable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/PickUp Items/IPickable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/PlayerInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/PlayerInteraction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Puzzles/chessboard/Chessboard_Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Puzzles/chessboard/Chessboard_Tile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/Cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/Cloud.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/Ilustracja Main Menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/Ilustracja Main Menu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Susoup/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/OptionsWindow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/OptionsWindow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/Scripts/MenuPause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Susoup/Scripts/MenuPause.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DpaMonitoringSettings">
-    <option name="firstShow" value="false" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/ActivateSpellCasting.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/CastSpell.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/DrawingSpellsEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sandbox/Antek/DrawSpells.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sandbox/Antek/EQ/EQUIController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/AnimalInteraction/AnimalInteractionScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://F:/GIT/CobbleGames/Elementalists/Assets/Sandbox/Antek/Interactable/PlayerInteraction.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sandbox/Antek/Spells/Spell.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.sentis/Runtime/Core/Internals/Debug.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.sentis/Runtime/Core/TensorGeneric.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2pAX2n1lVzxq3drrRlg0ZnkAtkM" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Branch__Antek__Neural__Network&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Elementalist Build/Build\Elementalist.exe" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\PC\Desktop\Elementalist BuildScreenshots" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe" />
-      <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Unity\Elementalists -debugCodeOptimization" />
-      <option name="WORKING_DIRECTORY" value="D:\Unity\Elementalists" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe" />
-      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Unity\Elementalists -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
-      <option name="WORKING_DIRECTORY" value="D:\Unity\Elementalists" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <method v="2" />
-    </configuration>
-    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe" />
-      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath F:\GIT\CobbleGames\Elementalists -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
-      <option name="WORKING_DIRECTORY" value="F:\GIT\CobbleGames\Elementalists" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
-      <option name="allowRunningInParallel" value="false" />
-      <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
-      <option name="projectPathOnTarget" />
-      <option name="runtimes">
-        <list />
-      </option>
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <method v="2" />
-    </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
-      <option name="allowRunningInParallel" value="false" />
-      <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
-      <option name="projectPathOnTarget" />
-      <option name="runtimes">
-        <list />
-      </option>
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <method v="2" />
-    </configuration>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="8481c937-7b9a-42dd-af91-6d967feab3f2" name="Changes" comment="" />
-      <created>1732209652302</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1732209652302</updated>
-      <workItem from="1732209654146" duration="54000" />
-      <workItem from="1732484436955" duration="17982000" />
-      <workItem from="1732544951844" duration="4279000" />
-      <workItem from="1732632306616" duration="1637000" />
-      <workItem from="1732650089787" duration="3136000" />
-      <workItem from="1732736953121" duration="4645000" />
-      <workItem from="1732763592019" duration="16000" />
-      <workItem from="1732801016101" duration="6916000" />
-      <workItem from="1733595227361" duration="103000" />
-      <workItem from="1733741167339" duration="3263000" />
-      <workItem from="1734022950394" duration="3283000" />
-      <workItem from="1734029095616" duration="525000" />
-      <workItem from="1734576658405" duration="8291000" />
-      <workItem from="1734735853533" duration="599000" />
-      <workItem from="1734982374832" duration="2001000" />
-      <workItem from="1735355641231" duration="597000" />
-      <workItem from="1735401250698" duration="27000" />
-      <workItem from="1735401290615" duration="840000" />
-      <workItem from="1735402745787" duration="25078000" />
-    </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityProjectDiscoverer">
-    <option name="hasUnityReference" value="true" />
-    <option name="unityProject" value="true" />
-    <option name="unityProjectFolder" value="true" />
-  </component>
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
-  <component name="VcsManagerConfiguration">
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
-  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
 </project>
