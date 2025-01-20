@@ -31,7 +31,6 @@
 /Assets/HotReload.meta
 
 /HotReload/
-*.HotReload.dll
 /HotReloadCache/
 /HotReloadLogs/
 
