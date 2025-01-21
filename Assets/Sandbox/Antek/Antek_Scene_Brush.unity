@@ -5739,9 +5739,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 823378980}
     - target: {fileID: 4487361796998475305, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
+      propertyPath: fireForce
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487361796998475305, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
       propertyPath: fireSpell
       value: 
-      objectReference: {fileID: 48531863}
+      objectReference: {fileID: 1366414037206290526, guid: 5913df83fd776df45b29e78fa159a02f, type: 3}
     - target: {fileID: 4487361796998475305, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
       propertyPath: waterSpell
       value: 

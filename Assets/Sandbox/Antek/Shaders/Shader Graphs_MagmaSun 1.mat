@@ -61,7 +61,7 @@ Material:
     m_Floats:
     - _Disortion_Scale: 15.81
     - _Multiply_Height: 0.32
-    - _Power_Float: 2
+    - _Power_Float: 2.4
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Simple_Noise_flaot: 63.9
