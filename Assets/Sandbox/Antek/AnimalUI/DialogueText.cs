@@ -37,14 +37,14 @@ public class DialogueText : MonoBehaviour
             dialogueTextObject.SetActive(true);
         }
         StopAllCoroutines();
-        SetTextTimer(message, timeToTextDissapear, animalName);
+        StartCoroutine(SetTextTimer(message, timeToTextDissapear, animalName));
     }
 
     // Update is called once per frame
     IEnumerator SetTextTimer(List<string> message,List<float> timeToTextDissapear, string animalName)
     {
-        dialogueText.text = animalName + " " + message[0];
-        yield return new WaitForSeconds(1);
+        dialogueText.text = animalName + ": " + message[0];
+        yield return new WaitForSeconds(timeToTextDissapear[0]);
         dialogueTextObject.SetActive(false);
     }
 }
