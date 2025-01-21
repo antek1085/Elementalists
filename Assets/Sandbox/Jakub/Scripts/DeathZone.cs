@@ -2,31 +2,21 @@ using UnityEngine;
 
 public class DeathZone : MonoBehaviour
 {
-    [Tooltip("The target position to which the player will be transported.")]
-    public Transform transportTarget;
-
-    [Tooltip("Tag to identify the player.")]
-    public string playerTag = "Player";
+    public Transform transportTarget; // The target position to transport the player to
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log($"{other.name} entered the trigger");
-        // Check if the object entering the trigger has the specified tag
-        if (other.CompareTag(playerTag))
+        // Check if the object entering the trigger has a Rigidbody (or any other specific component)
+        Rigidbody playerRigidbody = other.GetComponent<Rigidbody>();
+        if (playerRigidbody != null) // This ensures we're interacting with an object with a Rigidbody
         {
             // Transport the player to the target position
             other.transform.position = transportTarget.position;
 
-            // Optional: Reset the player's velocity if it has a Rigidbody
-            Rigidbody playerRigidbody = other.GetComponent<Rigidbody>();
-            if (playerRigidbody != null)
-            {
-                playerRigidbody.linearVelocity = Vector3.zero; // Reset velocity
-                playerRigidbody.angularVelocity = Vector3.zero; // Reset angular velocity
-            }
+            // Optional: Reset the Rigidbody velocity
+            playerRigidbody.linearVelocity = Vector3.zero;
 
-            Debug.Log($"{other.name} was transported to {transportTarget.position}");
-            
-        }
+            Debug.Log($"{other.name} transported to {transportTarget.position}");
         }
     }
+}
