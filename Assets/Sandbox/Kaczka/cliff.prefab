@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 5849315891021310005}
   - component: {fileID: 4666165130507618680}
   m_Layer: 0
-  m_Name: Cliff_02
+  m_Name: cliff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
