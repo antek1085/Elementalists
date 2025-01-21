@@ -20,11 +20,13 @@ public class Chessboard_Tile : MonoBehaviour
     [Tooltip("Material when player step on Right Tile")]
     [SerializeField] Material tilePathMaterialCrossed;
 
+    [SerializeField] Material tileToPressMaterialAfter;
+
     [SerializeField] Material tileMaterialSolvedPuzzle;
     Material materialComponent;
     
     static List<GameObject> TilesToPress = new List<GameObject>();
-    int NumberOfTilesPressed;
+    static int NumberOfTilesPressed;
     bool wasTilePressed;
 
 
@@ -56,6 +58,9 @@ public class Chessboard_Tile : MonoBehaviour
             default:
                 break;
         }
+    }
+    void Start()
+    {
         Chessboard_Events.current.OnTileTrapStep += StepOnTileTrap;
         Chessboard_Events.current.OnSolvingPuzzle += SolvedPuzzle;
     }
@@ -72,8 +77,9 @@ public class Chessboard_Tile : MonoBehaviour
                 case TileType.TileToPress:
                     if (!wasTilePressed)
                     {
-                        NumberOfTilesPressed++;
+                        NumberOfTilesPressed += 1;
                         wasTilePressed = true;
+                        GetComponent<MeshRenderer>().material = tileToPressMaterialAfter;
                         if (NumberOfTilesPressed == TilesToPress.Count)
                         {
                             Chessboard_Events.current.SolvingPuzzle();
@@ -101,7 +107,7 @@ public class Chessboard_Tile : MonoBehaviour
     } 
     void StepOnTileTrap()
     {
-        materialComponent = tileNeutralMaterial;
+        GetComponent<MeshRenderer>().material = tileNeutralMaterial;
         NumberOfTilesPressed = 0;
         if(tileType == TileType.TileToPress) wasTilePressed = false;
     }
@@ -109,7 +115,11 @@ public class Chessboard_Tile : MonoBehaviour
     void SolvedPuzzle()
     {
         tileType = TileType.NeutralTile;
-        materialComponent = tileMaterialSolvedPuzzle;
-        objectToShow.SetActive(true);
+        GetComponent<MeshRenderer>().material = tileMaterialSolvedPuzzle;
+        if (objectToShow != null)
+        {
+            objectToShow.SetActive(true);
+        }
     }
+ 
 }

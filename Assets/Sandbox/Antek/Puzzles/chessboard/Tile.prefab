@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6511033627915255489}
   - component: {fileID: 4657157336301531395}
   - component: {fileID: 3580641359123675737}
+  - component: {fileID: 202473688731035811}
   m_Layer: 0
   m_Name: Tile
   m_TagString: Untagged
@@ -102,9 +103,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.8, y: 4.61, z: 0.8}
+  m_Center: {x: 0, y: 2.03, z: 0}
+--- !u!114 &202473688731035811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987136347463589980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  tpPoint: {fileID: 0}
+  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
+  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
+  tileMaterialSolvedPuzzle: {fileID: 0}
+  objectToShow: {fileID: 0}
