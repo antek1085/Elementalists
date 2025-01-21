@@ -29,4 +29,12 @@ public class DrawingSpellsEvent : MonoBehaviour
             OnSpellCast(output);
         }
     }
+    public event Action<float[]> OnSpellFloatUI;
+    public void SpellFloatUI(float[] output)
+    {
+        if (OnSpellFloatUI != null)
+        {
+            OnSpellFloatUI(output);
+        }
+    }
 }

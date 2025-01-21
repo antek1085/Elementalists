@@ -19,6 +19,10 @@ public class ScreenShotHandler : MonoBehaviour
         instance = this;
         texture2D = new Texture2D(512, 512, TextureFormat.RGB24, false);
     }
+    void OnEnable()
+    {
+        StartCoroutine(PlayerFeedbackCoroutine());
+    }
 
     private IEnumerator CoroutineScreenShot()
     {
@@ -40,9 +44,32 @@ public class ScreenShotHandler : MonoBehaviour
         
         runModel.RunModel(texture2D);
     }
+    
+    private IEnumerator PlayerFeedbackCoroutine()
+    {
+        yield return new WaitForSeconds(0.5f);
+        Texture texture = image.texture;
+        
+        RenderTexture renderTexture = RenderTexture.GetTemporary(
+        texture.width, texture.height, 0, RenderTextureFormat.Default, RenderTextureReadWrite.Linear);
+
+        Graphics.Blit(texture, renderTexture);
+        RenderTexture previous = RenderTexture.active;
+        RenderTexture.active = renderTexture;
+        
+        texture2D.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
+        texture2D.Apply();
+
+        RenderTexture.active = previous;
+        RenderTexture.ReleaseTemporary(renderTexture);
+        
+        runModel.RunModelPlayerFeedback(texture2D);
+        StartCoroutine(PlayerFeedbackCoroutine());
+    }
 
     void TakeScreenshot()
     {
+        StopAllCoroutines();
         StartCoroutine(CoroutineScreenShot());
     }
 
