@@ -17,7 +17,7 @@ public class SceneChanger : MonoBehaviour
     public void GoToGame()
     {
        
-            SceneManager.LoadScene("Blockout_Map");
+            SceneManager.LoadScene("Blockout_Map_Ref");
         
     }
 }

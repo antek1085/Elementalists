@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Sandbox/Susoup/MainMenu.unity
     guid: 02eaa74a2493c224db2382fffdfb6301
   - enabled: 1
+    path: Assets/Sandbox/Jakub/Blockout_Map_Ref.unity
+    guid: 977a21bd04b1db64493d2d2ea8d87187
+  - enabled: 1
     path: Assets/Sandbox/Jakub/Blockout_Map.unity
     guid: 37130a3fb6eea7e4b9a9f3e34b9a6074
   m_configObjects:
