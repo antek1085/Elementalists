@@ -1,3 +1,4 @@
+/*
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -51,3 +52,4 @@ public class VolumeControl : MonoBehaviour
         PlayerPrefs.SetFloat("SoundVolume", value);
     }
 }
+*/
