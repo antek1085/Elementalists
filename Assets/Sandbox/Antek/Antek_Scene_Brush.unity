@@ -3131,7 +3131,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1454707344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5181,6 +5181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7135232722828175608, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5204bd0fe3760214985801998d609943, type: 3}
     - target: {fileID: 8157712947702014356, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
       propertyPath: m_Camera
       value: 
@@ -5470,12 +5474,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5785684016090652038, guid: 2115ed8e0270f1b4ca9941632e9e517d, type: 3}
-    - {fileID: 7072428674281901850, guid: 2115ed8e0270f1b4ca9941632e9e517d, type: 3}
-    - {fileID: 299244860149918155, guid: 2115ed8e0270f1b4ca9941632e9e517d, type: 3}
-    - {fileID: 3136185321515984528, guid: 2115ed8e0270f1b4ca9941632e9e517d, type: 3}
-    - {fileID: 5546697196855082455, guid: 2115ed8e0270f1b4ca9941632e9e517d, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
