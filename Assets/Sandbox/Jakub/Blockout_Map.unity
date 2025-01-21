@@ -613,6 +613,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (18)
@@ -684,40 +688,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 77848172}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &77848170 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 77848169}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &77848171 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 77848169}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &77848172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 77848171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1 &91658993
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,6 +740,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (25)
@@ -834,40 +815,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 94056341}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &94056339 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 94056338}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &94056340 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 94056338}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &94056341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94056340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 1
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &136799309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1016,119 +970,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6986371466421367663, guid: 124ad46aec1102e47a4cdae502be89aa, type: 3}
   m_PrefabInstance: {fileID: 137185348}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &141077363
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1952591072}
-    m_Modifications:
-    - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_Name
-      value: Tile (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580641359123675737, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_Size.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580641359123675737, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_Size.y
-      value: 4.61
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580641359123675737, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_Size.z
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580641359123675737, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_Center.y
-      value: 2.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580641359123675737, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 141077366}
-  m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
---- !u!4 &141077364 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 141077363}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &141077365 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 141077363}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &141077366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141077365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 1
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 280448050}
 --- !u!1001 &173656790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2037,6 +1878,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1711217731}
     m_Modifications:
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: loopEventPath.Path
+      value: event:/Sfx_fire_loop
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: loopEventPath.Guid.Data1
+      value: -693059696
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: loopEventPath.Guid.Data2
+      value: 1145372574
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: loopEventPath.Guid.Data3
+      value: 754257835
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: loopEventPath.Guid.Data4
+      value: 1705198282
+      objectReference: {fileID: 0}
     - target: {fileID: 201101733818804664, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
       propertyPath: m_Name
       value: FireFlower
@@ -2063,15 +1924,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4728233556038708426, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 455.0313
+      value: 455.213
       objectReference: {fileID: 0}
     - target: {fileID: 4728233556038708426, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.342
+      value: -1.29
       objectReference: {fileID: 0}
     - target: {fileID: 4728233556038708426, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 201.55814
+      value: 202.17
       objectReference: {fileID: 0}
     - target: {fileID: 4728233556038708426, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2584,6 +2445,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (7)
@@ -2655,40 +2520,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 353121933}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &353121931 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 353121930}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &353121932 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 353121930}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &353121933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353121932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1 &367031032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3101,6 +2939,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (20)
@@ -3172,40 +3014,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 407468121}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &407468119 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 407468118}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &407468120 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 407468118}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &407468121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407468120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &422568226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4119,7 +3934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -56.74
+      value: 36.84
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4127,7 +3942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 100.72
+      value: 482.38
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4870,6 +4685,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (2)
@@ -4941,40 +4760,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 609543914}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &609543912 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 609543911}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &609543913 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 609543911}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &609543914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 609543913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &613320819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5353,6 +5145,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (24)
@@ -5424,40 +5220,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 652142439}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &652142437 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 652142436}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &652142438 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 652142436}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &652142439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652142438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &677030645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5770,6 +5539,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (10)
@@ -5841,40 +5614,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 700315459}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &700315457 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 700315456}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &700315458 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 700315456}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &700315459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700315458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1 &703609953
 GameObject:
   m_ObjectHideFlags: 0
@@ -7900,6 +7646,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (4)
@@ -7971,40 +7721,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 716874733}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &716874731 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 716874730}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &716874732 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 716874730}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &716874733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716874732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &724450683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8345,6 +8068,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (9)
@@ -8416,40 +8143,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 743892359}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &743892357 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 743892356}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &743892358 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 743892356}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &743892359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743892358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 1
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &745557417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9771,6 +9471,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: objectToShow
+      value: 
+      objectReference: {fileID: 280448050}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (8)
@@ -9842,40 +9550,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 900945851}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &900945849 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 900945848}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &900945850 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 900945848}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &900945851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900945850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 0
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1 &902907112
 GameObject:
   m_ObjectHideFlags: 0
@@ -10845,6 +10526,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (15)
@@ -10916,40 +10601,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 987141722}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &987141720 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 987141719}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &987141721 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 987141719}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &987141722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987141721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 1
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &995616895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11686,6 +11344,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (6)
@@ -11757,40 +11419,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1120766824}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &1120766822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 1120766821}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1120766823 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 1120766821}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1120766824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120766823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 1
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1 &1128823410
 GameObject:
   m_ObjectHideFlags: 0
@@ -14137,6 +13772,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (12)
@@ -14208,40 +13847,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1381073534}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &1381073532 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 1381073531}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1381073533 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 1381073531}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1381073534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1381073533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!4 &1392437323 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
@@ -14255,6 +13867,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (3)
@@ -14326,40 +13942,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1397611607}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &1397611605 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 1397611604}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1397611606 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 1397611604}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1397611607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1397611606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &1400586195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33357,6 +32946,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (23)
@@ -33428,40 +33021,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1427633771}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &1427633769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 1427633768}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1427633770 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 1427633768}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1427633771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427633770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &1430866005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34039,6 +33605,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (17)
@@ -34110,40 +33680,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1478107246}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &1478107244 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 1478107243}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1478107245 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 1478107243}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1478107246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478107245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 1
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &1486498718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34214,6 +33757,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (13)
@@ -34285,40 +33832,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1493477984}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &1493477982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 1493477981}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1493477983 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 1493477981}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1493477984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493477983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 1
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &1498374729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37108,6 +36628,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (21)
@@ -37179,40 +36703,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1612225332}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &1612225330 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 1612225329}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1612225331 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 1612225329}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1612225332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1612225331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 0
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &1617558582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37443,6 +36940,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (22)
@@ -37514,40 +37015,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1695088613}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &1695088611 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 1695088610}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1695088612 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 1695088610}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1695088613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1695088612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1 &1696487349
 GameObject:
   m_ObjectHideFlags: 0
@@ -38475,13 +37949,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.4
+    - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38523,63 +38001,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3580641359123675737, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_Size.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580641359123675737, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_Size.y
-      value: 4.61
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580641359123675737, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_Size.z
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580641359123675737, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_Center.y
-      value: 2.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580641359123675737, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1762194980}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &1762194978 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 1762194977}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1762194979 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 1762194977}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1762194980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762194979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &1768579506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39615,6 +39046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChessCube
       objectReference: {fileID: 0}
+    - target: {fileID: 4720856606732979505, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6474432957823744132, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
@@ -39663,7 +39098,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 996309150629721830, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 9136312578982435424, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
@@ -39678,9 +39114,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9136312578982435424, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
       insertIndex: -1
       addedObject: {fileID: 743892357}
-    - targetCorrespondingSourceObject: {fileID: 9136312578982435424, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 141077364}
     - targetCorrespondingSourceObject: {fileID: 9136312578982435424, guid: 270e2c45105cf6240a91f2ce8b46f549, type: 3}
       insertIndex: -1
       addedObject: {fileID: 609543912}
@@ -39867,6 +39300,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (11)
@@ -39938,40 +39375,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1957078370}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &1957078368 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 1957078367}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1957078369 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 1957078367}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1957078370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1957078369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1 &1962153015
 GameObject:
   m_ObjectHideFlags: 0
@@ -40349,6 +39759,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (19)
@@ -40420,40 +39834,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2053483413}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &2053483411 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 2053483410}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2053483412 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 2053483410}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2053483413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2053483412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &2054499393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40606,6 +39993,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (14)
@@ -40677,40 +40068,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2060251266}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &2060251264 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 2060251263}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2060251265 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 2060251263}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2060251266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2060251265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &2117959102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40870,6 +40234,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952591072}
     m_Modifications:
+    - target: {fileID: 202473688731035811, guid: 9e846e2610081344aa89eba624d85527, type: 3}
+      propertyPath: tileType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
       propertyPath: m_Name
       value: Tile (5)
@@ -40941,40 +40309,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2135045880}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e846e2610081344aa89eba624d85527, type: 3}
 --- !u!4 &2135045878 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915508503576272150, guid: 9e846e2610081344aa89eba624d85527, type: 3}
   m_PrefabInstance: {fileID: 2135045877}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2135045879 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 987136347463589980, guid: 9e846e2610081344aa89eba624d85527, type: 3}
-  m_PrefabInstance: {fileID: 2135045877}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2135045880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135045879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de66e5a69d8fbc428c8bb2e56b1fba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 2
-  tpPoint: {fileID: 467406095}
-  tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
-  tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
-  tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
-  objectToShow: {fileID: 0}
 --- !u!1001 &2137355860
 PrefabInstance:
   m_ObjectHideFlags: 0
