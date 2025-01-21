@@ -18,7 +18,7 @@ public class CastSpell : MonoBehaviour
     [SerializeField] float fireForce;
     [SerializeField] float waterForce;
     
-    void Awake()
+    void Start()
     {
         DrawingSpellsEvent.current.OnSpellCast += SpellCast;
     }

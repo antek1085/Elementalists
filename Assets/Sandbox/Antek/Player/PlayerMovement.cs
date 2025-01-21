@@ -47,6 +47,9 @@ public class PlayerMovement : MonoBehaviour
 
         
         input = true;
+    }
+    void Start()
+    {
         StopInputEvent.current.OnStopInput += ChangeInput;
     }
     void ChangeInput(GameObject obj)
@@ -54,16 +57,23 @@ public class PlayerMovement : MonoBehaviour
         if (obj != gameObject)
         {
             input = false;
+            rigidbody.constraints = RigidbodyConstraints.FreezeAll;
         }
         if (obj == null)
         {
             input = true;
+            rigidbody.constraints = RigidbodyConstraints.None;
+            rigidbody.freezeRotation = true;
         }
     }
 
     void Update()
     {
-        if(input == false) return;
+        if (input == false)
+        {
+            rigidbody.linearVelocity = Vector3.zero;
+            return;
+        }
         
         KeyboardInput();
 
