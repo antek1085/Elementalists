@@ -143,5 +143,7 @@ MonoBehaviour:
   - 'PleasE hElp me '
   - aaa
   messageAfterGivenRightItem: []
-  messageAfterGivenWrongItem: []
-  timeToTextDissapear: []
+  messageAfterGivenWrongItem:
+  - Small Message
+  timeToTextDissapear:
+  - 2
