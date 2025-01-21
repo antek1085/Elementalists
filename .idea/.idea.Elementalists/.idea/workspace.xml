@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9c650ff-27fc-4e00-ac06-7cf0c7bf8720" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/AnimalUI/DialogueBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/AnimalUI/DialogueBox.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Antek_Scene_Brush.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Antek_Scene_Brush.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/ActivateSpellCasting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/ActivateSpellCasting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/CastSpell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/CastSpell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/DrawSpells_Chat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Brush/DrawSpells_Chat.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/AnimalInteraction/AnimalInteractionScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/AnimalInteraction/AnimalInteractionScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/PickUp Items/FireFlower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Interactable/PickUp Items/FireFlower.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Puzzles/chessboard/Chessboard_Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Puzzles/chessboard/Chessboard_Tile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/Cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/Cloud.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/Ilustracja Main Menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/Ilustracja Main Menu.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Susoup/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/OptionsWindow.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/OptionsWindow.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/Scripts/MenuPause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Susoup/Scripts/MenuPause.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Susoup/TrueType (.ttf)/BadComic-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Susoup/TrueType (.ttf)/BadComic-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +18,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="TaskManager">
