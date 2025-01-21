@@ -83,7 +83,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   groundDrag: 5
-  jumpForce: 300
+  jumpForce: 5.75
   jumpKey: 32
   jumpCD: 0.25
   airMultiplayer: 0.5

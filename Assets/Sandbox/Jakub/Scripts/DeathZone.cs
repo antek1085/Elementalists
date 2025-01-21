@@ -1,14 +1,16 @@
 using UnityEngine;
 
-using UnityEngine;
-
 public class DeathZone : MonoBehaviour
 {
-    public Transform transportTarget; // The target position to which the player will be transported
-    public string playerTag = "Player"; // Tag to identify the player
+    [Tooltip("The target position to which the player will be transported.")]
+    public Transform transportTarget;
+
+    [Tooltip("Tag to identify the player.")]
+    public string playerTag = "Player";
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log($"{other.name} entered the trigger");
         // Check if the object entering the trigger has the specified tag
         if (other.CompareTag(playerTag))
         {
@@ -19,10 +21,12 @@ public class DeathZone : MonoBehaviour
             Rigidbody playerRigidbody = other.GetComponent<Rigidbody>();
             if (playerRigidbody != null)
             {
-                playerRigidbody.linearVelocity = Vector3.zero;
+                playerRigidbody.linearVelocity = Vector3.zero; // Reset velocity
+                playerRigidbody.angularVelocity = Vector3.zero; // Reset angular velocity
             }
 
-            Debug.Log($"{other.name} transported to {transportTarget.position}");
+            Debug.Log($"{other.name} was transported to {transportTarget.position}");
+            
+        }
         }
     }
-}
