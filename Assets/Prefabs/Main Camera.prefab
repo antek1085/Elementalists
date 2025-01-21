@@ -482,9 +482,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waterSpell: {fileID: 0}
-  fireSpell: {fileID: 0}
+  fireSpell: {fileID: 1366414037206290526, guid: 5913df83fd776df45b29e78fa159a02f, type: 3}
   boolCastThreshold: 0.953
-  fireForce: 3
+  fireForce: 2000
   waterForce: 0
 --- !u!1 &2349424208370182401
 GameObject:
@@ -515,7 +515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2349424208370182401}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.69, y: 0.792, z: -3.4069998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
