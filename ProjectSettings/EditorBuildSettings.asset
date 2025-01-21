@@ -8,12 +8,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Sandbox/Antek/Antek_Scene_Brush.unity
     guid: a9d5eb466798f9a4ba36312b8e07af35
   - enabled: 1
+    path: Assets/Sandbox/Susoup/IntroScene.unity
+    guid: 3fc674f53601d304c8ebb2e4800ff1ed
+  - enabled: 1
     path: Assets/Sandbox/Susoup/MainMenu.unity
     guid: 02eaa74a2493c224db2382fffdfb6301
+  - enabled: 1
+    path: Assets/Sandbox/Jakub/Blockout_Map.unity
+    guid: 37130a3fb6eea7e4b9a9f3e34b9a6074
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
