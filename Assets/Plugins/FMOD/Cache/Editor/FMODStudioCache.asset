@@ -258,9 +258,36 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638730720059310168
+  lastModified: 638731761506172378
   FileSizes: []
   Exists: 1
+--- !u!114 &-1540555106903178844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx_fireflower_pickup
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx_fireflower_pickup
+  Guid:
+    Data1: 83484089
+    Data2: 1217763671
+    Data3: 916776344
+    Data4: -1801944554
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 4
+  MaxDistance: 25
+  Length: 0
 --- !u!114 &-975581027383366603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,12 +377,13 @@ MonoBehaviour:
   - {fileID: -9092385061308190352}
   - {fileID: -2982086408859605285}
   - {fileID: 1906692246457856870}
+  - {fileID: -1540555106903178844}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2017273070756321204}
   StringsBanks:
   - {fileID: 3381557211253963980}
-  cacheTime: 638730720059320169
+  cacheTime: 638731761506202380
   cacheVersion: 131845
 --- !u!114 &1906692246457856870
 MonoBehaviour:
@@ -453,7 +481,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638730720059320169
+  lastModified: 638731761506202380
   FileSizes: []
   Exists: 1
 --- !u!114 &3392396910217455096
