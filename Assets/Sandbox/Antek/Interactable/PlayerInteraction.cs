@@ -7,6 +7,7 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] SO_GameObject_List EQList;
     int slotChoosed;
     Camera mainCamera;
+    bool input;
 
 
 
@@ -14,9 +15,25 @@ public class PlayerInteraction : MonoBehaviour
     {
         mainCamera = Camera.main;
         EQEvent.current.onSlotChanged += i => slotChoosed = i;
+        StopInputEvent.current.OnStopInput += ChangeInput;
+        input = true;
+    }
+
+    void ChangeInput(GameObject obj)
+    {
+        if (obj != gameObject)
+        {
+            input = false;
+        }
+        if (obj == null)
+        {
+            input = true;
+        }
     }
     void Update()
     {
+        if(input == false) return;
+        
         if (Input.GetKeyUp(KeyCode.E))
         {
             RaycastHit hitInfo;

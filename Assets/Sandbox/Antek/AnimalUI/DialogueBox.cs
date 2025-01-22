@@ -83,13 +83,14 @@ public class DialogueBox : MonoBehaviour
     {
         animaNameTextGameObject.GetComponent<TextMeshProUGUI>().text = animalName;
         animalIconGameObject.GetComponent<Image>().sprite = animalSprite;
-        if (dialogueIndex < dialogueList.Count -1)
+        if (dialogueIndex < dialogueList.Count)
         {
             dialogueTexGameObject.GetComponent<TextMeshProUGUI>().text = dialogueList[dialogueIndex];
             dialogueIndex++;
         }
         else
         {
+            dialogueIndex = 0;
             DialogueBoxOpen = false;
             StopInputEvent.current.StopInput(null);
             dialogueBoxGameObject.SetActive(false);
