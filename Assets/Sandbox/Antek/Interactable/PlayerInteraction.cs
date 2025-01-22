@@ -40,6 +40,7 @@ public class PlayerInteraction : MonoBehaviour
             
             if (Physics.Raycast(mainCamera.transform.position,mainCamera.transform.forward,out hitInfo,rayCastDistance,layerMask))
             {
+                Debug.Log(hitInfo.collider.gameObject.name);
                 IPickable pickable = hitInfo.transform.GetComponent<IPickable>();
                 if (pickable != null)
                 {
