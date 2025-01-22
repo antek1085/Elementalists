@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Mono.Cecil;
 using UnityEngine;
 
 public class Chessboard_Tile : MonoBehaviour
@@ -24,6 +25,9 @@ public class Chessboard_Tile : MonoBehaviour
 
     [SerializeField] Material tileMaterialSolvedPuzzle;
     Material materialComponent;
+
+    [SerializeField] FMODUnity.EventReference teleportSoundEvent;
+    [SerializeField] FMODUnity.EventReference solvedPuzzleSound;
     
     static List<GameObject> TilesToPress = new List<GameObject>();
     static int NumberOfTilesPressed;
@@ -91,6 +95,11 @@ public class Chessboard_Tile : MonoBehaviour
                     if (tpPoint != null)
                     {
                         other.GetComponent<Transform>().transform.parent.position = tpPoint.position;
+
+                        if (teleportSoundEvent.IsNull == false)
+                        {
+                            FMODUnity.RuntimeManager.PlayOneShot(teleportSoundEvent, tpPoint.position);
+                        }
                         Chessboard_Events.current.TileTrapStep();
                     }
                 
@@ -116,6 +125,7 @@ public class Chessboard_Tile : MonoBehaviour
     {
         tileType = TileType.NeutralTile;
         GetComponent<MeshRenderer>().material = tileMaterialSolvedPuzzle;
+        FMODUnity.RuntimeManager.PlayOneShotAttached(solvedPuzzleSound, gameObject); //solved puzzle sound
         if (objectToShow != null)
         {
             objectToShow.SetActive(true);
