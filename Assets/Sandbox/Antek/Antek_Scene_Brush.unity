@@ -6103,10 +6103,6 @@ PrefabInstance:
       propertyPath: orientation
       value: 
       objectReference: {fileID: 823378980}
-    - target: {fileID: 4487361796998475305, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
-      propertyPath: waterSpell
-      value: 
-      objectReference: {fileID: 48531863}
     - target: {fileID: 5959133173354351217, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.69
