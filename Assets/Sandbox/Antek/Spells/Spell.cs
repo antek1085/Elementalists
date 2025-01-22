@@ -6,7 +6,8 @@ using UnityEngine.VFX;
 public class Spell : MonoBehaviour
 {
     [SerializeField] VisualEffect blowEffect;
-    
+
+    [SerializeField] FMODUnity.EventReference impactSpellSound;
     
     public spellType Type;
     public enum spellType
@@ -25,6 +26,7 @@ public class Spell : MonoBehaviour
         if (blowEffect != null)
         {
             blowEffect.Play();
+            FMODUnity.RuntimeManager.PlayOneShotAttached(impactSpellSound, gameObject);
         }
         Destroy(gameObject);
     }

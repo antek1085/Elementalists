@@ -125,6 +125,20 @@ MonoBehaviour:
   tpPoint: {fileID: 0}
   tileNeutralMaterial: {fileID: 2100000, guid: bc1c944867a1f4044b19c5647d042b89, type: 2}
   tilePathMaterialCrossed: {fileID: 2100000, guid: 4bcba34638a37e44fafbca0e5324224e, type: 2}
-  tileToPressMaterialAfter: {fileID: 0}
+  tileToPressMaterialAfter: {fileID: 2100000, guid: 919413129a01ce842b1701619510e4e9, type: 2}
   tileMaterialSolvedPuzzle: {fileID: 2100000, guid: 37adf0940daf409489e0c6f23f961e32, type: 2}
+  teleportSoundEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  solvedPuzzleSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   objectToShow: {fileID: 0}
