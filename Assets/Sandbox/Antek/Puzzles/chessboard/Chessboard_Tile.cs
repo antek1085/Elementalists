@@ -97,7 +97,7 @@ public class Chessboard_Tile : MonoBehaviour
                     break;
                 
                 case TileType.TilePath:
-                    materialComponent = tilePathMaterialCrossed;
+                    GetComponent<MeshRenderer>().material = tilePathMaterialCrossed;
                     break;
                 
                 default:

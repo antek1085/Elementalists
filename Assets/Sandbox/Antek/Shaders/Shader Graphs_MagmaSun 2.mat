@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6510015723302928437
+--- !u!114 &-4802669742129089728
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_MagmaSun 1
-  m_Shader: {fileID: -6465566751694194690, guid: 18d74e681d604784b975e45751452c03, type: 3}
+  m_Name: Shader Graphs_MagmaSun 2
+  m_Shader: {fileID: -6465566751694194690, guid: 0353b0f8a3dae0944bdcb48abb6dd940, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []

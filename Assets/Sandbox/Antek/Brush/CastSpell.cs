@@ -8,10 +8,9 @@ public class CastSpell : MonoBehaviour
     
     [SerializeField] GameObject waterSpell;
     [SerializeField] GameObject fireSpell;
-    
+
     [Tooltip("Need Testing how much Value")]
-    [Range(0,1)]
-    [SerializeField] float boolCastThreshold;
+    [SerializeField] SO_FloatMinMAx boolCastThreshold;
 
     [Header("Speed of spell multiply")]
     
@@ -26,17 +25,17 @@ public class CastSpell : MonoBehaviour
     // Fire Spell 0  ||| Water Spell 1
     void SpellCast(float[] output)
     {
-        Debug.Log(output[0] + "Fire");
-        Debug.Log(output[1] + "Water");
+        /*Debug.Log(output[0] + "Fire");
+        Debug.Log(output[1] + "Water");*/
         //Fire Spell cast
-        if (output[0] > boolCastThreshold)
+        if (output[0] > boolCastThreshold.value)
         {
            GameObject spell = Instantiate(fireSpell, transform.position, transform.rotation);
            spell.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * fireForce);
         }
         
         // Water Spell Cast
-        if (output[1] > boolCastThreshold)
+        if (output[1] > boolCastThreshold.value)
         {
             GameObject spell = Instantiate(waterSpell, transform.position, transform.rotation);
             spell.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * waterForce);

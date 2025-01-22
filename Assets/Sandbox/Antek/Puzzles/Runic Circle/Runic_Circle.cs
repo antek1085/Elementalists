@@ -8,21 +8,23 @@ public class Runic_Circle : MonoBehaviour
     float distance;
     float powerOfForce = 9000f;
     [SerializeField] GameObject middleObjectOfCircle;
-    BoxCollider collider;
+    [SerializeField] GameObject flowerObj;
+    MeshCollider collider;
     
     static bool didPlayerMakeMistake = false;
     void Awake()
     {
-        collider = GetComponent<BoxCollider>();
+        collider = GetComponent<MeshCollider>();
         rotation = middleObjectOfCircle.transform.rotation;
     }
 
 
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision other)
     {
-        if (other.tag == "Player")
+        Debug.Log(other.gameObject.name);
+        if (other.transform.tag == "Player")
         {
-            middleObjectOfCircle.transform.LookAt(other.transform.parent.position, Vector3.up);
+            middleObjectOfCircle.transform.LookAt(other.transform.position, Vector3.up);
             rotation = middleObjectOfCircle.transform.rotation;
             rotation.x = 0f;
             rotation.z = 0f;
@@ -42,7 +44,7 @@ public class Runic_Circle : MonoBehaviour
             }
             
             didPlayerMakeMistake = true;
-            other.transform.parent.GetComponent<Rigidbody>().AddForce(middleObjectOfCircle.transform.forward * powerOfForce);
+            other.transform.GetComponent<Rigidbody>().AddForce(middleObjectOfCircle.transform.forward * powerOfForce);
         }
     }
 
@@ -52,6 +54,12 @@ public class Runic_Circle : MonoBehaviour
         {
             didPlayerMakeMistake = false;
             StartCoroutine(DisableTrigger());
+        }
+        if (flowerObj == null)
+        {
+            collider.enabled = false;
+            gameObject.transform.GetComponent<MeshRenderer>().enabled = false;
+            this.enabled = false;
         }
     }
 

@@ -10,9 +10,14 @@ public class AnimalInteractionScript : MonoBehaviour,IAnimalInteractable
     [SerializeField] GameObject objectToGive;
     AnimalUI animalUI;
     bool interacted;
+    [SerializeField] int numberOfFlowersToGive;
+    public int numberOfFlowersGiven;
+    bool didHeGiveAllItems;
+    
 
     void Awake()
     {
+        didHeGiveAllItems = false;
         animalUI = GetComponent<AnimalUI>();
         interacted = false;
     }
@@ -22,19 +27,21 @@ public class AnimalInteractionScript : MonoBehaviour,IAnimalInteractable
         if (item == objectToGive)
         {
             GivenRightItem();
-            animalUI.GiveItemUIPopUp(true);
+            animalUI.GiveItemUIPopUp(true,didHeGiveAllItems);
             if (interacted == false)
             {
                 interacted = true;
                 return false;
             }
+            numberOfFlowersGiven += 1;
+            if(numberOfFlowersGiven >= numberOfFlowersToGive) didHeGiveAllItems = true;
             return true;
         }
         else
         {
             interacted = true;
             GivenWrongItem();
-            animalUI.GiveItemUIPopUp(false);
+            animalUI.GiveItemUIPopUp(false,didHeGiveAllItems);
             return false;
         }
     }

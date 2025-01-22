@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -15,15 +16,18 @@ public class AnimalUI : MonoBehaviour
     [Header("Second Interaction")]
     [SerializeField] List<String> messageAfterGivenRightItem = new List<String>();
     
+    [Header("Given ALl Items")]
+    [SerializeField] List<String> messageAfterGivenAllItems = new List<String>();
+    
     [Header("Wrong Item")]
-    [SerializeField] List<String> messageAfterGivenWrongItem = new List<String>();
-    [SerializeField] List<float> timeToTextDissapear = new List<float>();
+    [SerializeField] List<String> shortMessageAfterGivenWrongItem = new List<String>();
+    [SerializeField] List<float> timeToTextDisappear = new List<float>();
     
     bool wasInteracted = false;
     void Awake()
     {
     }
-     public void GiveItemUIPopUp(bool isRightItem)
+     public void GiveItemUIPopUp(bool isRightItem,bool givenAllItems)
     {
         if (!wasInteracted)
         {
@@ -36,10 +40,28 @@ public class AnimalUI : MonoBehaviour
         {
 
             case true:
-                AnimalUiEvents.current.DialogueBoxPopUp(messageAfterGivenRightItem,animalName,animalSprite);
+                switch (givenAllItems)
+                {
+
+                    case true:
+                        break;
+                    case false:
+                        AnimalUiEvents.current.DialogueBoxPopUp(messageAfterGivenRightItem,animalName,animalSprite);   
+                        break;
+                }
                 break;
             case false:
-                AnimalUiEvents.current.DialogueStringPopUp(messageAfterGivenWrongItem,timeToTextDissapear,animalName);
+                switch (givenAllItems)
+                {
+
+                    case true:
+                        AnimalUiEvents.current.DialogueBoxPopUp(messageAfterGivenAllItems,animalName,animalSprite);
+                        Destroy(this.gameObject);
+                        break;
+                    case false:
+                        AnimalUiEvents.current.DialogueStringPopUp(shortMessageAfterGivenWrongItem,timeToTextDisappear,animalName);
+                        break;
+                }
                 break;
         }
     }
