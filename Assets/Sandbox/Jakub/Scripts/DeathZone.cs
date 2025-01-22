@@ -6,10 +6,10 @@ public class DeathZone : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Rigidbody playerRigidbody = other.GetComponent<Rigidbody>();
+        Rigidbody playerRigidbody = other.transform.parent.GetComponent<Rigidbody>();
         if (playerRigidbody != null) 
         {
-            other.transform.position = transportTarget.position;
+            other.transform.parent.position = transportTarget.position;
             
             playerRigidbody.linearVelocity = Vector3.zero;
 
