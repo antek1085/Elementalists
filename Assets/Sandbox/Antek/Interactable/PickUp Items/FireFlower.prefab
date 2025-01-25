@@ -127,6 +127,13 @@ MonoBehaviour:
   fireFlowerItem: {fileID: 201101733818804664}
   canBePickedUp: 1
   <SpellType>k__BackingField: 0
+  loopEventPath:
+    Guid:
+      Data1: -693059696
+      Data2: 1145372574
+      Data3: 754257835
+      Data4: 1705198282
+    Path: event:/Sfx_fire_loop
 --- !u!114 &-2413803718520655873
 MonoBehaviour:
   m_ObjectHideFlags: 0
