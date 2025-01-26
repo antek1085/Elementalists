@@ -5599,14 +5599,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 382302643581991085, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: colorUsedSlot.a
-      value: 0.03529412
-      objectReference: {fileID: 0}
-    - target: {fileID: 382302643581991085, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: colorUnusedSlot.a
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4047689553017501825, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
       propertyPath: m_Name
       value: MainCanvas
@@ -6283,6 +6275,10 @@ PrefabInstance:
       propertyPath: orientation
       value: 
       objectReference: {fileID: 823378980}
+    - target: {fileID: 4433256922994947375, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4487361796998475305, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
       propertyPath: animator
       value: 
