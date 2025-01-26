@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using FMODUnity;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -22,13 +23,16 @@ public class AnimalUI : MonoBehaviour
     [Header("Wrong Item")]
     [SerializeField] List<String> shortMessageAfterGivenWrongItem = new List<String>();
     [SerializeField] List<float> timeToTextDisappear = new List<float>();
-    
+
+    [Header("SOUNDS")] 
+    [SerializeField] private EventReference dialoguePopupSound;
     bool wasInteracted = false;
     void Awake()
     {
     }
      public void GiveItemUIPopUp(bool isRightItem,bool givenAllItems)
     {
+        PlayPopupSound();
         if (!wasInteracted)
         {
             wasInteracted = true;
@@ -65,4 +69,12 @@ public class AnimalUI : MonoBehaviour
                 break;
         }
     }
+
+     private void PlayPopupSound()
+     {
+         if (!dialoguePopupSound.IsNull)
+         {
+             RuntimeManager.PlayOneShot(dialoguePopupSound);
+         }
+     }
 }
