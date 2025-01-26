@@ -1,40 +1,37 @@
 using System;
 using System.Collections;
 using FMOD.Studio;
-using UnityEngine;
 using FMODUnity;
+using UnityEngine;
+using STOP_MODE = FMODUnity.STOP_MODE;
 
 [RequireComponent(typeof(ItemInformation))]
 public class FireFlowerPickUp : MonoBehaviour,IPickable
 {
     [SerializeField] GameObject fireFlowerItem;
     
-    
     //public Spell.spellType spellType;
     [SerializeField] bool canBePickedUp;
-   [field: SerializeField] public Spell.spellType SpellType { get; set; }
-   
-   [Header("SOUND")] 
-   [SerializeField] private EventReference pickupSoundPath;
-   private EventInstance pickupSound;
-   [SerializeField] private EventReference loopEventPath; 
-   private EventInstance loopEventInstance;      
-   [SerializeField] private EventReference pickableSoundPath; 
-   private EventInstance pickableSound;   
-   void Awake()
-    {      
-        loopEventInstance = RuntimeManager.CreateInstance(loopEventPath);
-        pickupSound = RuntimeManager.CreateInstance(pickupSoundPath);
-        pickableSound = RuntimeManager.CreateInstance(pickableSoundPath); 
+    [field: SerializeField] public Spell.spellType SpellType { get; set; }
+
+    [Header("SOUNDS")] 
+    [SerializeField] private EventReference pickUpSound;
+    [SerializeField] private EventReference flowerLoop;
+    private EventInstance flowerLoopInstance; 
+    void Awake()
+    {
+        flowerLoopInstance = RuntimeManager.CreateInstance(flowerLoop);
+        flowerLoopInstance.set3DAttributes(RuntimeUtils.To3DAttributes(transform.position));
+        flowerLoopInstance.start();
         /*canBePickedUp = false;*/
     }
 
-   private void OnEnable()
-   {
-       loopEventInstance.start();
-   }
+    private void Update()
+    {
+        flowerLoopInstance.set3DAttributes(RuntimeUtils.To3DAttributes(transform.position));
+    }
 
-   void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.GetComponent<Spell>() != null && other.GetComponent<Spell>().Type == SpellType)
         {
@@ -43,33 +40,24 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
     }
 
     public GameObject PickUp()
-    {   Debug.Log("LLLL");
+    {
         if (!canBePickedUp) return null;
+
+        RuntimeManager.PlayOneShotAttached(pickUpSound, gameObject); //PlayOneShot/PlayOneShotAttached
+        flowerLoopInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); // Fade out the loop
         StartCoroutine(DestroyObject());
         return fireFlowerItem;
     }
-    
-    public IEnumerator DestroyObject() //dowywalenia 
-    {
-        float fadeDuration = 1.0f; // fade-out duration
-        float startVolume = 1.0f;
-        float targetVolume = 0.0f;
-        float elapsedTime = 0.0f;
 
-        while (elapsedTime < fadeDuration)
-        {
-            float volume = Mathf.Lerp(startVolume, targetVolume, elapsedTime / fadeDuration);
-            loopEventInstance.setVolume(volume);
-            elapsedTime += Time.deltaTime;
-            yield return null;  // Wait for the next frame
-        }
-        
-        // Set the volume to 0 at the end and stop the event
-        loopEventInstance.setVolume(targetVolume);
-        loopEventInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    public IEnumerator DestroyObject()
+    {
         yield return new WaitForEndOfFrame();
-        loopEventInstance.release(); // release event
         Destroy(gameObject);
-        
+    }
+
+    private void OnDestroy()
+    {
+        flowerLoopInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        flowerLoopInstance.release();
     }
 }

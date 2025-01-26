@@ -54029,6 +54029,66 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1711217731}
     m_Modifications:
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: flowerLoop.Path
+      value: event:/Sfx_fireflower_loop
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: pickUpSound.Path
+      value: event:/Sfx_fireflower_pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: pickUpSoundPath.Path
+      value: event:/Sfx_fireflower_pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: flowerLoop.Guid.Data1
+      value: 244997393
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: flowerLoop.Guid.Data2
+      value: 1331239197
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: flowerLoop.Guid.Data3
+      value: 1601707924
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: flowerLoop.Guid.Data4
+      value: -878434716
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: pickUpSound.Guid.Data1
+      value: 83484089
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: pickUpSound.Guid.Data2
+      value: 1217763671
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: pickUpSound.Guid.Data3
+      value: 916776344
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: pickUpSound.Guid.Data4
+      value: -1801944554
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: pickUpSoundPath.Guid.Data1
+      value: 83484089
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: pickUpSoundPath.Guid.Data2
+      value: 1217763671
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: pickUpSoundPath.Guid.Data3
+      value: 916776344
+      objectReference: {fileID: 0}
+    - target: {fileID: 116253735503199988, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+      propertyPath: pickUpSoundPath.Guid.Data4
+      value: -1801944554
+      objectReference: {fileID: 0}
     - target: {fileID: 201101733818804664, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
       propertyPath: m_Name
       value: FireFlower
