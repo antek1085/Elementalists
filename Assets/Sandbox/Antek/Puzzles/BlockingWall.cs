@@ -16,7 +16,7 @@ public class BlockingWall : MonoBehaviour
         if (string.IsNullOrEmpty(passiveLoopSound.Path)) return; //???? null check 
 
         loopInstance = RuntimeManager.CreateInstance(passiveLoopSound);
-        RuntimeManager.AttachInstanceToGameObject(loopInstance, gameObject.transform);
+        RuntimeManager.AttachInstanceToGameObject(loopInstance, gameObject);
         loopInstance.start();
     }
 

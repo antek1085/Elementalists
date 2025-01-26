@@ -13,17 +13,24 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
     //public Spell.spellType spellType;
     [SerializeField] bool canBePickedUp;
    [field: SerializeField] public Spell.spellType SpellType { get; set; }
-
+   
+   [Header("SOUND")] 
+   [SerializeField] private EventReference pickupSoundPath;
+   private EventInstance pickupSound;
    [SerializeField] private EventReference loopEventPath; 
-   private EventInstance loopEventInstance;
+   private EventInstance loopEventInstance;      
+   [SerializeField] private EventReference pickableSoundPath; 
+   private EventInstance pickableSound;   
    void Awake()
-    {
+    {      
+        loopEventInstance = RuntimeManager.CreateInstance(loopEventPath);
+        pickupSound = RuntimeManager.CreateInstance(pickupSoundPath);
+        pickableSound = RuntimeManager.CreateInstance(pickableSoundPath); 
         /*canBePickedUp = false;*/
     }
 
    private void OnEnable()
    {
-       loopEventInstance = RuntimeManager.CreateInstance(loopEventPath);
        loopEventInstance.start();
    }
 
@@ -42,7 +49,7 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
         return fireFlowerItem;
     }
     
-    public IEnumerator DestroyObject()
+    public IEnumerator DestroyObject() //dowywalenia 
     {
         float fadeDuration = 1.0f; // fade-out duration
         float startVolume = 1.0f;
