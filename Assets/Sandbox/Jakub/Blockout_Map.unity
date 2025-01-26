@@ -4864,7 +4864,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6368627739170751682, guid: 6649703b4894cfd488d1240346013ff1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0965534
+      value: 0.036
       objectReference: {fileID: 0}
     - target: {fileID: 6368627739170751682, guid: 6649703b4894cfd488d1240346013ff1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18124,7 +18124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5831418556628805832, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.005
+      value: 12.93
       objectReference: {fileID: 0}
     - target: {fileID: 5831418556628805832, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -21526,6 +21526,26 @@ PrefabInstance:
       propertyPath: 'dialogue.Array.data[0]'
       value: Whaaaat?
       objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Path
+      value: event:/sfx_ui_dialogue_popup_ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data1
+      value: 2023174657
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data2
+      value: 1079564061
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data3
+      value: -1871258694
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data4
+      value: -334348290
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21692,6 +21712,26 @@ PrefabInstance:
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
       value: PUPUPUPUPUPUPU
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Path
+      value: event:/sfx_ui_dialogue_popup_ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data1
+      value: 2023174657
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data2
+      value: 1079564061
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data3
+      value: -1871258694
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data4
+      value: -334348290
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -47056,9 +47096,93 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 354440257809891668, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 606757239782553545, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095076002261535214, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 04e382c4e00f245f4b3dcb060f828947, type: 3}
+    - target: {fileID: 3095076002261535214, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095076002261535214, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095076002261535214, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849922210814476743, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_fontSize
+      value: 41.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849922210814476743, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d1a18f074c4502f438cc90c8c33d906d, type: 2}
+    - target: {fileID: 3849922210814476743, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4654477088234740845, guid: d1a18f074c4502f438cc90c8c33d906d, type: 2}
+    - target: {fileID: 3849922210814476743, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4047689553017501825, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
       propertyPath: m_Name
       value: MainCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5313560207614509197, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_Name
+      value: Message
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437018620916224221, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437018620916224221, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437018620916224221, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437018620916224221, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437018620916224221, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437018620916224221, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437018620916224221, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437018620916224221, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437018620916224221, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437018620916224221, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 280
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -49795,6 +49919,26 @@ PrefabInstance:
       propertyPath: 'dialogue.Array.data[0]'
       value: UuuuUuUUuUUuUuuUuu....
       objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Path
+      value: event:/sfx_ui_dialogue_popup_ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data1
+      value: 2023174657
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data2
+      value: 1079564061
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data3
+      value: -1871258694
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data4
+      value: -334348290
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51071,6 +51215,26 @@ PrefabInstance:
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
       value: Pfffffffff....
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Path
+      value: event:/sfx_ui_dialogue_popup_ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data1
+      value: 2023174657
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data2
+      value: 1079564061
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data3
+      value: -1871258694
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data4
+      value: -334348290
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -55149,6 +55313,26 @@ PrefabInstance:
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
       value: Sshssssshhhheeeeeesh....
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Path
+      value: event:/sfx_ui_dialogue_popup_ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data1
+      value: 2023174657
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data2
+      value: 1079564061
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data3
+      value: -1871258694
+      objectReference: {fileID: 0}
+    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: dialoguePopupSound.Guid.Data4
+      value: -334348290
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

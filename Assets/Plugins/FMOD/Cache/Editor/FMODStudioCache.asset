@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Sfx_fireflower_loop
+  m_Name: event:/sfx_fireflower_loop
   m_EditorClassIdentifier: 
-  Path: event:/Sfx_fireflower_loop
+  Path: event:/sfx_fireflower_loop
   Guid:
     Data1: 244997393
     Data2: 1331239197
@@ -91,9 +91,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Sfx_ui_pickable
+  m_Name: event:/sfx_ui_pickable
   m_EditorClassIdentifier: 
-  Path: event:/Sfx_ui_pickable
+  Path: event:/sfx_ui_pickable
   Guid:
     Data1: 924349803
     Data2: 1319271672
@@ -172,9 +172,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Sfx_fire_loop
+  m_Name: event:/sfx_fire_loop
   m_EditorClassIdentifier: 
-  Path: event:/Sfx_fire_loop
+  Path: event:/sfx_fire_loop
   Guid:
     Data1: -693059696
     Data2: 1145372574
@@ -297,6 +297,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2785654468461433126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/spells/Water/sfx_water_spell_impact
+  m_EditorClassIdentifier: 
+  Path: event:/spells/Water/sfx_water_spell_impact
+  Guid:
+    Data1: 1297738224
+    Data2: 1215979338
+    Data3: -1704528223
+    Data4: 1940403344
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2017273070756321204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,7 +339,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638735159926203465
+  lastModified: 638735246338862727
   FileSizes: []
   Exists: 1
 --- !u!114 &-1330632865554475431
@@ -325,9 +352,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Sfx_fireflower_pickup
+  m_Name: event:/sfx_fireflower_pickup
   m_EditorClassIdentifier: 
-  Path: event:/Sfx_fireflower_pickup
+  Path: event:/sfx_fireflower_pickup
   Guid:
     Data1: 83484089
     Data2: 1217763671
@@ -408,13 +435,45 @@ MonoBehaviour:
   - {fileID: 513867937701517478}
   - {fileID: 970409293998288564}
   - {fileID: 5149807152200490229}
+  - {fileID: 329387357420312703}
+  - {fileID: 6117103085030998844}
+  - {fileID: 5563557665113779036}
+  - {fileID: 581345297178169411}
+  - {fileID: -2785654468461433126}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2017273070756321204}
   StringsBanks:
   - {fileID: 3381557211253963980}
-  cacheTime: 638735159926228466
+  cacheTime: 638735246338887737
   cacheVersion: 131845
+--- !u!114 &329387357420312703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_ui_dialogue_popup_ghost
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_ui_dialogue_popup_ghost
+  Guid:
+    Data1: 2023174657
+    Data2: 1079564061
+    Data3: -1871258694
+    Data4: -334348290
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &513867937701517478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,6 +501,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 60000
+--- !u!114 &581345297178169411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Water/sfx_fire_extinguish
+  m_EditorClassIdentifier: 
+  Path: event:/Water/sfx_fire_extinguish
+  Guid:
+    Data1: 375814039
+    Data2: 1340588245
+    Data3: 384674995
+    Data4: 2019282728
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &970409293998288564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -479,9 +565,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Spells/Fire/sfx_fire_spell_impact
+  m_Name: event:/spells/Fire/sfx_fire_spell_impact
   m_EditorClassIdentifier: 
-  Path: event:/Spells/Fire/sfx_fire_spell_impact
+  Path: event:/spells/Fire/sfx_fire_spell_impact
   Guid:
     Data1: 187910922
     Data2: 1274605319
@@ -506,9 +592,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Spells/Fire/sfx_fire_spell_cast
+  m_Name: event:/spells/Fire/sfx_fire_spell_cast
   m_EditorClassIdentifier: 
-  Path: event:/Spells/Fire/sfx_fire_spell_cast
+  Path: event:/spells/Fire/sfx_fire_spell_cast
   Guid:
     Data1: -207481326
     Data2: 1334111761
@@ -565,7 +651,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638735159926228466
+  lastModified: 638735246338887737
   FileSizes: []
   Exists: 1
 --- !u!114 &5149807152200490229
@@ -578,9 +664,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Sfx_firewall_extinguish
+  m_Name: event:/sfx_firewall_extinguish
   m_EditorClassIdentifier: 
-  Path: event:/Sfx_firewall_extinguish
+  Path: event:/sfx_firewall_extinguish
   Guid:
     Data1: -1742503529
     Data2: 1330366216
@@ -589,7 +675,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -2017273070756321204}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -613,6 +699,33 @@ MonoBehaviour:
     Data2: 1213489950
     Data3: 72311980
     Data4: -106816311
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5563557665113779036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/spells/Water/sfx_water_spell_cast
+  m_EditorClassIdentifier: 
+  Path: event:/spells/Water/sfx_water_spell_cast
+  Guid:
+    Data1: -1694089650
+    Data2: 1258042161
+    Data3: -1745817944
+    Data4: 116763450
   Banks:
   - {fileID: -2017273070756321204}
   IsStream: 0
@@ -649,6 +762,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1500
+--- !u!114 &6117103085030998844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_ui_dialogue_popup_volcari
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_ui_dialogue_popup_volcari
+  Guid:
+    Data1: -2054510157
+    Data2: 1174961359
+    Data3: 1322572469
+    Data4: -411427969
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7881805432536876019
 MonoBehaviour:
   m_ObjectHideFlags: 0
