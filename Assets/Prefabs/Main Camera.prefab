@@ -604,6 +604,9 @@ MonoBehaviour:
   boolCastThreshold: {fileID: 11400000, guid: 31e02c862da24ad4eaa88fbb3ab648a3, type: 2}
   fireForce: 2000
   waterForce: 2000
+  fireAnimator: {fileID: 0}
+  waterAnimator: {fileID: 0}
+  isCastParamName: isCast
 --- !u!1 &2349424208370182401
 GameObject:
   m_ObjectHideFlags: 0

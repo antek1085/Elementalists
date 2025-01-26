@@ -5485,6 +5485,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 382302643581991085, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: colorUsedSlot.a
+      value: 0.03529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 382302643581991085, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: colorUnusedSlot.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4047689553017501825, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
       propertyPath: m_Name
       value: MainCanvas
@@ -6133,6 +6141,10 @@ PrefabInstance:
       propertyPath: m_fontColor.r
       value: 0.8156863
       objectReference: {fileID: 0}
+    - target: {fileID: 1533320554800104960, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278256080
+      objectReference: {fileID: 0}
     - target: {fileID: 2349424208370182401, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -6148,6 +6160,10 @@ PrefabInstance:
     - target: {fileID: 4104554713080851937, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
       propertyPath: m_fontColor.r
       value: 0.007843138
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104554713080851937, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291867906
       objectReference: {fileID: 0}
     - target: {fileID: 4329450386172919925, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
       propertyPath: orientation
