@@ -312,7 +312,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638735112373089694
+  lastModified: 638735159926203465
   FileSizes: []
   Exists: 1
 --- !u!114 &-1330632865554475431
@@ -407,12 +407,13 @@ MonoBehaviour:
   - {fileID: -5441518238668862801}
   - {fileID: 513867937701517478}
   - {fileID: 970409293998288564}
+  - {fileID: 5149807152200490229}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2017273070756321204}
   StringsBanks:
   - {fileID: 3381557211253963980}
-  cacheTime: 638735112373109702
+  cacheTime: 638735159926228466
   cacheVersion: 131845
 --- !u!114 &513867937701517478
 MonoBehaviour:
@@ -564,9 +565,36 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638735112373109702
+  lastModified: 638735159926228466
   FileSizes: []
   Exists: 1
+--- !u!114 &5149807152200490229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx_firewall_extinguish
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx_firewall_extinguish
+  Guid:
+    Data1: -1742503529
+    Data2: 1330366216
+    Data3: 802969748
+    Data4: -1507672953
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &5507840930159887465
 MonoBehaviour:
   m_ObjectHideFlags: 0

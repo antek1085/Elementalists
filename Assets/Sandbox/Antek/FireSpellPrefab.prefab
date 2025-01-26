@@ -76,6 +76,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blowEffect: {fileID: 0}
+  castSpellSound:
+    Guid:
+      Data1: -207481326
+      Data2: 1334111761
+      Data3: -564493151
+      Data4: -960728063
+    Path: event:/Spells/Fire/sfx_fire_spell_cast
+  impactSpellSound:
+    Guid:
+      Data1: 187910922
+      Data2: 1274605319
+      Data3: 1040960642
+      Data4: -1993841160
+    Path: event:/Spells/Fire/sfx_fire_spell_impact
   Type: 0
 --- !u!33 &6142051673535840259
 MeshFilter:
