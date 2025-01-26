@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4673736585398150859}
   - component: {fileID: 8692952257978148440}
   - component: {fileID: 6439543341607927379}
-  - component: {fileID: 4290287133057602543}
   - component: {fileID: 4633831523526792589}
   m_Layer: 0
   m_Name: Water
@@ -88,20 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4290287133057602543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6263245627480182244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2beb55a762f74684781eebba5236ca1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transportTarget: {fileID: 0}
-  playerTag: Player
 --- !u!65 &4633831523526792589
 BoxCollider:
   m_ObjectHideFlags: 0

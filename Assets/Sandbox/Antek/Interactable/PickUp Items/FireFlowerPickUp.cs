@@ -14,7 +14,7 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
     [SerializeField] bool canBePickedUp;
    [field: SerializeField] public Spell.spellType SpellType { get; set; }
 
-   [SerializeField] private EventReference loopEventPath;
+   [SerializeField] private EventReference loopEventPath; 
    private EventInstance loopEventInstance;
    void Awake()
     {
