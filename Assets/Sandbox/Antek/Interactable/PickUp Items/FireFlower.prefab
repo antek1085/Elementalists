@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 12.65, y: 12.65, z: 12.650001}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4490321507843482369}
@@ -125,28 +125,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireFlowerItem: {fileID: 201101733818804664}
   canBePickedUp: 1
-  <SpellType>k__BackingField: 0
-  pickupSoundPath:
+  <SpellType>k__BackingField: 1
+  pickUpSound:
     Guid:
       Data1: 83484089
       Data2: 1217763671
       Data3: 916776344
       Data4: -1801944554
     Path: event:/Sfx_fireflower_pickup
-  loopEventPath:
+  flowerLoop:
     Guid:
-      Data1: -693059696
-      Data2: 1145372574
-      Data3: 754257835
-      Data4: 1705198282
-    Path: event:/Sfx_fire_loop
-  pickableSoundPath:
-    Guid:
-      Data1: 1269650379
-      Data2: 1205127117
-      Data3: -754005573
-      Data4: -280759709
-    Path: event:/UI/sfx_ui_hover
+      Data1: 244997393
+      Data2: 1331239197
+      Data3: 1601707924
+      Data4: -878434716
+    Path: event:/Sfx_fireflower_loop
 --- !u!114 &-2413803718520655873
 MonoBehaviour:
   m_ObjectHideFlags: 0
