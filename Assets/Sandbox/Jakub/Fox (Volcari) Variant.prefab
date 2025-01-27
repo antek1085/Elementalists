@@ -143,6 +143,30 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: message.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: 'message.Array.data[0]'
+      value: Hi Traveller
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: 'message.Array.data[1]'
+      value: My magic is out of control
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: 'message.Array.data[2]'
+      value: Please help me restore peace
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: 'message.Array.data[3]'
+      value: Collect 4 flowers for me
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: 'message.Array.data[4]'
+      value: In order to collect item press E
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
       propertyPath: dialoguePopupSound.Path
       value: event:/sfx_ui_dialogue_popup_volcari
       objectReference: {fileID: 0}
@@ -161,6 +185,46 @@ PrefabInstance:
     - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
       propertyPath: dialoguePopupSound.Guid.Data4
       value: -411427969
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: timeToTextDisappear.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: 'timeToTextDisappear.Array.data[0]'
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: messageAfterGivenAllItems.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: messageAfterGivenRightItem.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: 'messageAfterGivenAllItems.Array.data[0]'
+      value: Thank you now my power is back to itself
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: 'messageAfterGivenRightItem.Array.data[0]'
+      value: ' You did it! Now give all of them'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: shortMessageAfterGivenWrongItem.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902367894034183835, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: 'shortMessageAfterGivenWrongItem.Array.data[0]'
+      value: Nope it s not it
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414864651200532507, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: objectToGive
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414864651200532507, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
+      propertyPath: numberOfFlowersToGive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8099134431705174949, guid: 35d2fba5a8870584a841c4290b4233b5, type: 3}
       propertyPath: m_Name
