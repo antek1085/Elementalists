@@ -167,7 +167,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 2298.4
-    height: 708.8
+    height: 803.2
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -190,8 +190,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 569.6
-    height: 708.8
+    width: 590.4
+    height: 803.2
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
@@ -214,10 +214,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 569.6
+    x: 590.4
     y: 0
-    width: 1728.7999
-    height: 708.8
+    width: 1707.9999
+    height: 803.2
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 13}
@@ -246,9 +246,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 708.8
+    y: 803.2
     width: 2298.4
-    height: 320.8
+    height: 226.39996
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 19}
@@ -2838,10 +2838,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 570.6
+    x: 591.4
     y: 24
-    width: 1726.7999
-    height: 682.8
+    width: 1705.9999
+    height: 777.2
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3536,9 +3536,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -29.468958, y: -14.952005, z: -7.949924}
+    m_Target: {x: 4.063868, y: -2.1067445, z: 1.7884369}
     speed: 2
-    m_Value: {x: -82.77854, y: 10.651417, z: -16.65003}
+    m_Value: {x: 4.063868, y: -2.1067445, z: 1.7884369}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3584,20 +3584,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.09234803, y: 0.80580896, z: -0.1209885, w: -0.5723952}
+    m_Target: {x: -0.07177504, y: 0.47256395, z: -0.031850956, w: -0.8789649}
     speed: 2
-    m_Value: {x: -0.25394058, y: 0.3523857, z: -0.10351242, w: -0.89580494}
+    m_Value: {x: -0.07177504, y: 0.47256398, z: -0.031850956, w: -0.8789649}
   m_Size:
-    m_Target: 24.479998
+    m_Target: 2.2683325
     speed: 2
-    m_Value: 1.7652081
+    m_Value: 2.2683325
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.4602705
-    m_SpeedNormalized: 0.73000026
+    m_Speed: 1.3403306
+    m_SpeedNormalized: 0.6700003
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -3644,8 +3644,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 24
-    width: 568.6
-    height: 682.8
+    width: 589.4
+    height: 777.2
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3662,7 +3662,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 82b0feff0249ffff005fffff3a61ffff3c63ffff7063ffffb664ffffce6ffffffc6fffffa47affff087dffff7280fffff080ffffe2b0ffff00b1ffffa6b3ffffb0b7ffffeeb8ffff4accffffa4cfffff10efffff86f1ffff96f1ffffb4f1ffffd4f1ffff36f3ffffbcf5ffff72f8ffffd2f8ffff00f9ffffe0faffff5cc400004ac50000b4c6000054c70000f6c700001cc80000f8c80000
+      m_ExpandedIDs: b259f6ffe69af6ff9ab8f7ff06bff7ff66bff7ff6ebff7ff56caf7fffaccf7fff4cef7ff74f5f7ff50fef7ff0400f8ff5a01f8ff2e03f8ff6e03f8ff8e03f8fff205f8ff8c0bf8ff960df8ffd20ef8ff9c16f8ffbc16f8ff7a17f8ff061cf8ff261cf8ffe41cf8ff8a1ef8ff1a32f8ff863bf8ff443cf8ffd64af8ff744ef8ffb24ff8ff7868f8ffd6faf9ff16fbf9ffb6c6faff1afafaff282efbff482efbff10bcfcffbac9fdffb6fcfdffd6fcfdff9c31feff9e5efeffe25efeff8078feff3079feff5079feff5248ffffda48fffff44cffff5a4effffaa4effffe84effff4a71ffff3877ffff9679fffffa7affff007bffff107bffffb07cffffd87dfffff280ffff5282ffff0a83ffffde89ffffa88bfffff88bffff3490ffffd290ffff4e99ffff6e99ffffae99ffffe699ffffa69bffff6a9cfffff4a4ffff34a5ffff54a5ffff94a5ffff18a7fffffea7ffff2ca8ffff4ea8ffff7ca8ffff7caeffffacaeffffcaaeffff46afffff66afffff86afffffbeafffff24b2ffffeab8ffff24baffffb2beffff58c8ffff78c8ffff22c9ffff98c9ffffb8c9ffffd8c9fffff8c9ffff18caffff38caffff66caffff70d0ffff74d3ffff32d4ffff52d7ffffe4dafffffedcffffd8defffffcdeffffb4dfffff8ee0fffffae3ffffd8e4ffff2ee9fffff4eaffff58ebffffd8ebffff06ecffff0eedffffdeedfffffeedffff42d40000ead5000036a40200e0a502005aa70200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3708,10 +3708,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 712
-    y: 79
-    width: 2159
-    height: 897
+    x: 590.4
+    y: 70.4
+    width: 1705.9999
+    height: 777.2
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3765,23 +3765,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 2159
-      height: 876
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 1079.5, y: 438}
+      width: 1705.9999
+      height: 756.2
+    m_Scale: {x: 0.8752315, y: 0.8752315}
+    m_Translation: {x: 852.99994, y: 378.1}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1079.5
-      y: -438
-      width: 2159
-      height: 876
+      x: -974.59924
+      y: -432
+      width: 1949.1985
+      height: 864
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 2159, y: 897}
+  m_defaultScale: 0.8752315
+  m_LastWindowPixelSize: {x: 1705.9999, y: 777.2}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -6510,9 +6510,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 732.8
+    y: 827.2
     width: 2297.4
-    height: 294.8
+    height: 200.39996
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -6535,7 +6535,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sandbox/Antek/Interactable/PickUp Items
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -6545,16 +6545,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 69
   m_LastFolders:
-  - Assets/Sandbox/Antek/Interactable/PickUp Items
+  - Assets
   m_LastFoldersGridSize: 69
-  m_LastProjectPath: G:\Git\Elementalist
+  m_LastProjectPath: K:\GitKraken_Repo\Elementalists\Elementalists
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 641}
-    m_SelectedIDs: 948f0e00
-    m_LastClickedID: 954260
-    m_ExpandedIDs: 00000000ae2e0100b02e0100b22e0100b42e0100b62e0100b82e0100
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: fa2f0100
+    m_LastClickedID: 77818
+    m_ExpandedIDs: 00000000882501008a2501008c2501008e250100902501009225010094250100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6583,7 +6583,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ae2e0100b02e0100b22e0100b42e0100b62e0100b82e0100
+    m_ExpandedIDs: 00000000882501008a2501008c2501008e250100902501009225010094250100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6663,9 +6663,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 1002
-    width: 2872
-    height: 392
+    y: 779.2
+    width: 2297.4
+    height: 294.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
