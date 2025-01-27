@@ -209,7 +209,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &362919922
 RectTransform:
   m_ObjectHideFlags: 0
@@ -517,7 +517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exit
+  m_text: "Wyjd\u017A"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1a18f074c4502f438cc90c8c33d906d, type: 2}
   m_sharedMaterial: {fileID: 4654477088234740845, guid: d1a18f074c4502f438cc90c8c33d906d, type: 2}
@@ -1159,7 +1159,7 @@ RectTransform:
   m_GameObject: {fileID: 1160196438}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.26, y: 0.40000004, z: 1}
+  m_LocalScale: {x: 1.576134, y: 0.40000004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1754032674}
@@ -1167,7 +1167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -121, y: 109}
+  m_AnchoredPosition: {x: -123.4, y: 109}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1160196440
@@ -1762,14 +1762,14 @@ RectTransform:
   m_GameObject: {fileID: 1754032673}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7936508, y: 2.4999998, z: 1}
+  m_LocalScale: {x: 0.63446385, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1160196439}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.4000015, y: 3}
+  m_AnchoredPosition: {x: 6.7, y: 2.9999466}
   m_SizeDelta: {x: 60, y: -70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1754032675
@@ -1792,7 +1792,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start
+  m_text: Rozpocznij
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1a18f074c4502f438cc90c8c33d906d, type: 2}
   m_sharedMaterial: {fileID: 4654477088234740845, guid: d1a18f074c4502f438cc90c8c33d906d, type: 2}
@@ -1857,7 +1857,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 14.284111, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1908,7 +1908,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -121, y: 14}
+  m_AnchoredPosition: {x: -121, y: 55}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1972366408

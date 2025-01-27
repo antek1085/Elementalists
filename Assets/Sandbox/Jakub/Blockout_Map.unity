@@ -8915,6 +8915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 874849630983395836, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
+      propertyPath: interactionText
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2834231367614045733, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: jumpForce
       value: 5
@@ -48475,17 +48479,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 606757239782553545, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4047689553017501825, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
       propertyPath: m_Name
       value: MainCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 5150138850815115610, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -58854,6 +58850,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4728233556038708426, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
   m_PrefabInstance: {fileID: 2117959102}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2117959104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 201101733818804664, guid: 123de703e3a8b424794c7d49bd6f608b, type: 3}
+  m_PrefabInstance: {fileID: 2117959102}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2126610720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59276,51 +59277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fox (Volcari)
       objectReference: {fileID: 0}
-    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
-      propertyPath: 'message.Array.data[0]'
-      value: "Na twoim miejscu zatrzyma\u0142bym si\u0119 tu i teraz. M\xF3j ogie\u0144
-        nie zna lito\u015Bci. Wszystko p\xF3jdzie z dymem!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
-      propertyPath: 'message.Array.data[1]'
-      value: "Pr\xF3buj\u0119 go okie\u0142zna\u0107, ale nie potrafi\u0119! "
-      objectReference: {fileID: 0}
-    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
-      propertyPath: 'message.Array.data[2]'
-      value: "Czuj\u0119, \u017Ce masz przy sobie rzecz,  kt\xF3ra mo\u017Ce mi pom\xF3c.
-        M\xF3wi\u0119 o P\u0142omienniku."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
-      propertyPath: 'message.Array.data[3]'
-      value: "Przynie\u015B mi pi\u0119\u0107 takich kwiat\xF3w, bym m\xF3g\u0142
-        nakarmi\u0107 nimi sw\xF3j nieposkromiony \u017Cywio\u0142."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
-      propertyPath: 'message.Array.data[4]'
-      value: "Czuj\u0119 je, niekt\xF3re bli\u017Cej, niekt\xF3re dalej, jestem zbyt
-        s\u0142aby aby samemu si\u0119 po nie uda\u0107."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
-      propertyPath: 'messageAfterGivenAllItems.Array.data[0]'
-      value: "Dzi\u0119kuj\u0119 za ten dar."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
-      propertyPath: 'messageAfterGivenRightItem.Array.data[0]'
-      value: "Dzi\u0119kuj\u0119 za ten dar."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
-      propertyPath: shortMessageAfterGivenWrongItem.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
-      propertyPath: 'shortMessageAfterGivenWrongItem.Array.data[0]'
-      value: "Czuj\u0119 je, niekt\xF3re bli\u017Cej, niekt\xF3re dalej, jestem zbyt
-        s\u0142aby aby samemu si\u0119 po nie uda\u0107."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
-      propertyPath: 'shortMessageAfterGivenWrongItem.Array.data[1]'
-      value: "Czy znalaz\u0142e\u015B ju\u017C pi\u0119\u0107 p\u0142omiennik\xF3w?"
-      objectReference: {fileID: 0}
+    - target: {fileID: 8388034649039406991, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: objectToGive
+      value: 
+      objectReference: {fileID: 2117959104}
     - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -86.84
