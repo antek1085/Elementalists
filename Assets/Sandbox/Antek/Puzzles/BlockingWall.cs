@@ -10,6 +10,10 @@ public class BlockingWall : MonoBehaviour
     [SerializeField] EventReference passiveLoopSound;
     [SerializeField] EventReference destroySound;
 
+    [Header("NPC Transition")] //after wall is destroyed - enable another npc
+    [SerializeField] private GameObject npcToSwap; 
+    [SerializeField] private GameObject npcSwapped;
+    
     private EventInstance loopInstance;
     private void Start()
     {
@@ -32,6 +36,16 @@ public class BlockingWall : MonoBehaviour
     void OnSpellHit()
     {
         RuntimeManager.PlayOneShotAttached(destroySound, gameObject); // destroy sound
+        // Swap NPC's 
+        if (npcToSwap != null)
+        {
+            npcToSwap.SetActive(false);
+        }
+        if (npcSwapped != null)
+        {
+            npcSwapped.SetActive(true);
+        }
+        
         Destroy(gameObject);
     }
 
