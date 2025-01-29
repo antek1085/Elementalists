@@ -6,11 +6,14 @@ public class NeuralNetworkImageCheck : MonoBehaviour
 {
      public ModelAsset onnxAsset;
      private Model runTimeModel;
+     private Model feedBackModel;
      private Worker worker;
+     private Worker feedBackWorker;
 
       private void Awake()
       {
           runTimeModel = ModelLoader.Load(onnxAsset);
+          feedBackModel = ModelLoader.Load(onnxAsset);
       }
       
       public void RunModel(Texture2D imageToRecognise)
@@ -35,13 +38,13 @@ public class NeuralNetworkImageCheck : MonoBehaviour
       {
           Tensor<float> inputTensor = TextureConverter.ToTensor(imageToRecognise,
           new TextureTransform().SetTensorLayout(TensorLayout.NHWC));
-          worker = new Worker(runTimeModel, BackendType.GPUCompute);
+          feedBackWorker = new Worker(feedBackModel, BackendType.GPUCompute);
           
-          worker.Schedule(inputTensor);
+          feedBackWorker.Schedule(inputTensor);
           inputTensor.Dispose();
-          Tensor<float> outputTensorFire = worker.PeekOutput(0) as Tensor<float>;
+          Tensor<float> outputTensorFire = feedBackWorker.PeekOutput(0) as Tensor<float>;
           float[] outputData = outputTensorFire?.DownloadToArray();
-          worker.Dispose();
+          feedBackWorker.Dispose();
           outputTensorFire.Dispose();
 
           // Fire Spell 0  ||| Water Spell 1
