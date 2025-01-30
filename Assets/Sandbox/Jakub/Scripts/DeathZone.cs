@@ -6,6 +6,7 @@ public class DeathZone : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if(other.transform.parent == null) return;
         Rigidbody playerRigidbody = other.transform.parent.GetComponent<Rigidbody>();
         if (playerRigidbody != null) 
         {

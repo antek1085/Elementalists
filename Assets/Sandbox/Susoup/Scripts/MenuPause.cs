@@ -32,7 +32,7 @@ public class MenuPause : MonoBehaviour
         if(!input) return;
         
         // Sprawdź, czy klawisz E został naciśnięty
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.Escape))
         {
             if (targetObject != null)
             {

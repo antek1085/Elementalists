@@ -19,7 +19,6 @@ public class ActivateSpellCasting : MonoBehaviour
     }
     void ChangeInput(GameObject obj)
     {
-        Debug.Log(obj);
         if (obj != gameObject)
         {
             input = false;
