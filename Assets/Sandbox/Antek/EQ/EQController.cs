@@ -6,7 +6,15 @@ public class EQController : MonoBehaviour
    [SerializeField] SO_GameObject_List EQList;
    float mouseScrollWheelValue;
    int selectedEQ;
-   
+
+   void Awake()
+   {
+      for (int i = 0; i < EQList.objectList.Count; i++)
+      {
+         EQList.objectList[i] = null;
+      }
+   }
+
 
    void Update()
    {
@@ -52,12 +60,12 @@ public class EQController : MonoBehaviour
       {
          switch (mouseScrollWheelValue)
          {
-            case 0.1f :
+            case -0.1f :
                selectedEQ += 1;
                if(selectedEQ > 4) selectedEQ = 0;
                SendEventsOnChangingSlot(selectedEQ);
                break;
-            case -0.1f :
+            case 0.1f :
                selectedEQ -= 1;
                if(selectedEQ < 0) selectedEQ = 4;
                SendEventsOnChangingSlot(selectedEQ);

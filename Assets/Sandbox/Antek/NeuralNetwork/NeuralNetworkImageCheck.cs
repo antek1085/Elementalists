@@ -58,7 +58,10 @@ public class NeuralNetworkImageCheck : MonoBehaviour
 
       void OnDestroy()
       {
-          worker.Dispose();
+          if (worker != null)
+          {
+              worker.Dispose();
+          }
       }
       void OnDisable()
       {

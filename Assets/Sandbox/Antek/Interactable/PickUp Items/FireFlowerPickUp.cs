@@ -3,6 +3,7 @@ using System.Collections;
 using FMOD.Studio;
 using FMODUnity;
 using UnityEngine;
+using UnityEngine.VFX;
 using STOP_MODE = FMODUnity.STOP_MODE;
 
 [RequireComponent(typeof(ItemInformation))]
@@ -12,6 +13,10 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
     
     //public Spell.spellType spellType;
     [SerializeField] bool canBePickedUp;
+    public bool IcanBePickedUp()
+    {
+        return canBePickedUp;
+    }
     [field: SerializeField] public Spell.spellType SpellType { get; set; }
 
     [Header("SOUNDS")] 
@@ -23,6 +28,11 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
         flowerLoopInstance = RuntimeManager.CreateInstance(flowerLoop);
         flowerLoopInstance.set3DAttributes(RuntimeUtils.To3DAttributes(transform.position));
         flowerLoopInstance.start();
+
+        if (canBePickedUp)
+        {
+            GetComponentInChildren<VisualEffect>().Stop();
+        }
         /*canBePickedUp = false;*/
     }
 
@@ -36,6 +46,7 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
         if (other.GetComponent<Spell>() != null && other.GetComponent<Spell>().Type == SpellType)
         {
             canBePickedUp = true;
+            GetComponentInChildren<VisualEffect>().Stop();
         }
     }
 

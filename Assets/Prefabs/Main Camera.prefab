@@ -924,7 +924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d725441fd3476142a100376c2747884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onnxAsset: {fileID: 5022602860645237092, guid: 1f0642304bc7af64b8286f06ed31b0af, type: 3}
+  onnxAsset: {fileID: 5022602860645237092, guid: 71ebe0ce7e2a6fd4d9c08c23b154e2cc, type: 3}
 --- !u!1 &3507306314657088960
 GameObject:
   m_ObjectHideFlags: 0

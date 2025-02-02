@@ -12,8 +12,8 @@ public class EQUIController : MonoBehaviour
     [SerializeField] SO_GameObject_List EQList;
     void Start()
     {
-        EQEvent.current.onSlotChangedUI += SlotChangedUI;
-        EQEvent.current.onItemStateChanged += StateChanged;
+        EQEvent.current.OnSlotChangedUI += SlotChangedUI;
+        EQEvent.current.OnItemStateChanged += StateChanged;
     }
     
     
@@ -25,9 +25,15 @@ public class EQUIController : MonoBehaviour
         {
             case true:
                 transform.GetChild(choosedSlot).GetChild(0).GetComponent<Image>().sprite = EQList.objectList[choosedSlot].GetComponent<ItemInformation>().icon;
+                var color2 = transform.GetChild(choosedSlot).GetChild(0).GetComponent<Image>().color;
+                color2.a = 1;
+                transform.GetChild(choosedSlot).GetChild(0).GetComponent<Image>().color = color2;
                 break;
             case false:
                 transform.GetChild(choosedSlot).GetChild(0).GetComponent<Image>().sprite = null;
+                var color1 = transform.GetChild(choosedSlot).GetChild(0).GetComponent<Image>().color;
+                color1.a = 0;
+                transform.GetChild(choosedSlot).GetChild(0).GetComponent<Image>().color = color1;
                 break;
         }
     }

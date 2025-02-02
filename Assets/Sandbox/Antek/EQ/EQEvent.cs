@@ -9,36 +9,36 @@ public class EQEvent : MonoBehaviour
       current = this;
    }
 
-   public event Action<int> onSlotChanged;
+   public event Action<int> OnSlotChanged;
 
    public void SlotChanged(int slot)
    {
-      if (onSlotChanged != null)
+      if (OnSlotChanged != null)
       {
-         onSlotChanged(slot);
+         OnSlotChanged(slot);
       }
    }
 
-   public event Action<int> onSlotChangedUI;
+   public event Action<int> OnSlotChangedUI;
 
    public void SlotChangedUI(int slot)
    {
-      if (onSlotChangedUI != null)
+      if (OnSlotChangedUI != null)
       {
-         onSlotChangedUI(slot);
+         OnSlotChangedUI(slot);
       }
    }
    
    
-   public event Action<bool> onItemStateChanged;
+   public event Action<bool> OnItemStateChanged;
 
    
    //True == added to EQ False == used/dropped and anything else
    public void ItemStateChanged(bool state)
    {
-      if (onItemStateChanged != null)
+      if (OnItemStateChanged != null)
       {
-         onItemStateChanged(state);
+         OnItemStateChanged(state);
       }
    }
 }

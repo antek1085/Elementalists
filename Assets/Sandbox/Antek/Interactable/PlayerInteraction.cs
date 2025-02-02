@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
@@ -8,13 +9,16 @@ public class PlayerInteraction : MonoBehaviour
     int slotChoosed;
     Camera mainCamera;
     bool input;
+    
+    [SerializeField] TextMeshProUGUI uiInteractText;
 
 
 
     void Start()
     {
+        uiInteractText.enabled = false;
         mainCamera = Camera.main;
-        EQEvent.current.onSlotChanged += i => slotChoosed = i;
+        EQEvent.current.OnSlotChanged += i => slotChoosed = i;
         StopInputEvent.current.OnStopInput += ChangeInput;
         input = true;
     }
@@ -32,34 +36,20 @@ public class PlayerInteraction : MonoBehaviour
     }
     void Update()
     {
-        if(input == false) return;
+        if (input == false)
+        {
+            uiInteractText.enabled = false;
+            return;
+        }
         
         if (Input.GetKeyUp(KeyCode.E))
         {
-            RaycastHit hitInfo;
-            
-            if (Physics.Raycast(mainCamera.transform.position,mainCamera.transform.forward,out hitInfo,rayCastDistance,layerMask))
-            {
-                Debug.Log(hitInfo.collider.gameObject.name);
-                IPickable pickable = hitInfo.transform.GetComponent<IPickable>();
-                if (pickable != null)
-                {
-                    Debug.LogFormat("1");
-                    PickUpItemToEq(pickable);
-                    return;
-                }
-
-
-                IAnimalInteractable animalInteractable = hitInfo.transform.GetComponent<IAnimalInteractable>();
-                if (animalInteractable != null)
-                {
-                    AnimalInteraction(animalInteractable);
-                    return;
-                }
-
-            }
+            Interaction();
         }
-    } 
+        
+        UiInteraction();
+        
+    }
     void AnimalInteraction(IAnimalInteractable animalInteractable)
     {
         //Player Interact with Animal
@@ -98,5 +88,62 @@ public class PlayerInteraction : MonoBehaviour
                 Debug.Log("Full Slot"); 
                 break;
         }  
+    }
+    
+    void Interaction()
+    {
+
+        RaycastHit hitInfo;
+
+        if (Physics.Raycast(mainCamera.transform.position,mainCamera.transform.forward,out hitInfo,rayCastDistance,layerMask))
+        {
+            Debug.Log(hitInfo.collider.gameObject.name);
+            IPickable pickable = hitInfo.transform.GetComponent<IPickable>();
+            if (pickable != null)
+            {
+                Debug.LogFormat("1");
+                PickUpItemToEq(pickable);
+                return;
+            }
+
+
+            IAnimalInteractable animalInteractable = hitInfo.transform.GetComponent<IAnimalInteractable>();
+            if (animalInteractable != null)
+            {
+                AnimalInteraction(animalInteractable);
+                return;
+            }
+
+        }
+    }
+
+    void UiInteraction()
+    {
+        RaycastHit hitInfo;  
+        
+        if (Physics.Raycast(mainCamera.transform.position,mainCamera.transform.forward,out hitInfo,rayCastDistance,layerMask))
+        {
+            IPickable pickable = hitInfo.transform.GetComponent<IPickable>();
+            if (pickable != null && pickable.IcanBePickedUp() == true)
+            {
+                uiInteractText.enabled = true;
+                uiInteractText.text = "Naciśnij E żeby podnieść";
+                return;
+            }
+
+
+            IAnimalInteractable animalInteractable = hitInfo.transform.GetComponent<IAnimalInteractable>();
+            if (animalInteractable != null)
+            {
+               uiInteractText.enabled = true;
+               uiInteractText.text = "Naciśnij E żeby porozmawiać";
+                return;
+            }
+        }
+        
+        if (uiInteractText.enabled == true)
+        {
+            uiInteractText.enabled = false;
+        }
     }
 }
