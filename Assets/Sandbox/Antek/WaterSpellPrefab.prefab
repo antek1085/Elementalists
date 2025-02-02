@@ -76,6 +76,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blowEffect: {fileID: 0}
+  castSpellSound:
+    Guid:
+      Data1: -1694089650
+      Data2: 1258042161
+      Data3: -1745817944
+      Data4: 116763450
+    Path: event:/spells/Water/sfx_water_spell_cast
+  impactSpellSound:
+    Guid:
+      Data1: 1297738224
+      Data2: 1215979338
+      Data3: -1704528223
+      Data4: 1940403344
+    Path: event:/spells/Water/sfx_water_spell_impact
   Type: 1
 --- !u!33 &6142051673535840259
 MeshFilter:

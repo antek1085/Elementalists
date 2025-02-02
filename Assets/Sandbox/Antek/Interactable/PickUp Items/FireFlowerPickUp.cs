@@ -22,6 +22,7 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
     [Header("SOUNDS")] 
     [SerializeField] private EventReference pickUpSound;
     [SerializeField] private EventReference flowerLoop;
+    [SerializeField] private EventReference pickableSound;
     private EventInstance flowerLoopInstance; 
     void Awake()
     {
@@ -46,6 +47,8 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
         if (other.GetComponent<Spell>() != null && other.GetComponent<Spell>().Type == SpellType)
         {
             canBePickedUp = true;
+            Debug.Log("Pickable");
+            RuntimeManager.PlayOneShotAttached(pickableSound,gameObject); // pickable sound feedback
             GetComponentInChildren<VisualEffect>().Stop();
         }
     }

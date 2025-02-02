@@ -81,33 +81,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-6389813217434787755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/sfx_ui_pickable
-  m_EditorClassIdentifier: 
-  Path: event:/sfx_ui_pickable
-  Guid:
-    Data1: 924349803
-    Data2: 1319271672
-    Data3: -980068173
-    Data4: -241035955
-  Banks:
-  - {fileID: -2017273070756321204}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-6307956363914213846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,6 +189,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4392465519604446523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_fireflower_pickable
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_fireflower_pickable
+  Guid:
+    Data1: -1543658840
+    Data2: 1147815132
+    Data3: 1189760188
+    Data4: 473122248
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4030302406634445105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -2017273070756321204}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -339,7 +339,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638735921511732101
+  lastModified: 638741128681032534
   FileSizes: []
   Exists: 1
 --- !u!114 &-1330632865554475431
@@ -421,7 +421,6 @@ MonoBehaviour:
   - {fileID: -7885762748406061669}
   - {fileID: -7528880101940382479}
   - {fileID: 8358003663770424861}
-  - {fileID: -6389813217434787755}
   - {fileID: 5634834687943149747}
   - {fileID: -6127559257842655029}
   - {fileID: 5507840930159887465}
@@ -440,12 +439,14 @@ MonoBehaviour:
   - {fileID: 5563557665113779036}
   - {fileID: 581345297178169411}
   - {fileID: -2785654468461433126}
+  - {fileID: -4392465519604446523}
+  - {fileID: 7031838421875569608}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2017273070756321204}
   StringsBanks:
   - {fileID: 3381557211253963980}
-  cacheTime: 638735921511732101
+  cacheTime: 638741128681072548
   cacheVersion: 131845
 --- !u!114 &329387357420312703
 MonoBehaviour:
@@ -651,7 +652,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638735919223858983
+  lastModified: 638741128681072548
   FileSizes: []
   Exists: 1
 --- !u!114 &5149807152200490229
@@ -679,7 +680,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 30
   Length: 0
 --- !u!114 &5507840930159887465
 MonoBehaviour:
@@ -780,6 +781,33 @@ MonoBehaviour:
     Data2: 1174961359
     Data3: 1322572469
     Data4: -411427969
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7031838421875569608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_footstep
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_footstep
+  Guid:
+    Data1: -438040239
+    Data2: 1154405035
+    Data3: 130559650
+    Data4: 1070286467
   Banks:
   - {fileID: -2017273070756321204}
   IsStream: 0

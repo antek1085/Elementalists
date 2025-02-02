@@ -1,4 +1,5 @@
 using System;
+using FMODUnity;
 using UnityEngine;
 
 public class MenuPause : MonoBehaviour
@@ -9,6 +10,10 @@ public class MenuPause : MonoBehaviour
     private bool isPaused = false; // Czy gra jest w trybie pauzy
     private bool input;
 
+    [Header("Sounds")]
+    [SerializeField] private EventReference menuSoundOpen;
+    [SerializeField] private EventReference menuSoundClose;
+    
 
     void Start()
     {
@@ -61,6 +66,7 @@ public class MenuPause : MonoBehaviour
    void PauseGame()
     {
         StopInputEvent.current.StopInput(gameObject);
+        RuntimeManager.PlayOneShot(menuSoundOpen);// Open UI sound
         Cursor.lockState = CursorLockMode.None; // Odblokowanie kursora
         Cursor.visible = true; // Uwidocznienie kursora
         targetObject.SetActive(true); // Włącz menu pauzy
@@ -72,6 +78,7 @@ public class MenuPause : MonoBehaviour
      {
          StopInputEvent.current.StopInput(null);
         isPaused = false; 
+        RuntimeManager.PlayOneShot(menuSoundClose);// Close UI Sound
         Cursor.lockState = CursorLockMode.Locked; // Zablokowanie kursora
         Cursor.visible = false; // Ukrycie kursora
         targetObject.SetActive(false); // Wyłącz menu pauzy
