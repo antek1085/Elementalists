@@ -68,7 +68,8 @@ public class AnimalUI : MonoBehaviour
                         
                         //Demo Script
                         endOfDemo.canBeInteractedWith = true;
-                        objectToShow.SetActive(true);
+                        
+                        if(objectToShow != null)objectToShow.SetActive(true);
                         
                         
                         Destroy(this.gameObject);
