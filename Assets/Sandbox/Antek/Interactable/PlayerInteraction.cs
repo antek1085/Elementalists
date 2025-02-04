@@ -97,11 +97,9 @@ public class PlayerInteraction : MonoBehaviour
 
         if (Physics.Raycast(mainCamera.transform.position,mainCamera.transform.forward,out hitInfo,rayCastDistance,layerMask))
         {
-            Debug.Log(hitInfo.collider.gameObject.name);
             IPickable pickable = hitInfo.transform.GetComponent<IPickable>();
             if (pickable != null)
             {
-                Debug.LogFormat("1");
                 PickUpItemToEq(pickable);
                 return;
             }
@@ -112,6 +110,11 @@ public class PlayerInteraction : MonoBehaviour
             {
                 AnimalInteraction(animalInteractable);
                 return;
+            }
+
+            if (hitInfo.transform.GetComponent<EndOfDemo>() != null)
+            {
+                hitInfo.transform.GetComponent<EndOfDemo>().EndingDemo();
             }
 
         }
