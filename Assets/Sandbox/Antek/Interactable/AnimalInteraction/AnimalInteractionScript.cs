@@ -24,6 +24,7 @@ public class AnimalInteractionScript : MonoBehaviour,IAnimalInteractable
 
     public bool AnimalInteraction(GameObject item)
     {
+        Debug.Log(item);
         if (item == objectToGive)
         {
             GivenRightItem();

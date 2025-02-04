@@ -7,7 +7,7 @@ public class EQController : MonoBehaviour
    float mouseScrollWheelValue;
    int selectedEQ;
 
-   void Awake()
+   void Start()
    {
       for (int i = 0; i < EQList.objectList.Count; i++)
       {

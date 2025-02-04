@@ -7,6 +7,11 @@ using UnityEngine.Serialization;
 
 public class AnimalUI : MonoBehaviour
 {
+    [Header("Only for Demo")]
+    [SerializeField] EndOfDemo endOfDemo;
+    [SerializeField] GameObject objectToShow;
+    
+    
     [Header("Main Information")]
     [SerializeField] string animalName;
     [SerializeField] Sprite animalSprite; 
@@ -60,6 +65,12 @@ public class AnimalUI : MonoBehaviour
 
                     case true:
                         AnimalUiEvents.current.DialogueBoxPopUp(messageAfterGivenAllItems,animalName,animalSprite);
+                        
+                        //Demo Script
+                        endOfDemo.canBeInteractedWith = true;
+                        objectToShow.SetActive(true);
+                        
+                        
                         Destroy(this.gameObject);
                         break;
                     case false:
