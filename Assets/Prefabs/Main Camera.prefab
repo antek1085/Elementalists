@@ -552,6 +552,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   drawCamera: {fileID: 3009065816368496370}
   brush: {fileID: 3372610087388414484, guid: d6d7280976994974881057e10df41ecf, type: 3}
+  drawSound:
+    Guid:
+      Data1: -234990335
+      Data2: 1288097597
+      Data3: 549556156
+      Data4: 1315228138
+    Path: event:/Interaction/sfx_spell_draw_loop
+  eraseSound:
+    Guid:
+      Data1: -296470378
+      Data2: 1106333323
+      Data3: -1038167120
+      Data4: 937074252
+    Path: event:/Interaction/sfx_ui_spell_erase
   layerMask:
     serializedVersion: 2
     m_Bits: 128
