@@ -17,6 +17,7 @@ public class EndOfDemo : MonoBehaviour
     {
         if (canBeInteractedWith)
         {
+            Debug.Log("Ending Demo");
             SceneManager.LoadScene(sceneToLoad);
         }
     }

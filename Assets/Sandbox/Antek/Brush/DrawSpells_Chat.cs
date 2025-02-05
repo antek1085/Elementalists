@@ -41,7 +41,7 @@ public class DrawSpells_Chat : MonoBehaviour
         
         //Cleaning the canvas of spell
         
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             if (Input.GetKey(KeyCode.Mouse0))
             {
@@ -52,7 +52,7 @@ public class DrawSpells_Chat : MonoBehaviour
         
         //Sending information to Neural Network
         
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             ScreenShotHandler.TakeScreenshot_Static();
         }
