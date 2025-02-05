@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: af29e4d6b5ada10438f9e9b5bb6d19d3
+guid: fa35d75604d172d48b7a6b62a07c7dbf
+timeCreated: 1472572134
+licenseType: Store
 NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -12,5 +12,5 @@ AssetOrigin:
   packageName: Particle Pack
   packageVersion: 3.1
   assetPath: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion
-    Effects/Materials/LargeFlame01.mat
+    Effects/Prefabs/ParticlesLight.prefab
   uploadId: 691001

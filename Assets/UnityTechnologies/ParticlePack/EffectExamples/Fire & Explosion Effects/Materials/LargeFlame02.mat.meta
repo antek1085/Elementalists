@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: af29e4d6b5ada10438f9e9b5bb6d19d3
+guid: b25dd701bdc692249907c8b4e4b784b2
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
@@ -12,5 +12,5 @@ AssetOrigin:
   packageName: Particle Pack
   packageVersion: 3.1
   assetPath: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion
-    Effects/Materials/LargeFlame01.mat
+    Effects/Materials/LargeFlame02.mat
   uploadId: 691001
