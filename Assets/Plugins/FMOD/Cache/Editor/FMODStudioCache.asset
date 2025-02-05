@@ -25,7 +25,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 15
+  MaxDistance: 18
   Length: 22153
 --- !u!114 &-7885762748406061669
 MonoBehaviour:
@@ -339,7 +339,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638742268933317337
+  lastModified: 638743720990815866
   FileSizes: []
   Exists: 1
 --- !u!114 &-1330632865554475431
@@ -437,16 +437,16 @@ MonoBehaviour:
   - {fileID: 329387357420312703}
   - {fileID: 6117103085030998844}
   - {fileID: 5563557665113779036}
-  - {fileID: 581345297178169411}
   - {fileID: -2785654468461433126}
   - {fileID: -4392465519604446523}
   - {fileID: 7031838421875569608}
+  - {fileID: 980298982157215126}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2017273070756321204}
   StringsBanks:
   - {fileID: 3381557211253963980}
-  cacheTime: 638742268933327296
+  cacheTime: 638743720990855869
   cacheVersion: 131845
 --- !u!114 &329387357420312703
 MonoBehaviour:
@@ -502,33 +502,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 60000
---- !u!114 &581345297178169411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Water/sfx_fire_extinguish
-  m_EditorClassIdentifier: 
-  Path: event:/Water/sfx_fire_extinguish
-  Guid:
-    Data1: 375814039
-    Data2: 1340588245
-    Data3: 384674995
-    Data4: 2019282728
-  Banks:
-  - {fileID: -2017273070756321204}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &970409293998288564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,6 +520,33 @@ MonoBehaviour:
     Data2: 1202358325
     Data3: -1000608092
     Data4: -2141013104
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &980298982157215126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction/sfx_ui_spell_erase
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction/sfx_ui_spell_erase
+  Guid:
+    Data1: -296470378
+    Data2: 1106333323
+    Data3: -1038167120
+    Data4: 937074252
   Banks:
   - {fileID: -2017273070756321204}
   IsStream: 0
@@ -652,7 +652,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638742268933327296
+  lastModified: 638743720990855869
   FileSizes: []
   Exists: 1
 --- !u!114 &5149807152200490229
