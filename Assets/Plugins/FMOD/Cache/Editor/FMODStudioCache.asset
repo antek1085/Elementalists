@@ -25,7 +25,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 18
+  MaxDistance: 20
   Length: 22153
 --- !u!114 &-7885762748406061669
 MonoBehaviour:
@@ -72,6 +72,33 @@ MonoBehaviour:
     Data2: 1095427005
     Data3: 420158382
     Data4: -509135395
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7380069575881864895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_ui_dialogue_popup_self
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_ui_dialogue_popup_self
+  Guid:
+    Data1: -144301428
+    Data2: 1172413896
+    Data3: 425744783
+    Data4: 1628923692
   Banks:
   - {fileID: -2017273070756321204}
   IsStream: 0
@@ -160,7 +187,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 2
-  MaxDistance: 25
+  MaxDistance: 40
   Length: 35555
 --- !u!114 &-5441518238668862801
 MonoBehaviour:
@@ -322,7 +349,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 30
   Length: 0
 --- !u!114 &-2017273070756321204
 MonoBehaviour:
@@ -339,7 +366,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638743720990815866
+  lastModified: 638743771549444626
   FileSizes: []
   Exists: 1
 --- !u!114 &-1330632865554475431
@@ -441,12 +468,14 @@ MonoBehaviour:
   - {fileID: -4392465519604446523}
   - {fileID: 7031838421875569608}
   - {fileID: 980298982157215126}
+  - {fileID: -7380069575881864895}
+  - {fileID: 5649832328188781725}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2017273070756321204}
   StringsBanks:
   - {fileID: 3381557211253963980}
-  cacheTime: 638743720990855869
+  cacheTime: 638743771549484634
   cacheVersion: 131845
 --- !u!114 &329387357420312703
 MonoBehaviour:
@@ -652,7 +681,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638743720990855869
+  lastModified: 638743771549484634
   FileSizes: []
   Exists: 1
 --- !u!114 &5149807152200490229
@@ -763,6 +792,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1500
+--- !u!114 &5649832328188781725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_fire_loop_volcari_background
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_fire_loop_volcari_background
+  Guid:
+    Data1: -299575915
+    Data2: 1200921725
+    Data3: -737142596
+    Data4: -1502580565
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 2
+  MaxDistance: 15
+  Length: 35555
 --- !u!114 &6117103085030998844
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -22,7 +22,6 @@ public class EndOfDemo : MonoBehaviour
         }
     }
 
-
     public void DemoButton()
     {
         SceneManager.LoadScene("MainMenu");

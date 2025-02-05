@@ -142,6 +142,13 @@ public class PlayerInteraction : MonoBehaviour
                uiInteractText.text = "Naciśnij E żeby porozmawiać";
                 return;
             }
+
+            if (hitInfo.transform.GetComponent<EndOfDemo>() != null)
+            {
+                uiInteractText.enabled = true;
+                uiInteractText.text = "Naciśnij E żeby odpocząć";
+                return;
+            }
         }
         
         if (uiInteractText.enabled == true)
