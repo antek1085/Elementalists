@@ -189,6 +189,30 @@ MonoBehaviour:
   MinDistance: 2
   MaxDistance: 40
   Length: 35555
+--- !u!114 &-5919153819189062456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambient/zone_fire
+  m_EditorClassIdentifier: 
+  Name: zone_fire
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2406657861
+    data2: 4083372627
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5441518238668862801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,6 +294,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3906104739891642496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambient/zone_tutorial
+  m_EditorClassIdentifier: 
+  Name: zone_tutorial
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3968821584
+    data2: 1356815016
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3325119996329587666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,7 +414,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638773711001279214
+  lastModified: 638788801228092568
   FileSizes: []
   Exists: 1
 --- !u!114 &-1330632865554475431
@@ -470,12 +518,14 @@ MonoBehaviour:
   - {fileID: 980298982157215126}
   - {fileID: -7380069575881864895}
   - {fileID: 5649832328188781725}
+  - {fileID: 7862354049410762518}
+  - {fileID: 8213825775907966684}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2017273070756321204}
   StringsBanks:
   - {fileID: 3381557211253963980}
-  cacheTime: 638773711001282511
+  cacheTime: 638788801228125742
   cacheVersion: 131845
 --- !u!114 &329387357420312703
 MonoBehaviour:
@@ -531,6 +581,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 60000
+--- !u!114 &702994567774194981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_ambient/zone_forest
+  m_EditorClassIdentifier: 
+  Name: zone_forest
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 416919162
+    data2: 2418257982
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &970409293998288564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,7 +755,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638773711001282511
+  lastModified: 638788801228125742
   FileSizes: []
   Exists: 1
 --- !u!114 &5149807152200490229
@@ -873,6 +947,36 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &7862354049410762518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/sfx_ambient
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/sfx_ambient
+  Guid:
+    Data1: -923818740
+    Data2: 1148902586
+    Data3: -1967832927
+    Data4: 1097736787
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3906104739891642496}
+  - {fileID: -5919153819189062456}
+  - {fileID: 702994567774194981}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20000
 --- !u!114 &7881805432536876019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -900,6 +1004,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 22627
+--- !u!114 &8213825775907966684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/sfx_ambient_tutorial
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/sfx_ambient_tutorial
+  Guid:
+    Data1: 188386738
+    Data2: 1159656772
+    Data3: 369952672
+    Data4: 324654483
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32850
 --- !u!114 &8358003663770424861
 MonoBehaviour:
   m_ObjectHideFlags: 0
