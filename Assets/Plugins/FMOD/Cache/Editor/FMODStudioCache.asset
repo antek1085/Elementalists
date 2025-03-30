@@ -81,6 +81,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7465525511609871699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mfx_locations/zone_fire
+  m_EditorClassIdentifier: 
+  Name: zone_fire
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2406657861
+    data2: 4083372627
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-7380069575881864895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,6 +237,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-5761120068723932032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/mfx_outro
+  m_EditorClassIdentifier: 
+  Path: event:/Music/mfx_outro
+  Guid:
+    Data1: 1296377390
+    Data2: 1310657549
+    Data3: -1026129530
+    Data4: 1126700720
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5441518238668862801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +282,33 @@ MonoBehaviour:
     Data2: 1205127117
     Data3: -754005573
     Data4: -280759709
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5098000501041582711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/mfx_location_forest
+  m_EditorClassIdentifier: 
+  Path: event:/Music/mfx_location_forest
+  Guid:
+    Data1: 728048649
+    Data2: 1142628965
+    Data3: 1990486716
+    Data4: 1473529065
   Banks:
   - {fileID: -2017273070756321204}
   IsStream: 0
@@ -318,6 +396,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-3809676856135926454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/mfx_location_tutorial
+  m_EditorClassIdentifier: 
+  Path: event:/Music/mfx_location_tutorial
+  Guid:
+    Data1: 1260715966
+    Data2: 1340849854
+    Data3: -2086229090
+    Data4: -358779104
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3325119996329587666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,6 +441,33 @@ MonoBehaviour:
     Data2: 1115945585
     Data3: 1177535643
     Data4: -707331398
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3150654103556089441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/mfx_location_fire
+  m_EditorClassIdentifier: 
+  Path: event:/Music/mfx_location_fire
+  Guid:
+    Data1: 1336872146
+    Data2: 1312822079
+    Data3: 1941281949
+    Data4: 1614962001
   Banks:
   - {fileID: -2017273070756321204}
   IsStream: 0
@@ -414,7 +546,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638788935062183524
+  lastModified: 638789615188164304
   FileSizes: []
   Exists: 1
 --- !u!114 &-1330632865554475431
@@ -520,12 +652,18 @@ MonoBehaviour:
   - {fileID: 5649832328188781725}
   - {fileID: 7862354049410762518}
   - {fileID: 8213825775907966684}
+  - {fileID: -5098000501041582711}
+  - {fileID: -5761120068723932032}
+  - {fileID: 4832339047097106562}
+  - {fileID: -3809676856135926454}
+  - {fileID: -3150654103556089441}
+  - {fileID: 8509977218762598737}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2017273070756321204}
   StringsBanks:
   - {fileID: 3381557211253963980}
-  cacheTime: 638788935062203580
+  cacheTime: 638789615188184297
   cacheVersion: 131845
 --- !u!114 &329387357420312703
 MonoBehaviour:
@@ -659,6 +797,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &1023847409405494874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mfx_locations/zone_tutorial
+  m_EditorClassIdentifier: 
+  Name: zone_tutorial
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3968821584
+    data2: 1356815016
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1809039762827933118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mfx_locations/zone_forest
+  m_EditorClassIdentifier: 
+  Name: zone_forest
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 416919162
+    data2: 2418257982
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &2871232808514183467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -755,9 +941,39 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638788935062203580
+  lastModified: 638789615188184297
   FileSizes: []
   Exists: 1
+--- !u!114 &4832339047097106562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/mfx_locations
+  m_EditorClassIdentifier: 
+  Path: event:/Music/mfx_locations
+  Guid:
+    Data1: -532438366
+    Data2: 1180049220
+    Data3: -689377870
+    Data4: 1602852995
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1809039762827933118}
+  - {fileID: -7465525511609871699}
+  - {fileID: 1023847409405494874}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
 --- !u!114 &5149807152200490229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1049,6 +1265,33 @@ MonoBehaviour:
     Data2: 1143282752
     Data3: -674607687
     Data4: -171757943
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8509977218762598737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/mfx_intro
+  m_EditorClassIdentifier: 
+  Path: event:/Music/mfx_intro
+  Guid:
+    Data1: -602605597
+    Data2: 1148105802
+    Data3: -2132228445
+    Data4: -459433464
   Banks:
   - {fileID: -2017273070756321204}
   IsStream: 0
