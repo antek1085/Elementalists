@@ -11,6 +11,8 @@ public class CastSpell : MonoBehaviour
     [Tooltip("Need Testing how much Value")]
     [SerializeField] SO_FloatMinMAx boolCastThreshold;
 
+    [SerializeField] SO_Bool canCastFireSpell;
+
     [Header("Speed of spell multiply")]
 
     [SerializeField] float fireForce;
@@ -33,7 +35,7 @@ public class CastSpell : MonoBehaviour
     void SpellCast(float[] output)
     {
         // Fire Spell cast
-        if (output[0] > boolCastThreshold.value)
+        if (output[0] > boolCastThreshold.value && canCastFireSpell.value == true)
         {
             GameObject spell = Instantiate(fireSpell, transform.position, transform.rotation);
             spell.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * fireForce);
