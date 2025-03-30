@@ -111,12 +111,34 @@ public class PlayerInteraction : MonoBehaviour
                 AnimalInteraction(animalInteractable);
                 return;
             }
-
-            if (hitInfo.transform.GetComponent<EndOfDemo>() != null)
+            
+            ChestSlot chestSlot = hitInfo.transform.GetComponent<ChestSlot>();
+            if (chestSlot != null)
             {
-                hitInfo.transform.GetComponent<EndOfDemo>().EndingDemo();
+                switch (EQList.objectList[slotChoosed] == null)
+                {
+                    case true:
+                        if (!chestSlot.isSlotEmpty())
+                        {
+                            EQList.objectList[slotChoosed] = chestSlot.GetItem();
+                            EQEvent.current.ItemStateChanged(true);
+                        }
+                        break;
+                    
+                    case false:
+                        if (chestSlot.isSlotEmpty())
+                        {
+                            chestSlot.StoreItem(EQList.objectList[slotChoosed]);
+                            EQList.objectList[slotChoosed] = null;
+                            EQEvent.current.ItemStateChanged(false);
+                        }
+                        break;
+                }  
             }
-
+            
+            hitInfo.transform.GetComponent<ChestUiController>()?.ChestUI();
+            
+            hitInfo.transform.GetComponent<EndOfDemo>()?.EndingDemo();
         }
     }
 
