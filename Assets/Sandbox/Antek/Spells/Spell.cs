@@ -24,8 +24,10 @@ public class Spell : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        if(other.CompareTag("Audio")) return;
         OnCollision();
         OnImpact(); //trigger
+        Debug.Log(other.name);
     }
 
     void OnCollision() 

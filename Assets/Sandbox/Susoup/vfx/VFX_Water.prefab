@@ -5201,7 +5201,7 @@ Transform:
   m_GameObject: {fileID: 7449480372167347306}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 127.32, y: 342.43887, z: -4.25154}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5262,7 +5262,7 @@ MonoBehaviour:
       Data3: 1040960642
       Data4: -1993841160
     Path: event:/Spells/Fire/sfx_fire_spell_impact
-  Type: 0
+  Type: 1
 --- !u!135 &769913744205470460
 SphereCollider:
   m_ObjectHideFlags: 0
