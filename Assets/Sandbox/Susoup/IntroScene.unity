@@ -602,7 +602,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655332126}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: cea90cd259ce3d34ead283de7689e909, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 1863990351462433d84cc21d2c494d16, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -844,7 +844,7 @@ MonoBehaviour:
   m_text: "Naci\u015Bnij S, aby pomin\u0105\u0107..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1a18f074c4502f438cc90c8c33d906d, type: 2}
-  m_sharedMaterial: {fileID: 4654477088234740845, guid: d1a18f074c4502f438cc90c8c33d906d, type: 2}
+  m_sharedMaterial: {fileID: 1292437847181769442, guid: d1a18f074c4502f438cc90c8c33d906d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
