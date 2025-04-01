@@ -136,6 +136,30 @@ public class PlayerInteraction : MonoBehaviour
                 }  
             }
             
+            CauldronItemSlot cauldronCraftingSpot = hitInfo.transform.GetComponent<CauldronItemSlot>();
+            if (cauldronCraftingSpot != null)
+            {
+                switch (EQList.objectList[slotChoosed] == null)
+                {
+                    case true:
+                        if (!cauldronCraftingSpot.isSlotEmpty())
+                        {
+                            EQList.objectList[slotChoosed] = cauldronCraftingSpot.GetItem();
+                            EQEvent.current.ItemStateChanged(true);
+                        }
+                        break;
+                    
+                    case false:
+                        if (cauldronCraftingSpot.isSlotEmpty())
+                        {
+                            cauldronCraftingSpot.StoreItem(EQList.objectList[slotChoosed]);
+                            EQList.objectList[slotChoosed] = null;
+                            EQEvent.current.ItemStateChanged(false);
+                        }
+                        break;
+                }  
+            }
+            
             hitInfo.transform.GetComponent<ChestUiController>()?.ChestUI();
             
             hitInfo.transform.GetComponent<EndOfDemo>()?.EndingDemo();

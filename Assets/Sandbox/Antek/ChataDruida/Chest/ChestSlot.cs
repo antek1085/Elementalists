@@ -6,11 +6,12 @@ public class ChestSlot : MonoBehaviour
 {
 
    public GameObject slot;
+   public Sprite defaultSprite;
    Image iconImage;
 
    void Start()
    {
-       iconImage = GetComponent<Image>();
+       iconImage = transform.GetChild(0).GetComponent<Image>();
    }
 
    public void StoreItem(GameObject item)
@@ -21,9 +22,10 @@ public class ChestSlot : MonoBehaviour
     
     public GameObject GetItem()
     {
+        Debug.Log(slot.name);
         var item = slot;
         slot = null;
-        iconImage.sprite = null;
+        iconImage.sprite = defaultSprite;
       return item;
    }
 
