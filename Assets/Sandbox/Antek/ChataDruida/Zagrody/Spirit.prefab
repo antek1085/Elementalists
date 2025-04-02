@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 7833535925458167672}
   m_Layer: 0
   m_Name: Spirit
-  m_TagString: Untagged
+  m_TagString: Spirit
   m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,7 +112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7809784963462548494}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -3.11, z: -2.587}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -161,7 +161,7 @@ MonoBehaviour:
   - 2
   spirtiName: Test
   objectToFollow: {fileID: 0}
-  spiritObject: {fileID: 0}
+  spiritObject: {fileID: 5663820483046338631, guid: 26cafb08a2eecd74e825d39390ce55df, type: 3}
 --- !u!1001 &3184380423925928135
 PrefabInstance:
   m_ObjectHideFlags: 0

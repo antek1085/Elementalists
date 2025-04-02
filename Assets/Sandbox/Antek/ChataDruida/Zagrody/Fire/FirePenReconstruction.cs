@@ -15,6 +15,7 @@ public class FirePenReconstruction : MonoBehaviour
       numberOfObstacles = transform.childCount;
       parentTextObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = numberOfObstacles.ToString();
       obstaclesDestroyedText = parentTextObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+      obstaclesDestroyedText.text = obstacleDestroyedCounter.ToString();
    }
 
    void OnTriggerEnter(Collider other)
