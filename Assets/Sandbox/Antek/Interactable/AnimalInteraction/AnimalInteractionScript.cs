@@ -54,6 +54,7 @@ public class AnimalInteractionScript : MonoBehaviour,IAnimalInteractable
         if (didHeGiveAllItems)
         {
             isHeAbleToCast.value = true;
+            EnableAFterFox.current.HelpingFox();
         }
     }
 

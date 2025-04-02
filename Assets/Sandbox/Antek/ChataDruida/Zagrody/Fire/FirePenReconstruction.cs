@@ -24,7 +24,7 @@ public class FirePenReconstruction : MonoBehaviour
       {
          parentTextObject.SetActive(true);
          
-         for (int i = 0; i < transform.childCount -1; i++)
+         for (int i = 0; i < transform.childCount; i++)
          {
             transform.GetChild(i).GetComponent<FirePenObstacle>().particleSystem.GetComponent<ParticleSystem>().Play();
          }
@@ -35,7 +35,7 @@ public class FirePenReconstruction : MonoBehaviour
    {
       if (other.CompareTag("Player"))
       {
-         for (int i = 0; i < transform.childCount -1; i++)
+         for (int i = 0; i < transform.childCount; i++)
          {
             transform.GetChild(i).GetComponent<FirePenObstacle>().particleSystem.transform.LookAt(other.transform);
          }
@@ -48,7 +48,7 @@ public class FirePenReconstruction : MonoBehaviour
       if (other.CompareTag("Player"))
       {
          parentTextObject.SetActive(false);
-         for (int i = 0; i < transform.childCount -1; i++)
+         for (int i = 0; i < transform.childCount; i++)
          {
             transform.GetChild(i).GetComponent<FirePenObstacle>().particleSystem.GetComponent<ParticleSystem>().Stop();
          }

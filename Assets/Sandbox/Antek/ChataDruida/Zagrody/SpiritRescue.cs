@@ -15,8 +15,13 @@ public class SpiritRescue : MonoBehaviour
     [Header("SpiritFollow")]
     [SerializeField] GameObject objectToFollow;
     [SerializeField] GameObject spiritObject;
-    
-    
+
+
+    void Start()
+    {
+        EnableAFterFox.current.OnHelpingFox += EnableSpirit;
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Spell"))
@@ -31,4 +36,10 @@ public class SpiritRescue : MonoBehaviour
             }
         }
     }
+
+    void EnableSpirit()
+    {
+        gameObject.SetActive(true);
+    }
+    
 }

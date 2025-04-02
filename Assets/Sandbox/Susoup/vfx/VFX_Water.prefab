@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3050166942508894307}
   - component: {fileID: 6457030084984103936}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: TrailAdd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4488007833588348021}
   - component: {fileID: 8835607568553841802}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: TrailAB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 6629632078375356155}
   - component: {fileID: 5504533202089197719}
   - component: {fileID: 2446406654857221631}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5185,7 +5185,7 @@ GameObject:
   - component: {fileID: 136278040682370934}
   - component: {fileID: 4928787532678359066}
   - component: {fileID: 769913744205470460}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: VFX_Water
   m_TagString: Spell
   m_Icon: {fileID: 0}
@@ -5295,7 +5295,7 @@ GameObject:
   - component: {fileID: 4774525530899068278}
   - component: {fileID: 2184894744939175565}
   - component: {fileID: 1228933160365843808}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: WaterBlob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10186,7 +10186,7 @@ GameObject:
   - component: {fileID: 6448294612688524716}
   - component: {fileID: 3723161622806810413}
   - component: {fileID: 3352936817622439437}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Waterdrops
   m_TagString: Untagged
   m_Icon: {fileID: 0}
