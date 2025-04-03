@@ -3,46 +3,49 @@ using UnityEngine;
 
 public class RenovateItem : MonoBehaviour
 {
-    public GameObject VFXGameObject;
+    GameObject VFXGameObject;
     public Spell.spellType SpellType;
-    public virtual void Awake()
+    void Awake()
     {
         VFXGameObject = transform.GetChild(0).gameObject;
     }
 
 
-    public virtual void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && VFXGameObject != null)
+        if (other.CompareTag("Player"))
         {
-            VFXGameObject.GetComponent<ParticleSystem>()?.Play();
-        }
-        if (other.CompareTag("Spell") && VFXGameObject != null)
-        {
-            if (other.GetComponent<Spell>().Type == SpellType)
-            {
-                OnSpellHit();
-            }
+            VFXGameObject.GetComponent<ParticleSystem>().Play();
         }
     }
 
-    public virtual void OnTriggerStay(Collider other)
+    void OnTriggerStay(Collider other)
     {
-        if(other.CompareTag("Player") && VFXGameObject != null)VFXGameObject.transform.LookAt(other.transform.position);
+        if(other.CompareTag("Player"))VFXGameObject.transform.LookAt(other.transform.position);
     }
     
-    public virtual void OnTriggerExit(Collider other)
+    void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player") && VFXGameObject != null)
+        if (other.CompareTag("Player"))
         {
-            VFXGameObject.GetComponent<ParticleSystem>()?.Stop();
+            VFXGameObject.GetComponent<ParticleSystem>().Stop();
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Spell"))
+        {
+            if (collision.gameObject.GetComponent<Spell>().Type == SpellType)
+            {
+               OnSpellHit();
+            }
         }
     }
 
     public virtual void OnSpellHit()
     {
-        VFXGameObject.GetComponent<ParticleSystem>()?.Stop();
-        Destroy(VFXGameObject);
+        VFXGameObject.GetComponent<ParticleSystem>().Stop();
         gameObject.GetComponent<SphereCollider>().enabled = false;
     }
 }

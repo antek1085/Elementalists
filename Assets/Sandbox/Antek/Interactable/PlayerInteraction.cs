@@ -118,7 +118,7 @@ public class PlayerInteraction : MonoBehaviour
                 switch (EQList.objectList[slotChoosed] == null)
                 {
                     case true:
-                        if (chestSlot.isSlotEmpty() == false)
+                        if (!chestSlot.isSlotEmpty())
                         {
                             EQList.objectList[slotChoosed] = chestSlot.GetItem();
                             EQEvent.current.ItemStateChanged(true);
@@ -142,7 +142,7 @@ public class PlayerInteraction : MonoBehaviour
                 switch (EQList.objectList[slotChoosed] == null)
                 {
                     case true:
-                        if (!cauldronCraftingSpot.isSlotEmpty() && cauldronCraftingSpot.slot != null)
+                        if (!cauldronCraftingSpot.isSlotEmpty())
                         {
                             EQList.objectList[slotChoosed] = cauldronCraftingSpot.GetItem();
                             EQEvent.current.ItemStateChanged(true);
@@ -150,7 +150,7 @@ public class PlayerInteraction : MonoBehaviour
                         break;
                     
                     case false:
-                        if (cauldronCraftingSpot.isSlotEmpty() && cauldronCraftingSpot.isCraftingSlot)
+                        if (cauldronCraftingSpot.isSlotEmpty())
                         {
                             cauldronCraftingSpot.StoreItem(EQList.objectList[slotChoosed]);
                             EQList.objectList[slotChoosed] = null;
@@ -161,7 +161,6 @@ public class PlayerInteraction : MonoBehaviour
             }
             
             hitInfo.transform.GetComponent<ChestUiController>()?.ChestUI();
-            hitInfo.transform.GetComponent<CauldronCrafting>()?.StartCrafting();
             
             hitInfo.transform.GetComponent<EndOfDemo>()?.EndingDemo();
         }

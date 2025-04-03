@@ -7,7 +7,7 @@ public class CauldronItemSlot : MonoBehaviour
     public Sprite defaultSprite;
     Image iconImage;
 
-    public bool isCraftingSlot;
+    [SerializeField] bool isCraftingSlot;
     CauldronCrafting cauldronCrafting;
     
     
@@ -19,18 +19,12 @@ public class CauldronItemSlot : MonoBehaviour
 
     public void StoreItem(GameObject item)
     {
+        slot = item;
+        iconImage.sprite = slot.GetComponent<ItemInformation>().icon;
         if (isCraftingSlot)
         {
-            slot = item;
-            iconImage.sprite = slot.GetComponent<ItemInformation>().icon; 
             cauldronCrafting.ingredients.Add(item);   
         }
-    }
-    public void CraftedItem(GameObject item)
-    {
-        slot = item;
-        iconImage.sprite = slot.GetComponent<ItemInformation>().icon; 
-        cauldronCrafting.ingredients.Add(item);   
     }
     
     public GameObject GetItem()
@@ -45,8 +39,7 @@ public class CauldronItemSlot : MonoBehaviour
 
     public bool isSlotEmpty()
     {
-
-        if (slot == null)
+        if (slot == null && isCraftingSlot)
         {
             return true;
         }

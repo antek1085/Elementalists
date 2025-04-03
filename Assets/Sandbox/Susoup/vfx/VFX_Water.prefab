@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3050166942508894307}
   - component: {fileID: 6457030084984103936}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: TrailAdd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4488007833588348021}
   - component: {fileID: 8835607568553841802}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: TrailAB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 6629632078375356155}
   - component: {fileID: 5504533202089197719}
   - component: {fileID: 2446406654857221631}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5185,9 +5185,9 @@ GameObject:
   - component: {fileID: 136278040682370934}
   - component: {fileID: 4928787532678359066}
   - component: {fileID: 769913744205470460}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: VFX_Water
-  m_TagString: Spell
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5250,18 +5250,18 @@ MonoBehaviour:
   blowEffect: {fileID: 0}
   castSpellSound:
     Guid:
-      Data1: -1694089650
-      Data2: 1258042161
-      Data3: -1745817944
-      Data4: 116763450
-    Path: event:/spells/Water/sfx_water_spell_cast
+      Data1: -207481326
+      Data2: 1334111761
+      Data3: -564493151
+      Data4: -960728063
+    Path: event:/Spells/Fire/sfx_fire_spell_cast
   impactSpellSound:
     Guid:
-      Data1: 1297738224
-      Data2: 1215979338
-      Data3: -1704528223
-      Data4: 1940403344
-    Path: event:/spells/Water/sfx_water_spell_impact
+      Data1: 187910922
+      Data2: 1274605319
+      Data3: 1040960642
+      Data4: -1993841160
+    Path: event:/Spells/Fire/sfx_fire_spell_impact
   Type: 1
 --- !u!135 &769913744205470460
 SphereCollider:
@@ -5295,7 +5295,7 @@ GameObject:
   - component: {fileID: 4774525530899068278}
   - component: {fileID: 2184894744939175565}
   - component: {fileID: 1228933160365843808}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: WaterBlob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10186,7 +10186,7 @@ GameObject:
   - component: {fileID: 6448294612688524716}
   - component: {fileID: 3723161622806810413}
   - component: {fileID: 3352936817622439437}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Waterdrops
   m_TagString: Untagged
   m_Icon: {fileID: 0}

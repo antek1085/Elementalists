@@ -13,7 +13,6 @@ public class AnimalInteractionScript : MonoBehaviour,IAnimalInteractable
     [SerializeField] int numberOfFlowersToGive;
     public int numberOfFlowersGiven;
     bool didHeGiveAllItems;
-    [SerializeField] SO_Bool isHeAbleToCast;
     
 
     void Awake()
@@ -28,6 +27,7 @@ public class AnimalInteractionScript : MonoBehaviour,IAnimalInteractable
         Debug.Log(item);
         if (item == objectToGive)
         {
+            GivenRightItem();
             animalUI.GiveItemUIPopUp(true,didHeGiveAllItems);
             if (interacted == false)
             {
@@ -36,7 +36,6 @@ public class AnimalInteractionScript : MonoBehaviour,IAnimalInteractable
             }
             numberOfFlowersGiven += 1;
             if(numberOfFlowersGiven >= numberOfFlowersToGive) didHeGiveAllItems = true;
-            GivenRightItem();
             return true;
         }
         else
@@ -51,11 +50,7 @@ public class AnimalInteractionScript : MonoBehaviour,IAnimalInteractable
 
     void GivenRightItem()
     {
-        if (didHeGiveAllItems)
-        {
-            isHeAbleToCast.value = true;
-            EnableAFterFox.current.HelpingFox();
-        }
+        Debug.Log("GivenRightItem");
     }
 
     void GivenWrongItem()

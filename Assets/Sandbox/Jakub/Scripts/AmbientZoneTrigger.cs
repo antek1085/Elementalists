@@ -4,7 +4,6 @@ public class AmbientZoneTrigger : MonoBehaviour
 {
     [SerializeField] private string zoneParameterName; // Assign in Inspector
     private AmbientZone zoneManager;
-    bool isInside;
 
     void Start()
     {
@@ -15,10 +14,6 @@ public class AmbientZoneTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            //Sprawdzenie jaka gra muzyka
-            //wyłaczasz ja
-            //właczasz nowa 
-            
             zoneManager.SetZoneState(zoneParameterName, true);
         }
     }
