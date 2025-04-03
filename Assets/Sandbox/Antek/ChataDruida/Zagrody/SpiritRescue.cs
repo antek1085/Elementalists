@@ -18,8 +18,8 @@ public class SpiritRescue : MonoBehaviour
 
 
     void Start()
-    {
-        EnableAFterFox.current.OnHelpingFox += EnableSpirit;
+    { 
+        EnableAfterFoxEvent.current.OnHelpingFox += EnableSpirit;
     }
 
     void OnTriggerEnter(Collider other)

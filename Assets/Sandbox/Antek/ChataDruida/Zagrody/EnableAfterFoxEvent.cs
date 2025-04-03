@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnableAFterFox : MonoBehaviour
+public class EnableAfterFoxEvent : MonoBehaviour
 {
-    public static EnableAFterFox current;
+    public static EnableAfterFoxEvent current;
 
     void Awake()
     {
