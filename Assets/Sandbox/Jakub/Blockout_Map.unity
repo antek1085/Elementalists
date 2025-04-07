@@ -164785,22 +164785,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
-    - target: {fileID: 3009065816368496370, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 2871
-      objectReference: {fileID: 0}
     - target: {fileID: 4329450386172919925, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
       propertyPath: orientation
       value: 
       objectReference: {fileID: 1392437323}
-    - target: {fileID: 4433256922994947375, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 4487361796998475305, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
+      propertyPath: fireForce
+      value: 1800
       objectReference: {fileID: 0}
     - target: {fileID: 4487361796998475305, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
-      propertyPath: waterSpell
-      value: 
-      objectReference: {fileID: 7449480372167347306, guid: e788f3fcb47b941c99325c043cdf83e8, type: 3}
+      propertyPath: waterForce
+      value: 1800
+      objectReference: {fileID: 0}
     - target: {fileID: 4487361796998475305, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
       propertyPath: fireAnimator
       value: 
@@ -164809,10 +164805,6 @@ PrefabInstance:
       propertyPath: waterAnimator
       value: 
       objectReference: {fileID: 1536385600}
-    - target: {fileID: 4487361796998475305, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
-      propertyPath: canCastFireSpell
-      value: 
-      objectReference: {fileID: 11400000, guid: 2941223d191815b4db0b605e95403aec, type: 2}
     - target: {fileID: 5959133173354351217, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
