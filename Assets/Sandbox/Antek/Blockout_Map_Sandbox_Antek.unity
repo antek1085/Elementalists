@@ -72678,9 +72678,10 @@ GameObject:
   - component: {fileID: 550443553}
   - component: {fileID: 550443552}
   - component: {fileID: 550443551}
+  - component: {fileID: 550443554}
   m_Layer: 8
   m_Name: End OF Demo
-  m_TagString: Untagged
+  m_TagString: Audio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72735,6 +72736,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952505418}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &550443554
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550443550}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 5.53
+  m_Center: {x: 2.93, y: -0.02, z: 2.85}
 --- !u!1001 &551289850
 PrefabInstance:
   m_ObjectHideFlags: 0
