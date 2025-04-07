@@ -30,15 +30,15 @@ public class EQEvent : MonoBehaviour
    }
    
    
-   public event Action<bool> OnItemStateChanged;
+   public event Action<bool,int> OnItemStateChanged;
 
    
    //True == added to EQ False == used/dropped and anything else
-   public void ItemStateChanged(bool state)
+   public void ItemStateChanged(bool state,int slot)
    {
       if (OnItemStateChanged != null)
       {
-         OnItemStateChanged(state);
+         OnItemStateChanged(state,slot);
       }
    }
 }
