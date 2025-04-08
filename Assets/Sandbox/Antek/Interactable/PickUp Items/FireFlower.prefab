@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1734208815491963601}
   - component: {fileID: 116253735503199988}
   - component: {fileID: -2413803718520655873}
+  - component: {fileID: 4187204200910123798}
   m_Layer: 8
   m_Name: FireFlower
   m_TagString: Untagged
@@ -123,8 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2272283777729854fac693ebcffed34d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireFlowerItem: {fileID: 201101733818804664}
-  canBePickedUp: 1
+  fireFlowerItem: {fileID: 0}
+  canBePickedUp: 0
   <SpellType>k__BackingField: 1
   pickUpSound:
     Guid:
@@ -140,6 +141,13 @@ MonoBehaviour:
       Data3: 1601707924
       Data4: -878434716
     Path: event:/Sfx_fireflower_loop
+  pickableSound:
+    Guid:
+      Data1: -1543658840
+      Data2: 1147815132
+      Data3: 1189760188
+      Data4: 473122248
+    Path: event:/sfx_fireflower_pickable
 --- !u!114 &-2413803718520655873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,6 +161,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: ba9015215fc477e42867af600827d712, type: 3}
+--- !u!114 &4187204200910123798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201101733818804664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bbdc4f403d204a1889cb79c91788cf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 1
 --- !u!1 &2092246200457930500
 GameObject:
   m_ObjectHideFlags: 0

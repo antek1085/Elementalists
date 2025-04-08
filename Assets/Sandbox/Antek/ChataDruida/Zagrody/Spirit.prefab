@@ -97,7 +97,8 @@ GameObject:
   - component: {fileID: 8684124601256606407}
   - component: {fileID: 1789004506336444982}
   - component: {fileID: 7833535925458167672}
-  m_Layer: 0
+  - component: {fileID: 7387169836685671556}
+  m_Layer: 8
   m_Name: Spirit
   m_TagString: Spirit
   m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
@@ -156,12 +157,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spellType: 1
   message:
-  - Lecimy
+  - "Zaprowad\u017A mnie do zagrody"
   duration:
   - 2
-  spirtiName: Test
+  spirtiName: Spirit
   objectToFollow: {fileID: 0}
   spiritObject: {fileID: 5663820483046338631, guid: 26cafb08a2eecd74e825d39390ce55df, type: 3}
+--- !u!114 &7387169836685671556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7809784963462548494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bbdc4f403d204a1889cb79c91788cf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 1
 --- !u!1001 &3184380423925928135
 PrefabInstance:
   m_ObjectHideFlags: 0
