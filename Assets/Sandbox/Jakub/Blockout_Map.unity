@@ -2755,6 +2755,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3386203172213614889, guid: 2bed5e45f49f1164694422d695a7cb87, type: 3}
   m_PrefabInstance: {fileID: 20319532}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &20342923 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4202021253865727833, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+  m_PrefabInstance: {fileID: 1536385599}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &20460786
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5558,6 +5569,7 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 2541201860746937114, guid: df084d503e30c984fa453e4ff791c9e1, type: 3}
     - {fileID: 74817764921314375, guid: df084d503e30c984fa453e4ff791c9e1, type: 3}
+    - {fileID: 5989623955718988480, guid: df084d503e30c984fa453e4ff791c9e1, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df084d503e30c984fa453e4ff791c9e1, type: 3}
@@ -101314,7 +101326,7 @@ Transform:
   m_GameObject: {fileID: 727620692}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.08393435, z: -0, w: 0.9964713}
-  m_LocalPosition: {x: -77, y: -5.39, z: -49.1}
+  m_LocalPosition: {x: -78.97, y: -5.39, z: -47.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -101349,8 +101361,8 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 35
+  OverrideMinDistance: 3
+  OverrideMaxDistance: 45
 --- !u!1001 &729912878
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -222684,6 +222696,14 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8334377216467904574, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: fireSpellIcon
+      value: 
+      objectReference: {fileID: 1536385604}
+    - target: {fileID: 8334377216467904574, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: waterSpellIcon
+      value: 
+      objectReference: {fileID: 20342923}
     - target: {fileID: 9179410448706657325, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
       propertyPath: m_text
       value: "Rysowanie Zakl\u0119\u0107"
@@ -222716,6 +222736,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2475028253721769098, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
   m_PrefabInstance: {fileID: 1536385599}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1536385604 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2308341028050685847, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+  m_PrefabInstance: {fileID: 1536385599}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1538076673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -224720,7 +224751,8 @@ PrefabInstance:
       value: -3.624
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6939697787756535686, guid: 23acb620aa747134183df1804c9ee330, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8167978698816936991, guid: 23acb620aa747134183df1804c9ee330, type: 3}
       insertIndex: 12
