@@ -78,8 +78,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 35
+  MinDistance: 3
+  MaxDistance: 45
   Length: 66475
 --- !u!114 &-7528880101940382479
 MonoBehaviour:
@@ -305,10 +305,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/UI/sfx_ui_hover
   Guid:
-    Data1: 1269650379
-    Data2: 1205127117
-    Data3: -754005573
-    Data4: -280759709
+    Data1: 1765145653
+    Data2: 1143282752
+    Data3: -674607687
+    Data4: -171757943
   Banks:
   - {fileID: -2017273070756321204}
   IsStream: 0
@@ -600,7 +600,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638798245535009908
+  lastModified: 638799001199831054
   FileSizes: []
   Exists: 1
 --- !u!114 &-1330632865554475431
@@ -711,15 +711,15 @@ MonoBehaviour:
   - {fileID: 4832339047097106562}
   - {fileID: -3809676856135926454}
   - {fileID: -3150654103556089441}
-  - {fileID: 8509977218762598737}
   - {fileID: -4876110707728012936}
   - {fileID: -7647564148151707069}
+  - {fileID: 9015552272389205392}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2017273070756321204}
   StringsBanks:
   - {fileID: 3381557211253963980}
-  cacheTime: 638798245535034974
+  cacheTime: 638799001199856149
   cacheVersion: 131845
 --- !u!114 &329387357420312703
 MonoBehaviour:
@@ -997,7 +997,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638798245535034974
+  lastModified: 638799001199856149
   FileSizes: []
   Exists: 1
 --- !u!114 &4832339047097106562
@@ -1317,10 +1317,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/UI/sfx_ui_click
   Guid:
-    Data1: 1765145653
-    Data2: 1143282752
-    Data3: -674607687
-    Data4: -171757943
+    Data1: 1269650379
+    Data2: 1205127117
+    Data3: -754005573
+    Data4: -280759709
   Banks:
   - {fileID: -2017273070756321204}
   IsStream: 0
@@ -1330,7 +1330,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &8509977218762598737
+--- !u!114 &9015552272389205392
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1340,9 +1340,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/mfx_intro
+  m_Name: event:/Music/mfx_menu
   m_EditorClassIdentifier: 
-  Path: event:/Music/mfx_intro
+  Path: event:/Music/mfx_menu
   Guid:
     Data1: -602605597
     Data2: 1148105802
@@ -1350,10 +1350,10 @@ MonoBehaviour:
     Data4: -459433464
   Banks:
   - {fileID: -2017273070756321204}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 173543
