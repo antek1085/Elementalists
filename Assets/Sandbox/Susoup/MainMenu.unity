@@ -1382,7 +1382,7 @@ MonoBehaviour:
       Data4: -1778466420
     Path: event:/UI/sfx_ui_startgame
   Event: 
-  EventPlayTrigger: 15
+  EventPlayTrigger: 19
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
