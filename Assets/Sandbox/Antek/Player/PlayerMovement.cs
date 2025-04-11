@@ -116,7 +116,8 @@ public class PlayerMovement : MonoBehaviour
 
     void MovePlayer()
     {
-        moveDirection = transform.forward * verticalInpuit + transform.right * horizontalInput;
+        moveDirection = Camera.main.transform.forward * verticalInpuit + Camera.main.transform.right * horizontalInput;
+
 
         if (grounded)
         {
