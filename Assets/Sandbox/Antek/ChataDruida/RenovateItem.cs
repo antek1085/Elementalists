@@ -3,11 +3,17 @@ using UnityEngine;
 
 public class RenovateItem : MonoBehaviour
 {
+    public EndOfDemo endOfDemo;
     public GameObject VFXGameObject;
     public Spell.spellType SpellType;
     public virtual void Awake()
     {
         VFXGameObject = transform.GetChild(0).gameObject;
+    }
+    public virtual void Start()
+    {
+        endOfDemo = EndOfDemo.instance;
+        endOfDemo.itemToFix++;
     }
 
 
@@ -44,5 +50,6 @@ public class RenovateItem : MonoBehaviour
         VFXGameObject.GetComponent<ParticleSystem>()?.Stop();
         Destroy(VFXGameObject);
         gameObject.GetComponent<SphereCollider>().enabled = false;
+        endOfDemo.ItemFixed();
     }
 }

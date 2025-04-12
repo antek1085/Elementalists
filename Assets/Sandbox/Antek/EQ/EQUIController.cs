@@ -19,21 +19,21 @@ public class EQUIController : MonoBehaviour
     
     
     //True == added to EQ False == used/dropped and anything else
-    void StateChanged(bool state)
+    void StateChanged(bool state,int slot)
     {
         switch (state)
         {
             case true:
-                transform.GetChild(choosedSlot).GetChild(0).GetComponent<Image>().sprite = EQList.objectList[choosedSlot].GetComponent<ItemInformation>().icon;
-                var color2 = transform.GetChild(choosedSlot).GetChild(0).GetComponent<Image>().color;
+                transform.GetChild(slot).GetChild(0).GetComponent<Image>().sprite = EQList.objectList[slot].GetComponent<ItemInformation>().icon;
+                var color2 = transform.GetChild(slot).GetChild(0).GetComponent<Image>().color;
                 color2.a = 1;
-                transform.GetChild(choosedSlot).GetChild(0).GetComponent<Image>().color = color2;
+                transform.GetChild(slot).GetChild(0).GetComponent<Image>().color = color2;
                 break;
             case false:
-                transform.GetChild(choosedSlot).GetChild(0).GetComponent<Image>().sprite = null;
-                var color1 = transform.GetChild(choosedSlot).GetChild(0).GetComponent<Image>().color;
+                transform.GetChild(slot).GetChild(0).GetComponent<Image>().sprite = null;
+                var color1 = transform.GetChild(slot).GetChild(0).GetComponent<Image>().color;
                 color1.a = 0;
-                transform.GetChild(choosedSlot).GetChild(0).GetComponent<Image>().color = color1;
+                transform.GetChild(slot).GetChild(0).GetComponent<Image>().color = color1;
                 break;
         }
     }

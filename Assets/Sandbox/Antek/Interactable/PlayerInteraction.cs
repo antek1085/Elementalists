@@ -59,10 +59,9 @@ public class PlayerInteraction : MonoBehaviour
 
             case true:
                 EQList.objectList[slotChoosed] = null;
-                EQEvent.current.ItemStateChanged(false);
+                EQEvent.current.ItemStateChanged(false,slotChoosed);
                 break;
             case false:
-                Debug.Log("Something went wrong");
                 break;
         }
     }
@@ -79,14 +78,22 @@ public class PlayerInteraction : MonoBehaviour
                 if (pickUp != null)
                 {
                     EQList.objectList[slotChoosed] = pickable.PickUp(); 
-                    EQEvent.current.ItemStateChanged(true);
+                    EQEvent.current.ItemStateChanged(true,slotChoosed);
                 }
                 break;
-            
             //Slot is not empty
             case false: 
-                Debug.Log("Full Slot"); 
-                break;
+                 int eqSlots = EQList.objectList.Count;
+                 for (int i = 0; i < eqSlots; i++)
+                 {
+                     if (EQList.objectList[i] == null)
+                     {
+                         EQList.objectList[i] = pickable.PickUp();
+                         EQEvent.current.ItemStateChanged(true,i);
+                         break;
+                     }
+                 } 
+                 break;
         }  
     }
     
@@ -121,7 +128,7 @@ public class PlayerInteraction : MonoBehaviour
                         if (chestSlot.isSlotEmpty() == false)
                         {
                             EQList.objectList[slotChoosed] = chestSlot.GetItem();
-                            EQEvent.current.ItemStateChanged(true);
+                            EQEvent.current.ItemStateChanged(true,slotChoosed);
                         }
                         break;
                     
@@ -130,7 +137,7 @@ public class PlayerInteraction : MonoBehaviour
                         {
                             chestSlot.StoreItem(EQList.objectList[slotChoosed]);
                             EQList.objectList[slotChoosed] = null;
-                            EQEvent.current.ItemStateChanged(false);
+                            EQEvent.current.ItemStateChanged(false,slotChoosed);
                         }
                         break;
                 }  
@@ -145,7 +152,7 @@ public class PlayerInteraction : MonoBehaviour
                         if (!cauldronCraftingSpot.isSlotEmpty() && cauldronCraftingSpot.slot != null)
                         {
                             EQList.objectList[slotChoosed] = cauldronCraftingSpot.GetItem();
-                            EQEvent.current.ItemStateChanged(true);
+                            EQEvent.current.ItemStateChanged(true,slotChoosed);
                         }
                         break;
                     
@@ -154,7 +161,7 @@ public class PlayerInteraction : MonoBehaviour
                         {
                             cauldronCraftingSpot.StoreItem(EQList.objectList[slotChoosed]);
                             EQList.objectList[slotChoosed] = null;
-                            EQEvent.current.ItemStateChanged(false);
+                            EQEvent.current.ItemStateChanged(false,slotChoosed);
                         }
                         break;
                 }  
