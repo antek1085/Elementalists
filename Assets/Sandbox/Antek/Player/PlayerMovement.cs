@@ -78,6 +78,7 @@ public class PlayerMovement : MonoBehaviour
         KeyboardInput();
 
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight, groundMask);
+        
         DragChange();
         SpeedControl();
 
@@ -102,14 +103,17 @@ public class PlayerMovement : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInpuit = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKey(jumpKey) && canJump && grounded)
+        if (Input.GetKey(jumpKey) && canJump)
         {
-            Debug.Log("Test");
-            canJump = false;
+            if (grounded)
+            {
+                canJump = false;
+                grounded = false;
             
-            Jump();
+                Jump();
             
-            Invoke(nameof(ResetJump),jumpCD );
+                Invoke(nameof(ResetJump),jumpCD );   
+            }
         }
     }
     
@@ -117,6 +121,7 @@ public class PlayerMovement : MonoBehaviour
     void MovePlayer()
     {
         moveDirection = Camera.main.transform.forward * verticalInpuit + Camera.main.transform.right * horizontalInput;
+        moveDirection.y = 0;
 
 
         if (grounded)
