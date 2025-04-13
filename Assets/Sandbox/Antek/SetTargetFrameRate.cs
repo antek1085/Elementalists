@@ -7,6 +7,7 @@ public class SetTargetFrameRate : MonoBehaviour
 
    void Start()
    {
-      Application.targetFrameRate = targetFrameRate;
+      /*Application.targetFrameRate = targetFrameRate;*/
+      QualitySettings.vSyncCount = 1;
    }
 }
