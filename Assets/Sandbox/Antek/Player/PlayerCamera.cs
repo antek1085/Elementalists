@@ -63,7 +63,7 @@ public class PlayerCamera : MonoBehaviour
 
     IEnumerator DelayStart()
     {
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return new WaitForSecondsRealtime(1f);
         delay = true;
     }
 }
