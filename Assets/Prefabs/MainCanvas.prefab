@@ -2691,6 +2691,7 @@ GameObject:
   - component: {fileID: 218207954937662079}
   - component: {fileID: 6307593390241982423}
   - component: {fileID: 8334377216467904574}
+  - component: {fileID: 8478570677325398374}
   m_Layer: 5
   m_Name: MainCanvas
   m_TagString: Untagged
@@ -2854,13 +2855,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9381055949c947a59bd4f7bdcfca601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireSpellIcon: {fileID: 0}
-  waterSpellIcon: {fileID: 0}
+  fireSpellIcon: {fileID: 2308341028050685847}
+  waterSpellIcon: {fileID: 4202021253865727833}
   raycastDistance: 10
   interactionLayerMask:
     serializedVersion: 2
     m_Bits: 256
   currentSpellType: 0
+--- !u!114 &8478570677325398374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4047689553017501825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff612811569745c2b14b94d7a3eaecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boolValue: {fileID: 11400000, guid: 2941223d191815b4db0b605e95403aec, type: 2}
+  uiObjectToToggle: {fileID: 0}
 --- !u!1 &4166809997000003760
 GameObject:
   m_ObjectHideFlags: 0
