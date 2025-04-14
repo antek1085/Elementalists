@@ -7,18 +7,18 @@
     <list default="true" id="b9c650ff-27fc-4e00-ac06-7cf0c7bf8720" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Elementalists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elementalists/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AssetPacks/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_03_Day_a.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetPacks/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_03_Day_a.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetPacks/Idyllic Fantasy Nature/Prefabs/Bush_03_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetPacks/Idyllic Fantasy Nature/Prefabs/Bush_03_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetPacks/Idyllic Fantasy Nature/Materials/Trees/Broadleaf_Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetPacks/Idyllic Fantasy Nature/Materials/Trees/Broadleaf_Blue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetPacks/Idyllic Fantasy Nature/Materials/Trees/Broadleaf_Green Variant.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetPacks/Idyllic Fantasy Nature/Materials/Trees/Broadleaf_Green Variant.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetPacks/Idyllic Fantasy Nature/Materials/Trees/Broadleaf_Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetPacks/Idyllic Fantasy Nature/Materials/Trees/Broadleaf_Green.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetPacks/Idyllic Fantasy Nature/Materials/Trees/Broadleaf_Purple.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetPacks/Idyllic Fantasy Nature/Materials/Trees/Broadleaf_Purple.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetPacks/Idyllic Fantasy Nature/Materials/Trees/Broadleaf_Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetPacks/Idyllic Fantasy Nature/Materials/Trees/Broadleaf_Red.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Blockout_Map_Sandbox_Antek.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Blockout_Map_Sandbox_Antek.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/Player/PlayerCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/Player/PlayerCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Antek/SkyboxLightRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Antek/SkyboxLightRotation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Jakub/Blockout_Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Jakub/Blockout_Map.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sandbox/Kaczka/grass for hills.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sandbox/Kaczka/grass for hills.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +43,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Branch__Antek__Neural__Network&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "PostDemoLevelArt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Build_0.3\Elementalist.exe" />
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Build\Elementalist.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\PC\Desktop\Build" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -123,6 +123,8 @@
       <workItem from="1744241662788" duration="2445000" />
       <workItem from="1744378353479" duration="2034000" />
       <workItem from="1744420143025" duration="1306000" />
+      <workItem from="1744457273885" duration="699000" />
+      <workItem from="1744639865555" duration="2182000" />
     </task>
     <servers />
   </component>
