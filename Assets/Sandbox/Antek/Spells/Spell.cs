@@ -5,7 +5,7 @@ using UnityEngine.VFX;
 [RequireComponent(typeof(Rigidbody))]
 public class Spell : MonoBehaviour
 {
-    [SerializeField] VisualEffect blowEffect;
+     [SerializeField] private ParticleSystem blowEffect;
 
     [SerializeField] private FMODUnity.EventReference castSpellSound;
     [SerializeField] private FMODUnity.EventReference impactSpellSound;
@@ -32,9 +32,10 @@ public class Spell : MonoBehaviour
 
     void OnCollision() 
     {
-        if (blowEffect != null)
+      if (blowEffect != null)
         {
-            blowEffect.Play();
+            
+            Instantiate(blowEffect, transform.position, transform.rotation).Play();
         }
         Destroy(gameObject);
     }
