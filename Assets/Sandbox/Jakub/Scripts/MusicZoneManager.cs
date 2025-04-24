@@ -4,7 +4,7 @@ using FMOD.Studio;
 using System.Collections.Generic;
 public class MusicZoneManager : MonoBehaviour
 {
-    [Header("FMOD Settings")]
+    [Header("FMOD Settings")] //x
     [SerializeField] private EventReference musicEventReference; 
     [SerializeField] private List<string> musicZoneParameters; 
 

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MusicZoneTrigger : MonoBehaviour
 {
-    [Tooltip("Parameter Name")]
+    [Tooltip("Parameter Name")] // x
     [SerializeField] private string fmodParameterName;
 
     private void Start()
