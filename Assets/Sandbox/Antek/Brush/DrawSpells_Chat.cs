@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using FMODUnity;
@@ -7,16 +8,17 @@ using FMOD.Studio;
 public class DrawSpells_Chat : MonoBehaviour
 {
     [SerializeField] Camera drawCamera;
-    [SerializeField] GameObject brush;
+    [SerializeField] LineRenderer brush;
 
     [Header("FMOD Events")]
     [SerializeField] EventReference drawSound;
     [SerializeField] EventReference eraseSound;
-
-    LineRenderer lineRenderer;
+    
     EventInstance drawSoundInstance;
 
     List<GameObject> drawList = new List<GameObject>();
+    
+    private Coroutine _drawingCoroutine;
 
     Vector3 lastPos;
     public LayerMask layerMask;
@@ -64,7 +66,15 @@ public class DrawSpells_Chat : MonoBehaviour
 
     void Draw()
     {
+
         if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            StartDrawing();
+        }
+
+        if (Input.GetKeyUp(KeyCode.Mouse0))
+            FinishLine();
+        /*if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             RaycastHit hit;
             Ray ray = drawCamera.ScreenPointToRay(Input.mousePosition);
@@ -93,10 +103,42 @@ public class DrawSpells_Chat : MonoBehaviour
         {
             StopAndRecreateDrawSound();
             lineRenderer = null;
+        }*/
+    }
+    
+    private void StartDrawing()
+    {
+        if(_drawingCoroutine != null)
+            StopCoroutine(_drawingCoroutine);
+
+        _drawingCoroutine = StartCoroutine(DrawLine());
+    }
+    
+    private IEnumerator DrawLine()
+    {
+        var drawer = Instantiate(brush, transform);
+        drawer.positionCount = 0;
+        drawList.Add(drawer.gameObject);
+        
+        while (true)
+        {
+            Vector2 mousePosition = Input.mousePosition;
+            mousePosition -= new Vector2(Screen.width / 2f, Screen.height / 2f);
+            //mousePosition.z = 0;
+
+            drawer.positionCount++;
+            drawer.SetPosition(drawer.positionCount - 1, mousePosition / 100f);
+            
+            yield return null;
         }
     }
+    
+    private void FinishLine()
+    {
+        StopCoroutine(_drawingCoroutine);
+    }
 
-    void CreateBrush(Vector3 hitpoint)
+    /*void CreateBrush(Vector3 hitpoint)
     {
         GameObject brushInstance = Instantiate(brush);
         drawList.Add(brushInstance);
@@ -111,7 +153,7 @@ public class DrawSpells_Chat : MonoBehaviour
         lineRenderer.positionCount++;
         int positionIndex = lineRenderer.positionCount - 1;
         lineRenderer.SetPosition(positionIndex, pointPos);
-    }
+    }*/
 
     void RemoveLines()
     {
