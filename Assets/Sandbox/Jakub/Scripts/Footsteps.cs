@@ -7,6 +7,8 @@ public class PlayerFootsteps : MonoBehaviour
 {
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private EventReference footstepSound;
+    [SerializeField] private EventReference jumpSound;
+    [SerializeField] private EventReference landSound;
 
     [Header("Footstep Settings")]
     [SerializeField] private float baseStepInterval = 0.5f;
@@ -15,6 +17,8 @@ public class PlayerFootsteps : MonoBehaviour
 
     private float stepTimer;
     private Rigidbody rb;
+    private bool wasGrounded;
+    private bool footstepPlayedOnStartMove = false;
 
     void Start()
     {
@@ -23,12 +27,21 @@ public class PlayerFootsteps : MonoBehaviour
 
     void Update()
     {
-        if (IsMoving() && IsGrounded())
+        bool isGrounded = IsGrounded();
+        bool isMoving = IsMoving();
+        bool isSprinting = Input.GetKey(KeyCode.LeftShift);
+
+        float currentStepInterval = isSprinting ? baseStepInterval * sprintMultiplier : baseStepInterval;
+
+        // Footsteps
+        if (isMoving && isGrounded)
         {
-            bool isSprinting = Input.GetKey(KeyCode.LeftShift); // Check sprint key
-            float currentStepInterval = isSprinting
-                ? baseStepInterval * sprintMultiplier
-                : baseStepInterval;
+            if (!footstepPlayedOnStartMove)
+            {
+                PlayFootstepSound(); // Play one step immediately when movement starts
+                footstepPlayedOnStartMove = true;
+                stepTimer = 0f;
+            }
 
             stepTimer += Time.deltaTime;
 
@@ -41,7 +54,22 @@ public class PlayerFootsteps : MonoBehaviour
         else
         {
             stepTimer = 0f;
+            footstepPlayedOnStartMove = false;
         }
+
+        // Jump detection
+        if (wasGrounded && !isGrounded && rb.linearVelocity.y > 1f)
+        {
+            PlayJumpSound();
+        }
+
+        // Landing detection
+        if (!wasGrounded && isGrounded && rb.linearVelocity.y < -1f)
+        {
+            PlayLandSound();
+        }
+
+        wasGrounded = isGrounded;
     }
 
     bool IsMoving()
@@ -57,5 +85,15 @@ public class PlayerFootsteps : MonoBehaviour
     void PlayFootstepSound()
     {
         RuntimeManager.PlayOneShotAttached(footstepSound, gameObject);
+    }
+
+    void PlayJumpSound()
+    {
+        RuntimeManager.PlayOneShotAttached(jumpSound, gameObject);
+    }
+
+    void PlayLandSound()
+    {
+        RuntimeManager.PlayOneShotAttached(landSound, gameObject);
     }
 }

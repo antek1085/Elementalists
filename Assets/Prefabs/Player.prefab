@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 2834231367614045733}
   - component: {fileID: 874849630983395836}
   - component: {fileID: 2363567642560868533}
+  - component: {fileID: 6726703600788953641}
+  - component: {fileID: 3044866459138303474}
+  - component: {fileID: 554136206372045264}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -120,6 +123,97 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EQList: {fileID: 11400000, guid: 9073300687a7d5a499d04577e98a62e6, type: 2}
+--- !u!114 &6726703600788953641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284194574107244670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c695519c14a8ac43af9def1037f26fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 2834231367614045733}
+  footstepSound:
+    Guid:
+      Data1: -438040239
+      Data2: 1154405035
+      Data3: 130559650
+      Data4: 1070286467
+    Path: event:/sfx_footstep
+  jumpSound:
+    Guid:
+      Data1: 446879946
+      Data2: 1238762225
+      Data3: 1244329907
+      Data4: -845782577
+    Path: event:/sfx_jump
+  landSound:
+    Guid:
+      Data1: -1041142813
+      Data2: 1074412734
+      Data3: 1924509085
+      Data4: -1542174691
+    Path: event:/sfx_land
+  baseStepInterval: 0.5
+  sprintMultiplier: 0.8
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 1
+--- !u!114 &3044866459138303474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284194574107244670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c695519c14a8ac43af9def1037f26fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 2834231367614045733}
+  footstepSound:
+    Guid:
+      Data1: -438040239
+      Data2: 1154405035
+      Data3: 130559650
+      Data4: 1070286467
+    Path: event:/sfx_footstep
+  jumpSound:
+    Guid:
+      Data1: 446879946
+      Data2: 1238762225
+      Data3: 1244329907
+      Data4: -845782577
+    Path: event:/sfx_jump
+  landSound:
+    Guid:
+      Data1: -1041142813
+      Data2: 1074412734
+      Data3: 1924509085
+      Data4: -1542174691
+    Path: event:/sfx_land
+  baseStepInterval: 0.5
+  sprintMultiplier: 0.75
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 1
+--- !u!114 &554136206372045264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284194574107244670}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8fe799779d7954fa170f0f0f2d5283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetFrameRate: 60
 --- !u!1 &2684983509233888619
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,13 +241,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2684983509233888619}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4852937353857137674}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!33 &4739985767663051543
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -304,7 +398,7 @@ Transform:
   m_GameObject: {fileID: 7563669016307079164}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.687, z: 0.262}
+  m_LocalPosition: {x: 0.016, y: 0.81, z: 0.208}
   m_LocalScale: {x: 0.53276, y: 0.14117607, z: 0.53276}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -380,7 +474,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}

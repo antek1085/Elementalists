@@ -240,6 +240,33 @@ MonoBehaviour:
   MinDistance: 2
   MaxDistance: 40
   Length: 35555
+--- !u!114 &-5962699028210790229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_jump
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_jump
+  Guid:
+    Data1: 446879946
+    Data2: 1238762225
+    Data3: 1244329907
+    Data4: -845782577
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5919153819189062456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,13 +365,13 @@ MonoBehaviour:
     Data4: 1473529065
   Banks:
   - {fileID: -2017273070756321204}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 138303
 --- !u!114 &-4876110707728012936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -470,13 +497,13 @@ MonoBehaviour:
     Data4: -358779104
   Banks:
   - {fileID: -2017273070756321204}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 116580
 --- !u!114 &-3325119996329587666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,13 +551,13 @@ MonoBehaviour:
     Data4: 1614962001
   Banks:
   - {fileID: -2017273070756321204}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 119035
 --- !u!114 &-2980407308073874879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -600,7 +627,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638805402773597922
+  lastModified: 638811083341758451
   FileSizes: []
   Exists: 1
 --- !u!114 &-1330632865554475431
@@ -656,6 +683,60 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+  Length: 0
+--- !u!114 &-811046161740768242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_icewall_loop
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_icewall_loop
+  Guid:
+    Data1: -202264224
+    Data2: 1279426567
+    Data3: 1502926984
+    Data4: 233224377
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 25
+  Length: 50598
+--- !u!114 &-580455783779710319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_icewall_extinguish
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_icewall_extinguish
+  Guid:
+    Data1: 1598003358
+    Data2: 1085665874
+    Data3: -1750400628
+    Data4: 98159738
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 30
   Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
@@ -714,12 +795,16 @@ MonoBehaviour:
   - {fileID: -4876110707728012936}
   - {fileID: -7647564148151707069}
   - {fileID: 9015552272389205392}
+  - {fileID: -811046161740768242}
+  - {fileID: -580455783779710319}
+  - {fileID: -5962699028210790229}
+  - {fileID: 8598194060537746169}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2017273070756321204}
   StringsBanks:
   - {fileID: 3381557211253963980}
-  cacheTime: 638805402773602932
+  cacheTime: 638811083341778516
   cacheVersion: 131845
 --- !u!114 &329387357420312703
 MonoBehaviour:
@@ -997,7 +1082,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638805402773602932
+  lastModified: 638811083341778516
   FileSizes: []
   Exists: 1
 --- !u!114 &4832339047097106562
@@ -1020,7 +1105,7 @@ MonoBehaviour:
     Data4: 1602852995
   Banks:
   - {fileID: -2017273070756321204}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
@@ -1321,6 +1406,33 @@ MonoBehaviour:
     Data2: 1205127117
     Data3: -754005573
     Data4: -280759709
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8598194060537746169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_land
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_land
+  Guid:
+    Data1: -1041142813
+    Data2: 1074412734
+    Data3: 1924509085
+    Data4: -1542174691
   Banks:
   - {fileID: -2017273070756321204}
   IsStream: 0
