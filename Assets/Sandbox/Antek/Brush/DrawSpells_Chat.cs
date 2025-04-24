@@ -4,11 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
+using UnityEngine.UI;
 
 public class DrawSpells_Chat : MonoBehaviour
 {
     [SerializeField] Camera drawCamera;
     [SerializeField] LineRenderer brush;
+    [SerializeField] Image cursorImage;
 
     [Header("FMOD Events")]
     [SerializeField] EventReference drawSound;
@@ -32,6 +34,7 @@ public class DrawSpells_Chat : MonoBehaviour
     void Start()
     {
         isCasting = false;
+        cursorImage.enabled = false;
         DrawingSpellsEvent.current.OnSpellStartCasting += SpellStartCasting;
         DrawingSpellsEvent.current.OnSpellCast += floats => isCasting = false;
     }
@@ -41,12 +44,19 @@ public class DrawSpells_Chat : MonoBehaviour
         isCasting = !isCasting;
         if (isCasting)
         {
+            cursorImage.enabled = true;
             RemoveLines();
         }
     }
 
+    void OnEnable()
+    {
+    }
+
     void Update()
     {
+        cursorImage.transform.position = Input.mousePosition;
+        
         Draw();
 
         // Cleaning the canvas of spell
@@ -60,6 +70,7 @@ public class DrawSpells_Chat : MonoBehaviour
         // Sending information to Neural Network
         if (Input.GetKeyDown(KeyCode.Q))
         {
+            cursorImage.enabled = false;
             ScreenShotHandler.TakeScreenshot_Static();
         }
     }
@@ -119,6 +130,7 @@ public class DrawSpells_Chat : MonoBehaviour
         var drawer = Instantiate(brush, transform);
         drawer.positionCount = 0;
         drawList.Add(drawer.gameObject);
+        drawSoundInstance.start();
         
         while (true)
         {

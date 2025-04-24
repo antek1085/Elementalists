@@ -16,8 +16,6 @@ public class SpellsPlayerFeedbackUI : MonoBehaviour
     // Fire Spell 0  ||| Water Spell 1
     void OnSpellFloatUI(float[] obj)
     {
-        Debug.Log(obj[0] + "Fire");
-        Debug.Log(obj[1] + "Water");
         fireSpell.color = fireSpellGradient.Evaluate(obj[1]);
         waterSpell.color = waterSpellGradient.Evaluate(obj[0]);
 

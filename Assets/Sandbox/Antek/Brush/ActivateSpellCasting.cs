@@ -4,10 +4,12 @@ using UnityEngine;
 public class ActivateSpellCasting : MonoBehaviour
 {
     GameObject brushObjects;
+    [SerializeField] GameObject camera;
     bool input;
     void Awake()
     {
         brushObjects = transform.GetChild(0).gameObject;
+        
         input = true;
     }
     
@@ -16,6 +18,7 @@ public class ActivateSpellCasting : MonoBehaviour
         DrawingSpellsEvent.current.OnSpellCast += SpellCast;
         StopInputEvent.current.OnStopInput += ChangeInput;
         brushObjects.SetActive(false);
+        camera.SetActive(false);
     }
     void ChangeInput(GameObject obj)
     {
@@ -38,6 +41,7 @@ public class ActivateSpellCasting : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             brushObjects.SetActive(!brushObjects.activeSelf);
+            camera.SetActive(!camera.activeSelf);
             
             if (Cursor.visible == false)
             {
@@ -57,6 +61,7 @@ public class ActivateSpellCasting : MonoBehaviour
     {
         StopInputEvent.current.StopInput(null);
         brushObjects.SetActive(false);
+        camera.SetActive(false);
     }
     
 }
