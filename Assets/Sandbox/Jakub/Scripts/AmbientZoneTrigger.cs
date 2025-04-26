@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class AmbientZoneTrigger : MonoBehaviour
@@ -30,4 +31,5 @@ public class AmbientZoneTrigger : MonoBehaviour
             zoneManager.SetZoneState(zoneParameterName, false);
         }
     }
+    
 }
