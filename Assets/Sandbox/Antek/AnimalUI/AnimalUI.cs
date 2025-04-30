@@ -31,9 +31,12 @@ public class AnimalUI : MonoBehaviour
 
     [Header("SOUNDS")] 
     [SerializeField] private EventReference dialoguePopupSound;
+    
     bool wasInteracted = false;
+    Quest quest;
     void Awake()
     {
+        quest = gameObject.GetComponent<Quest>();
     }
      public void GiveItemUIPopUp(bool isRightItem,bool givenAllItems)
     {
@@ -42,6 +45,7 @@ public class AnimalUI : MonoBehaviour
         {
             wasInteracted = true;
             AnimalUiEvents.current.DialogueBoxPopUp(message,animalName,animalSprite);
+            quest.ControlQuest();
             return;
         }
 
@@ -73,6 +77,7 @@ public class AnimalUI : MonoBehaviour
                         
                         
                         Destroy(this.gameObject);
+                        Debug.Log(1);
                         break;
                     case false:
                         AnimalUiEvents.current.DialogueStringPopUp(shortMessageAfterGivenWrongItem,timeToTextDisappear,animalName);

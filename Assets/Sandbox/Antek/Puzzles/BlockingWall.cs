@@ -15,6 +15,8 @@ public class BlockingWall : MonoBehaviour
     [SerializeField] private GameObject npcSwapped;
     
     private EventInstance loopInstance;
+    
+    Quest quest;
     private void Start()
     {
         if (passiveLoopSound.IsNull) return; //???? null check 
@@ -22,6 +24,8 @@ public class BlockingWall : MonoBehaviour
         loopInstance = RuntimeManager.CreateInstance(passiveLoopSound);
         RuntimeManager.AttachInstanceToGameObject(loopInstance, gameObject);
         loopInstance.start();
+        
+        quest = gameObject.AddComponent<Quest>();
     }
 
     void OnTriggerEnter(Collider other)
@@ -45,7 +49,11 @@ public class BlockingWall : MonoBehaviour
         {
             npcSwapped.SetActive(true);
         }
-        
+
+        if (quest != null)
+        {
+            quest.ControlQuest();
+        }
         Destroy(gameObject);
     }
 
