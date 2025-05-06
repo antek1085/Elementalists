@@ -1,17 +1,23 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Quest : MonoBehaviour
 {
-    QuetsController controller;
+    QuestControler controller;
     
     [SerializeField] int questId;
-    [SerializeField] string questInfo;
-
+    [FormerlySerializedAs("questInfo")]
+    [SerializeField] string questDescription;
+    [SerializeField] string questName;
+    string[] questInfo;
     [SerializeField] private bool isEndingQuest;
     
     void Start()
     {
-        controller = QuetsController.instance;
+        controller = QuestControler.instance;
+        questInfo = new string[2];
+        questInfo[0] = questName;
+        questInfo[1] = questDescription;
     }
 
     public void ControlQuest()
