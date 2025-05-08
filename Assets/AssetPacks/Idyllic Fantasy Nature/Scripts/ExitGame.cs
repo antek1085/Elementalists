@@ -12,5 +12,11 @@ namespace IdyllicFantasyNature
                 Application.Quit();
             }
         }
+          public void QuitGame()
+        {
+            Debug.Log("Zamykanie gry...");
+            Application.Quit();
+        }
     }
+  
 }
