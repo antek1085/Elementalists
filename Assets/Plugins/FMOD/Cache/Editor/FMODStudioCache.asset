@@ -627,7 +627,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638825708406781231
+  lastModified: 638825739099406275
   FileSizes: []
   Exists: 1
 --- !u!114 &-1330632865554475431
@@ -657,6 +657,33 @@ MonoBehaviour:
   MinDistance: 2.2
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1143088657322578057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/mfx_location_snow
+  m_EditorClassIdentifier: 
+  Path: event:/Music/mfx_location_snow
+  Guid:
+    Data1: 999932216
+    Data2: 1235950086
+    Data3: 946119093
+    Data4: 1314504784
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 119035
 --- !u!114 &-849622525689524997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -800,12 +827,13 @@ MonoBehaviour:
   - {fileID: 8598194060537746169}
   - {fileID: 6317379454772426477}
   - {fileID: -9037742148217509551}
+  - {fileID: -1143088657322578057}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2017273070756321204}
   StringsBanks:
   - {fileID: 3381557211253963980}
-  cacheTime: 638825708406801277
+  cacheTime: 638825739099426317
   cacheVersion: 131845
 --- !u!114 &329387357420312703
 MonoBehaviour:
@@ -1011,6 +1039,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &2653170505394779501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mfx_locations/zone_snow
+  m_EditorClassIdentifier: 
+  Name: zone_snow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4088417152
+    data2: 17169580
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &2871232808514183467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1107,7 +1159,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638825708406801277
+  lastModified: 638825739099426317
   FileSizes: []
   Exists: 1
 --- !u!114 &4832339047097106562
@@ -1137,6 +1189,7 @@ MonoBehaviour:
   - {fileID: 1809039762827933118}
   - {fileID: -7465525511609871699}
   - {fileID: 1023847409405494874}
+  - {fileID: 2653170505394779501}
   MinDistance: 1
   MaxDistance: 20
   Length: 10000

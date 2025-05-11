@@ -5,32 +5,50 @@ using FMOD.Studio;
 
 public class AmbientZone : MonoBehaviour
 {
-    [SerializeField] private EventReference ambientEvent; // FMOD Event
-    [SerializeField] private List<string> zoneParameters; // List of FMOD parameter names (e.g., "zone_tutorial", "zone_village", "zone_forest")
+    [SerializeField] private EventReference ambientEvent;
+    [SerializeField] private List<string> zoneParameters;
 
     private EventInstance ambientInstance;
-    private Dictionary<string, float> activeZones = new Dictionary<string, float>(); // Track active zones
+    private Dictionary<string, int> activeZoneCounters = new Dictionary<string, int>(); 
 
     void Start()
     {
         ambientInstance = RuntimeManager.CreateInstance(ambientEvent);
         ambientInstance.start();
 
-        // Initialize all known zones to 0
         foreach (string param in zoneParameters)
         {
-            activeZones[param] = 0f;
-            ambientInstance.setParameterByName(param, 0f);
+            activeZoneCounters[param] = 0;
+            ambientInstance.setParameterByName(param, 0f); 
         }
     }
 
     public void SetZoneState(string zoneName, bool isInside)
     {
-        if (activeZones.ContainsKey(zoneName))
+        if (activeZoneCounters.ContainsKey(zoneName))
         {
-            float value = isInside ? 1f : 0f;
-            activeZones[zoneName] = value;
-            ambientInstance.setParameterByName(zoneName, value);
+            if (isInside)
+            {
+                activeZoneCounters[zoneName]++;
+            }
+            else
+            {
+                activeZoneCounters[zoneName]--;
+                if (activeZoneCounters[zoneName] < 0) 
+                {
+                    activeZoneCounters[zoneName] = 0;
+                }
+            }
+
+            float targetValue = (activeZoneCounters[zoneName] > 0) ? 1f : 0f;
+            
+            float currentValue;
+            ambientInstance.getParameterByName(zoneName, out currentValue);
+
+            if (currentValue != targetValue)
+            {
+                ambientInstance.setParameterByName(zoneName, targetValue);
+            }
         }
     }
 

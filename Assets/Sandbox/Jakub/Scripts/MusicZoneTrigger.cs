@@ -14,7 +14,7 @@ public class MusicZoneTrigger : MonoBehaviour
         Collider col = GetComponent<Collider>();
         if (col == null || !col.isTrigger)
         {
-             Debug.LogWarning($"MusicZoneTrigger na obiekcie '{gameObject.name}' potrzebuje komponentu Collider z włączoną opcją 'Is Trigger'.", gameObject);
+            Debug.LogWarning($"MusicZoneTrigger na obiekcie '{gameObject.name}' potrzebuje komponentu Collider z włączoną opcją 'Is Trigger'.", gameObject);
         }
     }
 
@@ -41,7 +41,7 @@ public class MusicZoneTrigger : MonoBehaviour
             {
                 MusicZoneManager.Instance.PlayerExitedZone(fmodParameterName);
             }
-             else
+            else
             {
                 Debug.LogError("MusicZoneTrigger: Nie znaleziono instancji MusicZoneManager w scenie!");
             }

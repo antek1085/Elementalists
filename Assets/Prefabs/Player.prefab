@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2834231367614045733}
   - component: {fileID: 874849630983395836}
   - component: {fileID: 2363567642560868533}
-  - component: {fileID: 6726703600788953641}
   - component: {fileID: 3044866459138303474}
   - component: {fileID: 554136206372045264}
   m_Layer: 0
@@ -123,45 +122,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EQList: {fileID: 11400000, guid: 9073300687a7d5a499d04577e98a62e6, type: 2}
---- !u!114 &6726703600788953641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 284194574107244670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c695519c14a8ac43af9def1037f26fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerMovement: {fileID: 2834231367614045733}
-  footstepSound:
-    Guid:
-      Data1: -438040239
-      Data2: 1154405035
-      Data3: 130559650
-      Data4: 1070286467
-    Path: event:/sfx_footstep
-  jumpSound:
-    Guid:
-      Data1: 446879946
-      Data2: 1238762225
-      Data3: 1244329907
-      Data4: -845782577
-    Path: event:/sfx_jump
-  landSound:
-    Guid:
-      Data1: -1041142813
-      Data2: 1074412734
-      Data3: 1924509085
-      Data4: -1542174691
-    Path: event:/sfx_land
-  baseStepInterval: 0.5
-  sprintMultiplier: 0.8
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 1
 --- !u!114 &3044866459138303474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,11 +156,21 @@ MonoBehaviour:
       Data3: 1924509085
       Data4: -1542174691
     Path: event:/sfx_land
+  snowFootstepSound:
+    Guid:
+      Data1: -205774675
+      Data2: 1273438695
+      Data3: -2018160470
+      Data4: 1645424787
+    Path: event:/sfx_footstep_snow
   baseStepInterval: 0.5
   sprintMultiplier: 0.75
   groundMask:
     serializedVersion: 2
     m_Bits: 1
+  snowLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!114 &554136206372045264
 MonoBehaviour:
   m_ObjectHideFlags: 0
