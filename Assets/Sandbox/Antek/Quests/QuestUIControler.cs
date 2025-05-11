@@ -11,9 +11,6 @@ public class QuestUIControler : MonoBehaviour
     {
         instance = this;
     }
-    void Start()
-    {
-    }
 
     public void UpdateQuest(int questId,bool isCompleted)
     {

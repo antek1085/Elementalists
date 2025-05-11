@@ -9,6 +9,7 @@ public class QuestControler : MonoBehaviour
     Dictionary<int,string[]> quests = new Dictionary<int,string[]>();
     
     private QuestUIControler questUIControler;
+    private QuestJournalControler questJournalControler;
 
     void Awake()
     {
@@ -18,12 +19,14 @@ public class QuestControler : MonoBehaviour
     void Start()
     {
         questUIControler = QuestUIControler.instance;
+        questJournalControler = QuestJournalControler.instance;
     }
 
     public void StartNewQuest(int questId, string[] questInfo)
     {
         quests.Add(questId,questInfo);
         questUIControler.UpdateQuest(questId,false);
+        questJournalControler.AddNewQuestJournal(questId);
     }
 
     public void EndQuest(int questId)
@@ -31,6 +34,7 @@ public class QuestControler : MonoBehaviour
         if (quests.ContainsKey(questId))
         {
             questUIControler.UpdateQuest(questId,true);   
+            questJournalControler.EndQuestJournal(questId);
         }
     }
 
