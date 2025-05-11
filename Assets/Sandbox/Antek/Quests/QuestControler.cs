@@ -5,6 +5,7 @@ using UnityEngine;
 public class QuestControler : MonoBehaviour
 {
     public static QuestControler instance;
+    
     Dictionary<int,string[]> quests = new Dictionary<int,string[]>();
     
     private QuestUIControler questUIControler;
@@ -27,8 +28,10 @@ public class QuestControler : MonoBehaviour
 
     public void EndQuest(int questId)
     {
-        quests.Remove(questId); 
-        questUIControler.UpdateQuest(questId,true);
+        if (quests.ContainsKey(questId))
+        {
+            questUIControler.UpdateQuest(questId,true);   
+        }
     }
 
     public string GetName(int questId)

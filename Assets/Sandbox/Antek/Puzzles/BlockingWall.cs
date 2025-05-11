@@ -1,4 +1,4 @@
-using System;
+                            using System;
 using UnityEngine;
 using FMOD.Studio;
 using FMODUnity;
@@ -25,7 +25,7 @@ public class BlockingWall : MonoBehaviour
         RuntimeManager.AttachInstanceToGameObject(loopInstance, gameObject);
         loopInstance.start();
         
-        quest = gameObject.AddComponent<Quest>();
+        quest = gameObject.GetComponent<Quest>();
     }
 
     void OnTriggerEnter(Collider other)
