@@ -10,6 +10,8 @@ public class PlayerFootsteps : MonoBehaviour
     [SerializeField] private EventReference jumpSound;
     [SerializeField] private EventReference landSound;
 
+    [SerializeField] private EventReference snowFootstepSound; 
+
     [Header("Footstep Settings")]
     [SerializeField] private float baseStepInterval = 0.5f;
     [SerializeField] private float sprintMultiplier = 0.75f;
@@ -19,6 +21,7 @@ public class PlayerFootsteps : MonoBehaviour
     private Rigidbody rb;
     private bool wasGrounded;
     private bool footstepPlayedOnStartMove = false;
+    private GameObject currentGroundObject;
 
     void Start()
     {
@@ -27,18 +30,28 @@ public class PlayerFootsteps : MonoBehaviour
 
     void Update()
     {
-        bool isGrounded = IsGrounded();
+        RaycastHit hitInfo;
+        bool isGrounded = IsGrounded(out hitInfo); 
+        
+        if (isGrounded)
+        {
+            currentGroundObject = hitInfo.collider.gameObject;
+        }
+        else
+        {
+            currentGroundObject = null;
+        }
+
         bool isMoving = IsMoving();
         bool isSprinting = Input.GetKey(KeyCode.LeftShift);
 
         float currentStepInterval = isSprinting ? baseStepInterval * sprintMultiplier : baseStepInterval;
 
-        // Footsteps
         if (isMoving && isGrounded)
         {
             if (!footstepPlayedOnStartMove)
             {
-                PlayFootstepSound(); // Play one step immediately when movement starts
+                PlayFootstepSound();
                 footstepPlayedOnStartMove = true;
                 stepTimer = 0f;
             }
@@ -57,13 +70,11 @@ public class PlayerFootsteps : MonoBehaviour
             footstepPlayedOnStartMove = false;
         }
 
-        // Jump detection
         if (wasGrounded && !isGrounded && rb.linearVelocity.y > 1f)
         {
             PlayJumpSound();
         }
 
-        // Landing detection
         if (!wasGrounded && isGrounded && rb.linearVelocity.y < -1f)
         {
             PlayLandSound();
@@ -77,14 +88,21 @@ public class PlayerFootsteps : MonoBehaviour
         return Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0 || Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0;
     }
 
-    bool IsGrounded()
+    bool IsGrounded(out RaycastHit hitInfo)
     {
-        return Physics.Raycast(transform.position, Vector3.down, 1.1f, groundMask);
+        return Physics.Raycast(transform.position, Vector3.down, out hitInfo, 1.1f, groundMask);
     }
 
     void PlayFootstepSound()
     {
-        RuntimeManager.PlayOneShotAttached(footstepSound, gameObject);
+        if (currentGroundObject != null && currentGroundObject.CompareTag("Snow"))
+        {
+            RuntimeManager.PlayOneShotAttached(snowFootstepSound, gameObject);
+        }
+        else
+        {
+            RuntimeManager.PlayOneShotAttached(footstepSound, gameObject);
+        }
     }
 
     void PlayJumpSound()
