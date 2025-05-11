@@ -65,7 +65,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 333733ceb992ddb448188a2f476222e8, type: 2}
-  - {fileID: 2100000, guid: d235d21210cd9c341a773bb97a0a4ad4, type: 2}
+  - {fileID: 2100000, guid: 360755d37a5b245479eda37609246742, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -152,7 +152,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 333733ceb992ddb448188a2f476222e8, type: 2}
-  - {fileID: 2100000, guid: d235d21210cd9c341a773bb97a0a4ad4, type: 2}
+  - {fileID: 2100000, guid: 360755d37a5b245479eda37609246742, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -239,7 +239,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 333733ceb992ddb448188a2f476222e8, type: 2}
-  - {fileID: 2100000, guid: d235d21210cd9c341a773bb97a0a4ad4, type: 2}
+  - {fileID: 2100000, guid: 360755d37a5b245479eda37609246742, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 4253105195041782570}
   - component: {fileID: 1987649752300711972}
   m_Layer: 0
-  m_Name: BroadleafTree_04_Green
+  m_Name: BroadleafTree_04_Winter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
