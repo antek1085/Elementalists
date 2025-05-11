@@ -11,8 +11,11 @@ public class QuestUIControler : MonoBehaviour
     {
         instance = this;
     }
+    void Start()
+    {
+    }
 
-    public void UpdateQuest(int questId,string questInfo ,bool isCompleted)
+    public void UpdateQuest(int questId,bool isCompleted)
     {
         if (isCompleted) //Remove Quest
         {
@@ -29,7 +32,6 @@ public class QuestUIControler : MonoBehaviour
         {
            var createdObject = Instantiate(questUiPrefab, transform);
            createdObject.GetComponent<QuestUi>().id = questId;
-           createdObject.GetComponent<QuestUi>().questInfo.text = questInfo;
            createdObject.transform.SetParent(transform);
            createdObject.transform.SetAsLastSibling();
         }

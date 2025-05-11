@@ -4,15 +4,19 @@ using UnityEngine;
 public class QuestUi : MonoBehaviour
 {
     public int id;
-    public TextMeshProUGUI questInfo;
+    [SerializeField] TextMeshProUGUI questInfo;
+    [SerializeField] TextMeshProUGUI name;
+    QuestControler questController;
 
     void Awake()
     {
-        questInfo = GetComponent<TextMeshProUGUI>();
+        questController = QuestControler.instance;
     }
+    
     void Start()
     {
-        
+        questInfo.text = questController.GetDescription(id);
+        name.text = questController.GetName(id);
     }
 
     // Update is called once per frame
