@@ -7,13 +7,14 @@ public class QuestJournalControler : MonoBehaviour
 
     public static QuestJournalControler instance;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-
     void Awake()
     {
         instance = this;
     }
+    
     void Start()
     {
+        transform.parent.transform.gameObject.SetActive(false);
         for (int i = 0; i < transform.childCount; i++)
         {
             if (transform.GetChild(i).GetComponent<QuestJournal>() != null)
