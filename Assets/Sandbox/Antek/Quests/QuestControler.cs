@@ -18,12 +18,16 @@ public class QuestControler : MonoBehaviour
     
     void Start()
     {
-        questUIControler = QuestUIControler.instance;
-        questJournalControler = QuestJournalControler.instance;
+        questUIControler = QuestUIControler.instance; 
     }
 
     public void StartNewQuest(int questId, string[] questInfo)
     {
+        if (questJournalControler == null)
+        {
+            questJournalControler = QuestJournalControler.instance;   
+        }
+        
         quests.Add(questId,questInfo);
         questUIControler.UpdateQuest(questId,false);
         questJournalControler.AddNewQuestJournal(questId);

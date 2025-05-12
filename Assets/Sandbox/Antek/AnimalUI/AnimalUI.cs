@@ -45,7 +45,10 @@ public class AnimalUI : MonoBehaviour
         {
             wasInteracted = true;
             AnimalUiEvents.current.DialogueBoxPopUp(message,animalName,animalSprite);
-            quest.ControlQuest();
+            if (quest != null)
+            { 
+                quest.ControlQuest();   
+            }
             return;
         }
 
