@@ -11610,7 +11610,7 @@ GameObject:
   - component: {fileID: 78230597}
   - component: {fileID: 78230596}
   m_Layer: 0
-  m_Name: FireFliesSpirit (19)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11624,12 +11624,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78230594}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.7269496, z: -0, w: 0.68669087}
-  m_LocalPosition: {x: -0.8850001, y: -0.03, z: 0.23900011}
-  m_LocalScale: {x: 0.008897075, y: 0.008897075, z: 0.008897075}
+  m_LocalRotation: {x: -0, y: 0.1623337, z: -0, w: 0.98673594}
+  m_LocalPosition: {x: -27.823242, y: 0.47408938, z: -21.051014}
+  m_LocalScale: {x: 0.17999113, y: 0.17999111, z: 0.17999113}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -93.263, z: 0}
 --- !u!73398921 &78230596
 VFXRenderer:
@@ -12174,8 +12174,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questId: 1
-  questDescription: TEsting Description
-  questName: Testing Name
+  questDescription: Use Water Spell to destroy the Fire Wall
+  questName: Break The Wall
   isEndingQuest: 0
 --- !u!1001 &81963771
 PrefabInstance:
@@ -16754,17 +16754,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 421477175}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
---- !u!4 &112954831 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-  m_PrefabInstance: {fileID: 112954830}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &112954832 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 145045510962678582, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
@@ -17888,67 +17880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 273799809}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1239230678}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2035927342}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1023205947}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2018959138}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1466678935}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1245241868}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 882934426}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1443003477}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 346833886}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1340485639}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1830943802}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1448213972}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 786846364}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 167596322}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2055457500}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 624344123}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1023767702}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 78230595}
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 434050353}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6842322810288957503, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
       insertIndex: -1
@@ -19759,11 +19691,6 @@ PrefabInstance:
 --- !u!1 &130998992 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 278065288057035280, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
-  m_PrefabInstance: {fileID: 1629144157}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &130998997 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6939568750179551468, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
   m_PrefabInstance: {fileID: 1629144157}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &131146566
@@ -24609,7 +24536,7 @@ GameObject:
   - component: {fileID: 167596324}
   - component: {fileID: 167596323}
   m_Layer: 0
-  m_Name: FireFliesSpirit (17)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24623,12 +24550,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167596321}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.99972475, z: -0, w: 0.023463216}
-  m_LocalPosition: {x: 0.17499949, y: -0.027, z: 1.0109999}
-  m_LocalScale: {x: 0.0053247223, y: 0.009635417, z: 0.018303046}
+  m_LocalRotation: {x: -0, y: -0.5399743, z: -0, w: 0.8416816}
+  m_LocalPosition: {x: -21.352097, y: 0.5347805, z: -46.778316}
+  m_LocalScale: {x: 0.1077211, y: 0.19492802, z: 0.37027746}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -177.311, z: 0}
 --- !u!73398921 &167596323
 VFXRenderer:
@@ -43392,7 +43319,7 @@ GameObject:
   - component: {fileID: 273799811}
   - component: {fileID: 273799810}
   m_Layer: 0
-  m_Name: FireFliesSpirit (13)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43406,12 +43333,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273799808}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.98807317, z: -0, w: -0.15398519}
-  m_LocalPosition: {x: -1.408, y: 0.017, z: 4.158}
-  m_LocalScale: {x: 0.0067583774, y: 0.018700998, z: 0.023231054}
+  m_LocalRotation: {x: -0, y: -0.68052006, z: -0, w: 0.73272943}
+  m_LocalPosition: {x: 49.668274, y: 1.4249165, z: -40.86956}
+  m_LocalScale: {x: 0.13672444, y: 0.37832808, z: 0.46997276}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -85.769, z: 0}
 --- !u!73398921 &273799810
 VFXRenderer:
@@ -54913,7 +54840,7 @@ GameObject:
   - component: {fileID: 346833888}
   - component: {fileID: 346833887}
   m_Layer: 0
-  m_Name: FireFliesSpirit (22)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54927,12 +54854,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346833885}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.62926495, z: -0, w: 0.7771908}
-  m_LocalPosition: {x: -9.947999, y: 0.016999997, z: 0.48900172}
-  m_LocalScale: {x: 0.0067583774, y: 0.018700998, z: 0.023231054}
+  m_LocalRotation: {x: -0, y: 0.29200003, z: -0, w: 0.95641834}
+  m_LocalPosition: {x: 45.394745, y: 1.4249165, z: 147.11891}
+  m_LocalScale: {x: 0.13672446, y: 0.37832808, z: 0.46997276}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -77.992, z: 0}
 --- !u!73398921 &346833887
 VFXRenderer:
@@ -67115,7 +67042,7 @@ GameObject:
   - component: {fileID: 421477177}
   - component: {fileID: 421477176}
   m_Layer: 0
-  m_Name: FireFliesSpirit (23)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67129,12 +67056,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421477174}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.02316609, z: -0, w: 0.99973166}
-  m_LocalPosition: {x: -0.0429, y: -0.042, z: -0.0434}
-  m_LocalScale: {x: 0.008316624, y: 0.005273926, z: 0.011763668}
+  m_LocalRotation: {x: -0, y: 0.6652178, z: -0, w: 0.7466494}
+  m_LocalPosition: {x: 53.416298, y: 0.23132491, z: -43.508896}
+  m_LocalScale: {x: 0.16824837, y: 0.10669346, z: 0.23798335}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 112954831}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: 2.655, z: 0}
 --- !u!73398921 &421477176
 VFXRenderer:
@@ -69276,7 +69203,7 @@ GameObject:
   - component: {fileID: 434050352}
   - component: {fileID: 434050351}
   m_Layer: 0
-  m_Name: FireFliesSpirit (5)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69371,12 +69298,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434050350}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.90398717, z: -0, w: 0.4275595}
-  m_LocalPosition: {x: -1.3918778, y: -0.42342284, z: 3.323758}
-  m_LocalScale: {x: 0.059479896, y: 0.05947989, z: 0.059479896}
+  m_LocalRotation: {x: -0, y: -0.15149494, z: -0, w: 0.98845804}
+  m_LocalPosition: {x: 33.892464, y: -7.4849997, z: -34.864227}
+  m_LocalScale: {x: 1.2033001, y: 1.2033, z: 1.2033001}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -17.427, z: 0}
 --- !u!1001 &434459886
 PrefabInstance:
@@ -113197,7 +113124,7 @@ GameObject:
   - component: {fileID: 624344122}
   - component: {fileID: 624344121}
   m_Layer: 0
-  m_Name: FireFliesSpirit (21)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113292,12 +113219,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624344120}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.98129344, z: -0, w: 0.1925183}
-  m_LocalPosition: {x: -1.158, y: -0.13475, z: 0.548}
-  m_LocalScale: {x: 0.015823307, y: 0.027197102, z: 0.0332674}
+  m_LocalRotation: {x: -0, y: -0.38955104, z: -0, w: 0.9210049}
+  m_LocalPosition: {x: -19.9609, y: -1.6450415, z: -18.26478}
+  m_LocalScale: {x: 0.32011133, y: 0.5502074, z: 0.6730119}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -157.8, z: 0}
 --- !u!1001 &625053024
 PrefabInstance:
@@ -128466,7 +128393,7 @@ GameObject:
   - component: {fileID: 704689650}
   - component: {fileID: 704689649}
   m_Layer: 0
-  m_Name: FireFliesSpirit (23)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -128480,12 +128407,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704689647}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.02316609, z: -0, w: 0.99973166}
-  m_LocalPosition: {x: -0.086, y: -0.139, z: -0.106}
-  m_LocalScale: {x: 0.012950719, y: 0.01295072, z: 0.012950719}
+  m_LocalRotation: {x: 0.04872966, y: 0.6223213, z: -0.036099378, w: 0.7804092}
+  m_LocalPosition: {x: 26.237183, y: 0.048529625, z: -39.434883}
+  m_LocalScale: {x: 0.26199785, y: 0.2619978, z: 0.26199788}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1227149849}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: 2.655, z: 0}
 --- !u!73398921 &704689649
 VFXRenderer:
@@ -128495,7 +128422,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704689647}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -137269,7 +137196,7 @@ GameObject:
   - component: {fileID: 757557366}
   - component: {fileID: 757557365}
   m_Layer: 0
-  m_Name: FireFliesSpirit (23)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137283,12 +137210,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757557363}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.02316609, z: -0, w: 0.99973166}
-  m_LocalPosition: {x: -0.0429, y: -0.0928, z: -0.0434}
-  m_LocalScale: {x: 0.01068453, y: 0.010684531, z: 0.01068453}
+  m_LocalRotation: {x: -0, y: 0.60011494, z: -0, w: 0.7999138}
+  m_LocalPosition: {x: 9.407856, y: 0.13062239, z: -50.272335}
+  m_LocalScale: {x: 0.21615201, y: 0.216152, z: 0.21615201}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1691005649}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: 2.655, z: 0}
 --- !u!73398921 &757557365
 VFXRenderer:
@@ -137298,7 +137225,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757557363}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -142807,7 +142734,7 @@ GameObject:
   - component: {fileID: 786846366}
   - component: {fileID: 786846365}
   m_Layer: 0
-  m_Name: FireFliesSpirit (18)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142821,12 +142748,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786846363}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9988518, z: -0, w: -0.04790828}
-  m_LocalPosition: {x: 0.11099964, y: -0.0392, z: 2.3389993}
-  m_LocalScale: {x: 0.006758377, y: 0.011536647, z: 0.023231052}
+  m_LocalRotation: {x: -0, y: -0.5986371, z: -0, w: 0.80102044}
+  m_LocalPosition: {x: 4.050705, y: 0.28796983, z: -55.618637}
+  m_LocalScale: {x: 0.13672446, y: 0.2333906, z: 0.46997276}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -185.492, z: 0}
 --- !u!73398921 &786846365
 VFXRenderer:
@@ -157331,7 +157258,7 @@ GameObject:
   - component: {fileID: 882934428}
   - component: {fileID: 882934427}
   m_Layer: 0
-  m_Name: FireFliesSpirit (27)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157345,12 +157272,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 882934425}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0734415, y: -0.805833, z: 0.04764784, w: 0.58563566}
-  m_LocalPosition: {x: -10.311, y: 0.086, z: -4.284}
-  m_LocalScale: {x: 0.0067583774, y: 0.018700998, z: 0.023231054}
+  m_LocalRotation: {x: -0.0016063676, y: 0.034440015, z: 0.08752937, w: 0.9955651}
+  m_LocalPosition: {x: -41.422264, y: 2.820812, z: 190.01984}
+  m_LocalScale: {x: 0.13672444, y: 0.37832808, z: 0.46997264}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: -0.529, y: -108.031, z: 10.031}
 --- !u!73398921 &882934427
 VFXRenderer:
@@ -163811,7 +163738,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb09ea069e2754a887323280e9b42b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.40557134, g: 0.8025143, b: 0.9245283, a: 1}
+  color: {r: 0.5872642, g: 0.67310244, b: 0.7830189, a: 1}
+  density: 0.007
   speed: 3
 --- !u!1001 &916931558
 PrefabInstance:
@@ -171811,7 +171739,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb09ea069e2754a887323280e9b42b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.9716981, g: 0.371262, b: 0.371262, a: 1}
+  color: {r: 0.8867924, g: 0.6572638, b: 0.33882165, a: 1}
+  density: 0.007
   speed: 2
 --- !u!1001 &962214452
 PrefabInstance:
@@ -182258,7 +182187,7 @@ GameObject:
   - component: {fileID: 1023205949}
   - component: {fileID: 1023205948}
   m_Layer: 0
-  m_Name: FireFliesSpirit (28)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -182272,12 +182201,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023205946}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.8922156, z: -0, w: -0.45160964}
-  m_LocalPosition: {x: -6.968, y: 0.016999997, z: -3.364}
-  m_LocalScale: {x: 0.0067583774, y: 0.018700998, z: 0.023231054}
+  m_LocalRotation: {x: -0, y: -0.873546, z: -0, w: 0.48674166}
+  m_LocalPosition: {x: -49.436172, y: 1.4249165, z: 120.33473}
+  m_LocalScale: {x: 0.13672444, y: 0.37832808, z: 0.46997267}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -233.694, z: 0}
 --- !u!73398921 &1023205948
 VFXRenderer:
@@ -182372,7 +182301,7 @@ GameObject:
   - component: {fileID: 1023767701}
   - component: {fileID: 1023767700}
   m_Layer: 0
-  m_Name: FireFliesSpirit (16)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -182467,12 +182396,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023767699}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.7521659, z: -0, w: 0.6589737}
-  m_LocalPosition: {x: -0.286, y: -0.014977494, z: 0.029}
-  m_LocalScale: {x: 0.008897075, y: 0.008897075, z: 0.008897075}
+  m_LocalRotation: {x: -0, y: 0.12525184, z: -0, w: 0.99212503}
+  m_LocalPosition: {x: -36.292877, y: 0.7780001, z: -30.702944}
+  m_LocalScale: {x: 0.1799911, y: 0.17999111, z: 0.1799911}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -97.557, z: 0}
 --- !u!1001 &1024583075
 PrefabInstance:
@@ -198678,7 +198607,7 @@ GameObject:
   - component: {fileID: 1128675321}
   - component: {fileID: 1128675320}
   m_Layer: 0
-  m_Name: FireFliesSpirit (18)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -198692,7 +198621,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128675319}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -198773,12 +198702,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128675319}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.14839792, z: -0, w: 0.9889278}
-  m_LocalPosition: {x: -0.07037406, y: -0.48203146, z: -0.40048316}
-  m_LocalScale: {x: 0.19189312, y: 0.19189307, z: 0.19189307}
+  m_LocalRotation: {x: -0, y: 0.3253044, z: -0, w: 0.9456094}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.23407853, y: 0.23407847, z: 0.23407847}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 130998997}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: 37.968, z: 0}
 --- !u!1001 &1128761227
 PrefabInstance:
@@ -215028,20 +214957,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 704689648}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
 --- !u!1 &1227149848 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 145045510962678582, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-  m_PrefabInstance: {fileID: 1227149847}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1227149849 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
   m_PrefabInstance: {fileID: 1227149847}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1227263762
@@ -215953,6 +215874,11 @@ PrefabInstance:
 --- !u!4 &1233710517 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5959133173354351217, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
+  m_PrefabInstance: {fileID: 1233710516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1233710518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8074613838327802501, guid: c90ffc1682bcd8b439e9dcd12bfcdb41, type: 3}
   m_PrefabInstance: {fileID: 1233710516}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1233765141
@@ -216962,7 +216888,7 @@ GameObject:
   - component: {fileID: 1239230680}
   - component: {fileID: 1239230679}
   m_Layer: 0
-  m_Name: FireFliesSpirit (14)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216976,12 +216902,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1239230677}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.98807317, z: -0, w: -0.15398519}
-  m_LocalPosition: {x: -8.366, y: 0.017, z: -0.34}
-  m_LocalScale: {x: 0.0067583774, y: 0.018700998, z: 0.023231054}
+  m_LocalRotation: {x: -0, y: -0.68052006, z: -0, w: 0.73272943}
+  m_LocalPosition: {x: 17.877388, y: 1.4249165, z: 123.70213}
+  m_LocalScale: {x: 0.13672444, y: 0.37832808, z: 0.46997276}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -85.769, z: 0}
 --- !u!73398921 &1239230679
 VFXRenderer:
@@ -217550,7 +217476,7 @@ GameObject:
   - component: {fileID: 1245241870}
   - component: {fileID: 1245241869}
   m_Layer: 0
-  m_Name: FireFliesSpirit (26)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217564,12 +217490,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245241867}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.27852833, y: -0.93393844, z: -0.16098227, w: 0.1557747}
-  m_LocalPosition: {x: -8.092, y: -0.077, z: -1.957}
-  m_LocalScale: {x: 0.0067583774, y: 0.018700998, z: 0.023231054}
+  m_LocalRotation: {x: 0.022438318, y: -0.3935048, z: -0.3209203, w: 0.8611973}
+  m_LocalPosition: {x: -14.536148, y: -0.47673798, z: 130.78714}
+  m_LocalScale: {x: 0.13672449, y: 0.37832803, z: 0.46997285}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: -12.352, y: -157.066, z: -35.727}
 --- !u!73398921 &1245241869
 VFXRenderer:
@@ -221778,6 +221704,61 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 124ad46aec1102e47a4cdae502be89aa, type: 3}
+--- !u!1 &1268376590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1268376591}
+  m_Layer: 0
+  m_Name: FireFliesPath
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1268376591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268376590}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -71.48247, y: -4.2180004, z: 49.53424}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 273799809}
+  - {fileID: 704689648}
+  - {fileID: 421477175}
+  - {fileID: 1239230678}
+  - {fileID: 757557364}
+  - {fileID: 2035927342}
+  - {fileID: 1023205947}
+  - {fileID: 2018959138}
+  - {fileID: 1466678935}
+  - {fileID: 1245241868}
+  - {fileID: 882934426}
+  - {fileID: 1443003477}
+  - {fileID: 346833886}
+  - {fileID: 1340485639}
+  - {fileID: 1830943802}
+  - {fileID: 1448213972}
+  - {fileID: 786846364}
+  - {fileID: 167596322}
+  - {fileID: 2055457500}
+  - {fileID: 624344123}
+  - {fileID: 1023767702}
+  - {fileID: 78230595}
+  - {fileID: 434050353}
+  - {fileID: 1128675322}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1268967439 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2964701671871452345, guid: 80858f114627fcf4f92ad3a4d8354871, type: 3}
@@ -232029,7 +232010,7 @@ GameObject:
   - component: {fileID: 1340485641}
   - component: {fileID: 1340485640}
   m_Layer: 0
-  m_Name: FireFliesSpirit (23)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -232043,12 +232024,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340485638}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.5426473, z: -0, w: 0.83996063}
-  m_LocalPosition: {x: -11.3747, y: 0.016999997, z: 1.0424}
-  m_LocalScale: {x: 0.0067583774, y: 0.018700998, z: 0.023231054}
+  m_LocalRotation: {x: -0, y: 0.39249143, z: -0, w: 0.9197557}
+  m_LocalPosition: {x: 66.566345, y: 1.4249165, z: 169.70552}
+  m_LocalScale: {x: 0.13672444, y: 0.37832808, z: 0.46997276}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -65.728, z: 0}
 --- !u!73398921 &1340485640
 VFXRenderer:
@@ -241182,11 +241163,6 @@ Transform:
 --- !u!1 &1395566174 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 145045510962678582, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-  m_PrefabInstance: {fileID: 116576765}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1395566175 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
   m_PrefabInstance: {fileID: 116576765}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1395883894
@@ -263202,7 +263178,7 @@ GameObject:
   - component: {fileID: 1443003479}
   - component: {fileID: 1443003478}
   m_Layer: 0
-  m_Name: FireFliesSpirit (20)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -263216,12 +263192,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443003476}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.6169364, z: -0, w: 0.78701305}
-  m_LocalPosition: {x: -8.408, y: 0.016999997, z: -0.144}
-  m_LocalScale: {x: 0.0067583774, y: 0.018700998, z: 0.023231054}
+  m_LocalRotation: {x: -0, y: 0.30703926, z: -0, w: 0.9516969}
+  m_LocalPosition: {x: 21.872742, y: 1.4249165, z: 123.00824}
+  m_LocalScale: {x: 0.13672447, y: 0.37832808, z: 0.46997282}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -76.186, z: 0}
 --- !u!73398921 &1443003478
 VFXRenderer:
@@ -264818,7 +264794,7 @@ GameObject:
   - component: {fileID: 1448213974}
   - component: {fileID: 1448213973}
   m_Layer: 0
-  m_Name: FireFliesSpirit (15)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -264832,12 +264808,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448213971}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9999765, z: -0, w: -0.0068598986}
-  m_LocalPosition: {x: 0.123595074, y: -0.056, z: 1.4198315}
-  m_LocalScale: {x: 0.006758377, y: 0.011536647, z: 0.023231052}
+  m_LocalRotation: {x: -0, y: -0.56524634, z: -0, w: 0.8249222}
+  m_LocalPosition: {x: -13.292007, y: -0.051900387, z: -48.904995}
+  m_LocalScale: {x: 0.13672447, y: 0.2333906, z: 0.46997276}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -68.839, z: 0}
 --- !u!73398921 &1448213973
 VFXRenderer:
@@ -266777,6 +266753,114 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8625834039875125986, guid: 548f2c3e3223c29478618562f02e0e93, type: 3}
   m_PrefabInstance: {fileID: 1456126912}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1456680867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1456680871}
+  - component: {fileID: 1456680870}
+  - component: {fileID: 1456680869}
+  - component: {fileID: 1456680868}
+  m_Layer: 0
+  m_Name: Fog (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1456680868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456680867}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1456680869
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456680867}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: adcc0521ac38742a28ad23a82ae05976, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1456680870
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456680867}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1456680871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456680867}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -57.3, y: -12.5, z: 15.6}
+  m_LocalScale: {x: 199.92426, y: 16.282, z: 85.44218}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1457769980
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -268251,7 +268335,7 @@ GameObject:
   - component: {fileID: 1466678937}
   - component: {fileID: 1466678936}
   m_Layer: 0
-  m_Name: FireFliesSpirit (30)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268265,12 +268349,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466678934}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9947787, z: -0, w: -0.10205582}
-  m_LocalPosition: {x: -5.6279974, y: 0.016999997, z: -5.9309983}
-  m_LocalScale: {x: 0.0067583774, y: 0.018700998, z: 0.023231054}
+  m_LocalRotation: {x: -0, y: -0.6412343, z: -0, w: 0.7673452}
+  m_LocalPosition: {x: -107.735916, y: 1.4249165, z: 114.60011}
+  m_LocalScale: {x: 0.13672446, y: 0.37832808, z: 0.46997276}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -191.715, z: 0}
 --- !u!73398921 &1466678936
 VFXRenderer:
@@ -278863,66 +278947,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2054765396080477871, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2973874354323121860, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3031267210338707314, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3071857221700667872, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3356907004005807125, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3457018911473368302, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3942218926507421112, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4047689553017501825, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
       propertyPath: m_Name
       value: MainCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 4840822955592863910, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6759793332089634546, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6855625207418240864, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209970273755950299, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8304602224748717313, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8529441827124948375, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8971144948908826878, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 8478570677325398374, guid: 63becd813a7aa7a4695f17bccf2cd871, type: 3}
+      propertyPath: uiObjectToToggle
+      value: 
+      objectReference: {fileID: 1233710518}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -286618,7 +286650,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb09ea069e2754a887323280e9b42b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.41037738, g: 1, b: 0.7838463, a: 1}
+  color: {r: 0.26366144, g: 0.7075472, b: 0.36115706, a: 1}
+  density: 0.007
   speed: 5
 --- !u!1001 &1576820963
 PrefabInstance:
@@ -295925,10 +295958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6939568750179551468, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1128675322}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
 --- !u!4 &1629544522 stripped
@@ -305653,17 +305683,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 757557364}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
---- !u!4 &1691005649 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 668959037232140684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
-  m_PrefabInstance: {fileID: 1691005648}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1691005650 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 145045510962678582, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
@@ -328827,7 +328849,7 @@ GameObject:
   - component: {fileID: 1830943804}
   - component: {fileID: 1830943803}
   m_Layer: 0
-  m_Name: FireFliesSpirit (24)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -328841,12 +328863,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830943801}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.049013656, y: -0.66229904, z: -0.12107135, w: 0.73776644}
-  m_LocalPosition: {x: -13.201, y: 0.023, z: 2.18}
-  m_LocalScale: {x: 0.0067583774, y: 0.018700998, z: 0.023231054}
+  m_LocalRotation: {x: -0.12776834, y: 0.24084087, z: -0.027126847, w: 0.9617354}
+  m_LocalPosition: {x: 101.721535, y: 1.5462987, z: 195.37305}
+  m_LocalScale: {x: 0.13672444, y: 0.37832808, z: 0.46997267}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: -13.456, y: -83.036, z: -6.715}
 --- !u!73398921 &1830943803
 VFXRenderer:
@@ -341249,7 +341271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb09ea069e2754a887323280e9b42b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.5309719, g: 0.6971768, b: 0.7169812, a: 1}
+  color: {r: 0.8254717, g: 0.98182, b: 1, a: 1}
+  density: 0.007
   speed: 3
 --- !u!1001 &1918219661
 PrefabInstance:
@@ -360017,7 +360040,7 @@ GameObject:
   - component: {fileID: 2018959140}
   - component: {fileID: 2018959139}
   m_Layer: 0
-  m_Name: FireFliesSpirit (29)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -360031,12 +360054,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018959137}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.99398667, z: -0, w: -0.10950119}
-  m_LocalPosition: {x: -5.779, y: 0.016999997, z: -4.499}
-  m_LocalScale: {x: 0.0067583774, y: 0.018700998, z: 0.023231054}
+  m_LocalRotation: {x: -0, y: -0.6469617, z: -0, w: 0.7625226}
+  m_LocalPosition: {x: -79.723816, y: 1.4249165, z: 106.60597}
+  m_LocalScale: {x: 0.13672446, y: 0.37832808, z: 0.4699727}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -192.573, z: 0}
 --- !u!73398921 &2018959139
 VFXRenderer:
@@ -362220,7 +362243,7 @@ GameObject:
   - component: {fileID: 2035927344}
   - component: {fileID: 2035927343}
   m_Layer: 0
-  m_Name: FireFliesSpirit (25)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -362234,12 +362257,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035927341}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.96918243, z: -0, w: -0.24634402}
-  m_LocalPosition: {x: -7.4239984, y: 0.016999997, z: -2.0336978}
-  m_LocalScale: {x: 0.0067583774, y: 0.018700998, z: 0.023231054}
+  m_LocalRotation: {x: -0, y: -0.74649453, z: -0, w: 0.66539156}
+  m_LocalPosition: {x: -21.026192, y: 1.4249165, z: 118.832535}
+  m_LocalScale: {x: 0.13672444, y: 0.37832808, z: 0.4699728}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -208.523, z: 0}
 --- !u!73398921 &2035927343
 VFXRenderer:
@@ -365341,7 +365364,7 @@ GameObject:
   - component: {fileID: 2055457499}
   - component: {fileID: 2055457498}
   m_Layer: 0
-  m_Name: FireFliesSpirit (7)
+  m_Name: FireFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -365436,12 +365459,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055457497}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.64069796, z: -0, w: 0.767793}
-  m_LocalPosition: {x: 0.147, y: 0.053, z: 2.365}
-  m_LocalScale: {x: 0.021307921, y: 0.019656414, z: 0.019136941}
+  m_LocalRotation: {x: -0, y: 0.27781376, z: -0, w: 0.960635}
+  m_LocalPosition: {x: 4.266388, y: 2.1532097, z: -56.490753}
+  m_LocalScale: {x: 0.43106708, y: 0.3976565, z: 0.38714737}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1395566175}
+  m_Father: {fileID: 1268376591}
   m_LocalEulerAnglesHint: {x: 0, y: -79.688, z: 0}
 --- !u!1001 &2056105800
 PrefabInstance:
@@ -382440,6 +382463,7 @@ SceneRoots:
   - {fileID: 1536385599}
   - {fileID: 1588095112}
   - {fileID: 537241867}
+  - {fileID: 1456680871}
   - {fileID: 832353449}
   - {fileID: 1233710516}
   - {fileID: 1804127286}
@@ -382467,6 +382491,7 @@ SceneRoots:
   - {fileID: 112954830}
   - {fileID: 1227149847}
   - {fileID: 1691005648}
+  - {fileID: 1268376591}
   - {fileID: 116576765}
   - {fileID: 1629144157}
   - {fileID: 95492725}
