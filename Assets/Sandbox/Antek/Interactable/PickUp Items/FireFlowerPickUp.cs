@@ -24,11 +24,14 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
     [SerializeField] private EventReference flowerLoop;
     [SerializeField] private EventReference pickableSound;
     private EventInstance flowerLoopInstance; 
+    
+    Notes _notes;
     void Awake()
     {
         flowerLoopInstance = RuntimeManager.CreateInstance(flowerLoop);
         flowerLoopInstance.set3DAttributes(RuntimeUtils.To3DAttributes(transform.position));
         flowerLoopInstance.start();
+        _notes = GetComponent<Notes>();
 
         if (canBePickedUp)
         {
@@ -50,6 +53,10 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
             Debug.Log("Pickable");
             RuntimeManager.PlayOneShotAttached(pickableSound,gameObject); // pickable sound feedback
             GetComponentInChildren<VisualEffect>().Stop();
+            if (_notes != null)
+            {
+                _notes.AddNote();
+            }
         }
     }
 

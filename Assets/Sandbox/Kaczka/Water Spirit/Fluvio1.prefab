@@ -97,6 +97,47 @@ PrefabInstance:
       propertyPath: animalSprite
       value: 
       objectReference: {fileID: 21300000, guid: dbac13d39494546fc9557223f9eb4398, type: 3}
+    - target: {fileID: 2834368059756792838, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
+      propertyPath: message.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834368059756792838, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
+      propertyPath: 'message.Array.data[0]'
+      value: "A wi\u0119c... Znajdujemy si\u0119 w Krainie \u017Bywio\u0142\xF3w.
+        Me imi\u0119 Fluvio, Dusza \u017Bywio\u0142u Wody!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834368059756792838, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
+      propertyPath: 'message.Array.data[1]'
+      value: "No, przynajmniej by\u0142em ni\u0105\u2026 bo teraz ty przej\u0105\u0142e\u015B
+        t\u0119 rol\u0119! Tymczasowo, oczywi\u015Bcie. Nie patrz tak zaskoczony!
+        Musisz sobie zapracowa\u0107 na tytu\u0142 druida! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834368059756792838, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
+      propertyPath: 'message.Array.data[2]'
+      value: "A teraz czas na twoje pierwsze zadanie jako mojego zast\u0119pcy! U\u017Cyj
+        mocy, kt\xF3r\u0105 ci uprzejmie po\u017Cyczy\u0142em, i pozb\u0105d\u017A
+        si\u0119 tej anomalii blokuj\u0105cej drog\u0119.  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834368059756792838, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
+      propertyPath: 'message.Array.data[3]'
+      value: "Wyceluj myszk\u0105 w anomali\u0119. Naci\u015Bnij CTRL, \u017Ceby
+        wej\u015B\u0107 w tryb rzucania zakl\u0119cia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834368059756792838, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
+      propertyPath: 'message.Array.data[4]'
+      value: "Narysuj symbol zakl\u0119cia lewym przyciskiem myszy (tak, tak, podstawowe
+        zdolno\u015Bci artystyczne wymagane). "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834368059756792838, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
+      propertyPath: 'message.Array.data[5]'
+      value: "Je\u015Bli co\u015B sknocisz, wci\u015Bnij R, \u017Ceby zacz\u0105\u0107
+        od nowa. Jak odtworzysz symbol poprawnie, naci\u015Bnij Q, aby rzuci\u0107
+        zakl\u0119cie. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834368059756792838, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
+      propertyPath: 'message.Array.data[6]'
+      value: "Proste, prawda? No, do dzie\u0142a!"
+      objectReference: {fileID: 0}
     - target: {fileID: 4153261324536159345, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
       propertyPath: m_Name
       value: Water Spirit (1)
@@ -157,10 +198,54 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 4507375527045953017, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4153261324536159345, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7324192497192402454}
+    - targetCorrespondingSourceObject: {fileID: 4153261324536159345, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9189316837014512684}
   m_SourcePrefab: {fileID: 100100000, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
 --- !u!4 &6611253340823215651 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4388875011204196973, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
   m_PrefabInstance: {fileID: 7446571637866755150}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6842322810288957503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4153261324536159345, guid: e4ead0366cdefeb47aee87c155d76e9c, type: 3}
+  m_PrefabInstance: {fileID: 7446571637866755150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7324192497192402454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842322810288957503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1951b397e2125f147a7b09ee6870fc59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questId: 1
+  questDescription: Use Water Spell to destroy the Fire Wall
+  questName: Break The Wall
+  isEndingQuest: 0
+--- !u!114 &9189316837014512684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842322810288957503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 891ea5b8c4fa7a040b0428edb0a20671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteDescription: Fluvio 2137
+  notes:
+  - You get a new note in Journal
+  noteDurations:
+  - 4
