@@ -34,9 +34,11 @@ public class AnimalUI : MonoBehaviour
     
     bool wasInteracted = false;
     Quest quest;
+    Notes _notes;
     void Awake()
     {
         quest = gameObject.GetComponent<Quest>();
+        _notes = gameObject.GetComponent<Notes>();
     }
      public void GiveItemUIPopUp(bool isRightItem,bool givenAllItems)
     {
@@ -45,9 +47,14 @@ public class AnimalUI : MonoBehaviour
         {
             wasInteracted = true;
             AnimalUiEvents.current.DialogueBoxPopUp(message,animalName,animalSprite);
+            
             if (quest != null)
             { 
                 quest.ControlQuest();   
+            }
+            if (_notes != null)
+            {
+                _notes.AddNote();
             }
             return;
         }
