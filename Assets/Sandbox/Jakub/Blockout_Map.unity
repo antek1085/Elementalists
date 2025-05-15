@@ -17318,6 +17318,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_01_01_Winter (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5136312927263548433, guid: 9f2bec6c282915a4e90b1dbd8eeb6b64, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.087831184
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136312927263548433, guid: 9f2bec6c282915a4e90b1dbd8eeb6b64, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.016403368
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -206028,6 +206036,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_01_01_Winter (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5136312927263548433, guid: 9f2bec6c282915a4e90b1dbd8eeb6b64, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.0957676
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136312927263548433, guid: 9f2bec6c282915a4e90b1dbd8eeb6b64, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.045920927
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -316429,6 +316445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_01_01_Winter (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5136312927263548433, guid: 9f2bec6c282915a4e90b1dbd8eeb6b64, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.15563032
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -325127,6 +325147,14 @@ PrefabInstance:
     - target: {fileID: 744807394742405594, guid: 9f2bec6c282915a4e90b1dbd8eeb6b64, type: 3}
       propertyPath: m_Name
       value: Bush_01_01_Winter (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136312927263548433, guid: 9f2bec6c282915a4e90b1dbd8eeb6b64, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.12047608
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136312927263548433, guid: 9f2bec6c282915a4e90b1dbd8eeb6b64, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.02096575
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -371910,11 +371938,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5586220953112292942, guid: 3165793d3ae6acb48863fa5e0f6d5ccb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.69
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5586220953112292942, guid: 3165793d3ae6acb48863fa5e0f6d5ccb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5586220953112292942, guid: 3165793d3ae6acb48863fa5e0f6d5ccb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -464806,23 +464834,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1904167174328894118, guid: 53fe26e048fc0dd4c89f8bd57507d780, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98485655
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1904167174328894118, guid: 53fe26e048fc0dd4c89f8bd57507d780, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1904167174328894118, guid: 53fe26e048fc0dd4c89f8bd57507d780, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.17337124
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1904167174328894118, guid: 53fe26e048fc0dd4c89f8bd57507d780, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1904167174328894118, guid: 53fe26e048fc0dd4c89f8bd57507d780, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -19.968
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2230059488115655679, guid: 53fe26e048fc0dd4c89f8bd57507d780, type: 3}
       propertyPath: m_LocalScale.x
