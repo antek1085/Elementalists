@@ -644,7 +644,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -664,19 +664,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -4285,43 +4285,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.76
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.71
+      value: -4.9
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.68185925
+      value: 0.6399488
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.009802278
+      value: -0.009425203
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7313156
+      value: 0.7682578
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.012227756
+      value: 0.012520707
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.791
+      value: -1.794
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 94.007
+      value: 100.411
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.134
+      value: 0.088
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: animalName
@@ -4550,124 +4550,6 @@ MeshFilter:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1899629138157905470, guid: 0822ffcc2f3109548b8fabb01f0f2041, type: 3}
   m_PrefabInstance: {fileID: 603594359}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &25062346
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 45899533}
-    m_Modifications:
-    - target: {fileID: 317259974134350841, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_Name
-      value: Dialogue Wall (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.4243001
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 12.457665
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 29.459267
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -8.839996
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.6500001
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -18.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.3938937
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.011749154
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.91902244
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.010371139
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.623
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 133.611
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.77
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: animalName
-      value: Fluvio
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: time.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: 'time.Array.data[1]'
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: 'time.Array.data[2]'
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: 'time.Array.data[3]'
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: 'dialogue.Array.data[0]'
-      value: "Chod\u017A, chod\u017A czas ucieka! "
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: dialoguePopupSound.Path
-      value: event:/sfx_ui_dialogue_popup_ghost
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: dialoguePopupSound.Guid.Data1
-      value: 2023174657
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: dialoguePopupSound.Guid.Data2
-      value: 1079564061
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: dialoguePopupSound.Guid.Data3
-      value: -1871258694
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: dialoguePopupSound.Guid.Data4
-      value: -334348290
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
---- !u!4 &25062347 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-  m_PrefabInstance: {fileID: 25062346}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &25142524
 PrefabInstance:
@@ -5135,7 +5017,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 34682185740020811, guid: f31c726cc40791341a63b84570861e9b, type: 3}
       propertyPath: m_Name
-      value: Fire Wall (Tutorial) (1)
+      value: Fire Wall (Volcari)
       objectReference: {fileID: 0}
     - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
       propertyPath: m_LocalScale.x
@@ -6600,7 +6482,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -6620,19 +6502,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -7951,14 +7833,12 @@ Transform:
   - {fileID: 1141067784}
   - {fileID: 1146482464}
   - {fileID: 789929560}
-  - {fileID: 25062347}
   - {fileID: 1065900585}
   - {fileID: 1351766741}
   - {fileID: 1426333571}
   - {fileID: 1101204729}
   - {fileID: 1053102895}
   - {fileID: 2145762087}
-  - {fileID: 939425596}
   - {fileID: 21638734}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11810,7 +11690,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -11830,19 +11710,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -21548,7 +21428,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -21568,19 +21448,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -23922,6 +23802,114 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9033111502401031259, guid: cd70cd855f71078438d51c2883795a0e, type: 3}
   m_PrefabInstance: {fileID: 119145112}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &120121621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 120121622}
+  - component: {fileID: 120121625}
+  - component: {fileID: 120121624}
+  - component: {fileID: 120121623}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &120121622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120121621}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 271343107}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &120121623
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120121621}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &120121624
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120121621}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &120121625
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120121621}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &121976527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25447,6 +25435,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 278065288057035280, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
   m_PrefabInstance: {fileID: 1629144157}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &130998998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130998992}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1951b397e2125f147a7b09ee6870fc59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questId: 0
+  questDescription: Talk with the fox
+  questName: Introductions
+  isEndingQuest: 0
 --- !u!1001 &131146566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35381,7 +35385,7 @@ Transform:
   m_GameObject: {fileID: 187964999}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.04, y: 1.777, z: 1.167}
+  m_LocalPosition: {x: 0.069, y: 1.777, z: 1.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53043,6 +53047,129 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1440533065540587510, guid: b48a644bc405ac44b9d4b95a5dd374ef, type: 3}
   m_PrefabInstance: {fileID: 270555801}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &271343105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 271343107}
+  - component: {fileID: 271343106}
+  - component: {fileID: 271343108}
+  - component: {fileID: 271343109}
+  - component: {fileID: 271343110}
+  m_Layer: 8
+  m_Name: TutorialSwietlikGospodarstwo
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &271343106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271343105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d393f33adfed6d489dd1aff934fafdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endOfDemo: {fileID: 0}
+  objectToShow: {fileID: 0}
+  animalName: '?'
+  animalSprite: {fileID: -1613981733, guid: 11f6e0b8b01b54946b4a4bb966eb0cc0, type: 3}
+  message:
+  - Druid Hut
+  - sdaxczczx
+  messageAfterGivenRightItem:
+  - Z
+  messageAfterGivenAllItems:
+  - X
+  shortMessageAfterGivenWrongItem:
+  - Use the right spell for renovation of an object!
+  timeToTextDisappear:
+  - 2
+  dialoguePopupSound:
+    Guid:
+      Data1: -296470378
+      Data2: 1106333323
+      Data3: -1038167120
+      Data4: 937074252
+    Path: event:/Interaction/sfx_ui_spell_erase
+--- !u!4 &271343107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271343105}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.31503788, z: -0, w: 0.94907916}
+  m_LocalPosition: {x: -73.81, y: -1.346, z: 104.57}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 120121622}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 36.726, z: 0}
+--- !u!65 &271343108
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271343105}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.5, y: 1.5, z: 1.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &271343109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271343105}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185fa976413d0114d9b56f8702cca52e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToGive: {fileID: 2062415150}
+  numberOfFlowersToGive: 0
+  numberOfFlowersGiven: 0
+  isHeAbleToCast: {fileID: 0}
+--- !u!114 &271343110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271343105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1951b397e2125f147a7b09ee6870fc59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questId: 0
+  questDescription: 
+  questName: 
+  isEndingQuest: 0
 --- !u!1001 &271371029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54310,7 +54437,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -54330,19 +54457,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -56318,7 +56445,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -56338,19 +56465,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -65980,7 +66107,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 34682185740020811, guid: f31c726cc40791341a63b84570861e9b, type: 3}
       propertyPath: m_Name
-      value: Fire Wall (Tutorial) (4)
+      value: 'Fire Wall '
       objectReference: {fileID: 0}
     - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
       propertyPath: m_LocalScale.x
@@ -71108,7 +71235,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -71128,19 +71255,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -74061,10 +74188,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
-      propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
-      objectReference: {fileID: 0}
-    - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
       value: event:/spells/Fire/sfx_fire_spell_impact
       objectReference: {fileID: 0}
@@ -74080,22 +74203,6 @@ PrefabInstance:
       propertyPath: tileToPressMaterialAfter
       value: 
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
-    - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
-      propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
-      objectReference: {fileID: 0}
-    - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
-      propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
-      objectReference: {fileID: 0}
-    - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
-      propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
-      objectReference: {fileID: 0}
-    - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
-      propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
-      objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
       value: 187910922
@@ -98860,7 +98967,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -98880,19 +98987,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -111187,7 +111294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.64
+      value: -76.47
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -111195,11 +111302,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.19
+      value: 89.67
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.52844024
+      value: -0.73899037
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -111207,7 +111314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.84897053
+      value: 0.673716
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalRotation.z
@@ -111219,7 +111326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 116.2
+      value: 275.29102
       objectReference: {fileID: 0}
     - target: {fileID: 4852937353857137674, guid: 2b7451a32dd6cd9429a14290e63142b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -113866,7 +113973,7 @@ GameObject:
   - component: {fileID: 550443552}
   - component: {fileID: 550443551}
   m_Layer: 8
-  m_Name: End OF Demo
+  m_Name: Sleep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113885,8 +113992,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBeInteractedWith: 0
-  sceneToLoad: EndOFDemoScene
   itemToFix: 0
+  prefabToSpawn: {fileID: 0}
 --- !u!65 &550443552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -113917,7 +114024,7 @@ Transform:
   m_GameObject: {fileID: 550443550}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 48.36, y: 5.36, z: -200.82}
+  m_LocalPosition: {x: 47.877, y: 5.36, z: -199.266}
   m_LocalScale: {x: 2.617752, y: 4.1815944, z: 1.2563}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -116581,7 +116688,6 @@ Transform:
   - {fileID: 2000300922}
   - {fileID: 1836999378}
   - {fileID: 26320515}
-  - {fileID: 1772079836}
   - {fileID: 1668739682}
   - {fileID: 1553917536}
   - {fileID: 331344924}
@@ -127392,7 +127498,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -127412,19 +127518,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -128132,6 +128238,125 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6986371466421367663, guid: 124ad46aec1102e47a4cdae502be89aa, type: 3}
   m_PrefabInstance: {fileID: 585676012}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &585714249
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1092093874}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7605956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7605954
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7605956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.84
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.35
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4846295
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 3.4924597e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.87471956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0000000013969839
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 122.024
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2022752741055631465, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 083e39f20dbd6b248bf180d7c40496fa, type: 2}
+    - target: {fileID: 919132149155446097, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_Name
+      value: idle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2514967724257641685, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2514967724257641685, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1879187676}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 585714252}
+  m_SourcePrefab: {fileID: 100100000, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+--- !u!4 &585714250 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+  m_PrefabInstance: {fileID: 585714249}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &585714251 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 664178c8bbbe5df46827342ffb3fb5a2, type: 3}
+  m_PrefabInstance: {fileID: 585714249}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &585714252
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585714251}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ff899ebbf96b1fa4bb1ca14b14c2740f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &585718027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130449,7 +130674,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -130469,19 +130694,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -150017,7 +150242,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -150037,19 +150262,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -154261,7 +154486,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -154281,19 +154506,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -164919,7 +165144,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -164939,19 +165164,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -171736,7 +171961,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 76.16
+      value: 76.149
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalPosition.y
@@ -171744,7 +171969,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -56.76
+      value: -57.157
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.w
@@ -171916,7 +172141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.13
+      value: -16.83
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalPosition.y
@@ -171924,23 +172149,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -19.89
+      value: -18.84
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.43781435
+      value: 0.3891558
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.012953283
+      value: -0.012463422
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.8989289
+      value: 0.9210387
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.008821289
+      value: 0.009500831
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -171948,7 +172173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 128.076
+      value: 134.202
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -200126,124 +200351,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5297548855142917828, guid: 50d34b49112909b4d97e6a96610d51ab, type: 3}
   m_PrefabInstance: {fileID: 938333275}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &939425595
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 45899533}
-    m_Modifications:
-    - target: {fileID: 317259974134350841, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_Name
-      value: Dialogue Wall (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.4243
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 12.457665
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 29.459269
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.68185925
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.009802278
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7313156
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.012227756
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.791
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 94.007
-      objectReference: {fileID: 0}
-    - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.134
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: animalName
-      value: Fluvio
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: time.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: 'time.Array.data[1]'
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: 'time.Array.data[2]'
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: 'time.Array.data[3]'
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: 'dialogue.Array.data[0]'
-      value: "I pami\u0119taj aby pod\u0105\u017Ca\u0107 za \u015Bwietlikami!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: dialoguePopupSound.Path
-      value: event:/sfx_ui_dialogue_popup_ghost
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: dialoguePopupSound.Guid.Data1
-      value: 2023174657
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: dialoguePopupSound.Guid.Data2
-      value: 1079564061
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: dialoguePopupSound.Guid.Data3
-      value: -1871258694
-      objectReference: {fileID: 0}
-    - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-      propertyPath: dialoguePopupSound.Guid.Data4
-      value: -334348290
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
---- !u!4 &939425596 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
-  m_PrefabInstance: {fileID: 939425595}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &939849652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -213151,7 +213258,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -213171,19 +213278,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -213784,7 +213891,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -213804,19 +213911,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 312132351747517737, guid: 7223a50dc38a6694eafb96007d56a28c, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -222716,7 +222823,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -222736,19 +222843,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -225237,7 +225344,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -225257,19 +225364,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -230232,6 +230339,208 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8438005511976129294, guid: eed9e9df9f832574585ca051fbbbf943, type: 3}
   m_PrefabInstance: {fileID: 1091523897}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1092093872
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6704597198442660913, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_Name
+      value: Volcari (Idle)  (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6704597198442660913, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7285552564585618835, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_Size.x
+      value: 1.4611908
+      objectReference: {fileID: 0}
+    - target: {fileID: 7285552564585618835, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_Size.y
+      value: 1.325305
+      objectReference: {fileID: 0}
+    - target: {fileID: 7285552564585618835, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_Size.z
+      value: 1.9642236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7285552564585618835, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_Center.x
+      value: 3.9220936
+      objectReference: {fileID: 0}
+    - target: {fileID: 7285552564585618835, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_Center.y
+      value: 0.16265306
+      objectReference: {fileID: 0}
+    - target: {fileID: 7285552564585618835, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_Center.z
+      value: 10.4875345
+      objectReference: {fileID: 0}
+    - target: {fileID: 7285552564585618835, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7285552564585618835, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8388034649039406991, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: objectToGive
+      value: 
+      objectReference: {fileID: 2062415150}
+    - target: {fileID: 8388034649039406991, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: isHeAbleToCast
+      value: 
+      objectReference: {fileID: 11400000, guid: 2941223d191815b4db0b605e95403aec, type: 2}
+    - target: {fileID: 8388034649039406991, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: numberOfFlowersToGive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: endOfDemo
+      value: 
+      objectReference: {fileID: 550443551}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: message.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'message.Array.data[0]'
+      value: E
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'message.Array.data[1]'
+      value: S
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'message.Array.data[2]'
+      value: Z
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: timeToTextDisappear.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: messageAfterGivenAllItems.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: messageAfterGivenRightItem.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'messageAfterGivenAllItems.Array.data[0]'
+      value: Duchy sa w lesie
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'messageAfterGivenAllItems.Array.data[1]'
+      value: "Id\u017A, zobacz co jest w tamtym domku"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'messageAfterGivenAllItems.Array.data[2]'
+      value: "Przyjd\u0119 do Ciebie rano... i porozmawiamy "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'messageAfterGivenAllItems.Array.data[3]'
+      value: "Przyjd\u0119 do Ciebie rano... i porozmawiamy "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'messageAfterGivenRightItem.Array.data[0]'
+      value: "Dzi\u0119kuj\u0119 za ten dar. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'messageAfterGivenRightItem.Array.data[1]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: shortMessageAfterGivenWrongItem.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'shortMessageAfterGivenWrongItem.Array.data[0]'
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -72.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 107.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.84258693
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0025668934
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.53851813
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0062403088
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -65.165
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.444
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 8398505911735068269, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 585714250}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6704597198442660913, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1092093875}
+  m_SourcePrefab: {fileID: 100100000, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+--- !u!1 &1092093873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6704597198442660913, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+  m_PrefabInstance: {fileID: 1092093872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1092093874 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+  m_PrefabInstance: {fileID: 1092093872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1092093875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092093873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1951b397e2125f147a7b09ee6870fc59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questId: 3
+  questDescription: Find the lost ghosts and lead them to the gospodarstwo
+  questName: 'Duchy '
+  isEndingQuest: 0
 --- !u!1001 &1092114840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -235011,7 +235320,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -235031,19 +235340,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -255644,7 +255953,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -255664,19 +255973,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -262616,7 +262925,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -262636,19 +262945,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -287473,7 +287782,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -287493,19 +287802,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -308228,43 +308537,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.54
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.08
+      value: 2.04
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.79
+      value: 5.47
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.62189007
+      value: 0.68438447
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.010738574
+      value: -0.010783335
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7829477
+      value: 0.7289529
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.01141428
+      value: 0.011372008
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.79
+      value: -1.796
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 103.083
+      value: 93.612
       objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.15
+      value: -0.009
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: npcToSwap
@@ -308277,7 +308586,7 @@ PrefabInstance:
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: npcSwapped
       value: 
-      objectReference: {fileID: 1745000831}
+      objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: time.Array.size
       value: 4
@@ -319166,7 +319475,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -319186,19 +319495,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -331916,8 +332225,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.1785014, y: 1.9041388, z: 0.38961056}
-  m_Center: {x: 2.3607316, y: -24.547905, z: 0.3729772}
+  m_Size: {x: 1.63, y: 1.9041388, z: 0.6}
+  m_Center: {x: 2.46, y: -24.61, z: 0.27}
 --- !u!1001 &1541044542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -334094,7 +334403,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 34682185740020811, guid: f31c726cc40791341a63b84570861e9b, type: 3}
       propertyPath: m_Name
-      value: Fire Wall (Tutorial) (3)
+      value: 'Fire Wall '
       objectReference: {fileID: 0}
     - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
       propertyPath: m_LocalScale.x
@@ -339916,7 +340225,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -339936,19 +340245,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -352277,7 +352586,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 278065288057035280, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 130998998}
   m_SourcePrefab: {fileID: 100100000, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
 --- !u!4 &1629544522 stripped
 Transform:
@@ -358050,7 +358362,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -358070,19 +358382,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -360070,7 +360382,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 34682185740020811, guid: f31c726cc40791341a63b84570861e9b, type: 3}
       propertyPath: m_Name
-      value: Fire Wall (Tutorial) (2)
+      value: 'Fire Wall '
       objectReference: {fileID: 0}
     - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
       propertyPath: m_LocalScale.x
@@ -375216,6 +375528,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
   m_PrefabInstance: {fileID: 5477016344108286514}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1745000840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745000831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1951b397e2125f147a7b09ee6870fc59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questId: 2
+  questDescription: 
+  questName: 
+  isEndingQuest: 1
 --- !u!1001 &1745195108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -376567,8 +376895,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.5309755, y: 1.9041388, z: 0.38961083}
-  m_Center: {x: 2.1845062, y: -24.548035, z: 0.37298277}
+  m_Size: {x: 1.78, y: 2.6, z: 0.38961083}
+  m_Center: {x: 2.19, y: -24.65, z: 0.51}
 --- !u!1001 &1753693524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -379811,109 +380139,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3271910899072668962, guid: af43153991420fe4fac16a0543fd9e2d, type: 3}
   m_PrefabInstance: {fileID: 1771870899}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1772079835
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 562645360}
-    m_Modifications:
-    - target: {fileID: 34682185740020811, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_Name
-      value: Fire Wall (Tutorial) (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 10.775799
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -88.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 84
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.92251045
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.3859721
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -45.408
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2256437119559703354, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2257005320651297570, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4164979947225415278, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_Size.z
-      value: 0.99999994
-      objectReference: {fileID: 0}
-    - target: {fileID: 4164979947225415278, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8409753477450588569, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: npcToSwap
-      value: 
-      objectReference: {fileID: 1395566174}
-    - target: {fileID: 8409753477450588569, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-      propertyPath: npcSwapped
-      value: 
-      objectReference: {fileID: 130998992}
-    m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 1620019319503804809, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    - {fileID: 1296602697734150926, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    - {fileID: 7080159184680850470, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    - {fileID: 3730837861108653615, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    - {fileID: 8006871765498321593, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    - {fileID: 9128425549025907098, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    - {fileID: 4496083180700897362, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    - {fileID: 3849628983751329460, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    - {fileID: 7763817037786766924, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    - {fileID: 7031338382778423139, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    - {fileID: 3395357633532284127, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    - {fileID: 874123740690881321, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    - {fileID: 2256725993471703294, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f31c726cc40791341a63b84570861e9b, type: 3}
---- !u!4 &1772079836 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
-  m_PrefabInstance: {fileID: 1772079835}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1772580913
 PrefabInstance:
@@ -389877,7 +390102,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -389897,19 +390122,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -390125,7 +390350,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -390145,19 +390370,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -392215,7 +392440,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -392235,19 +392460,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -405593,6 +405818,127 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6986371466421367663, guid: 124ad46aec1102e47a4cdae502be89aa, type: 3}
   m_PrefabInstance: {fileID: 1877993470}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1879187675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1879187676}
+  - component: {fileID: 1879187678}
+  - component: {fileID: 1879187677}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1879187676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879187675}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.069, y: 1.777, z: 1.29}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 585714250}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1879187677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879187675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &1879187678
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879187675}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 2
+  m_Color: {r: 0.9716981, g: 0.615437, b: 0.19708972, a: 1}
+  m_Intensity: 4.21
+  m_Range: 2.3
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!1001 &1879700838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -406692,7 +407038,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -406712,19 +407058,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -422048,7 +422394,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -422068,19 +422414,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -425121,7 +425467,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 494155783498970471, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 494155783498970471, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -425141,19 +425487,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 494155783498970471, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 494155783498970471, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 494155783498970471, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 494155783498970471, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 494155783498970471, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -427009,7 +427355,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 8811073906523975589, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8811073906523975589, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -427029,19 +427375,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 8811073906523975589, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8811073906523975589, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8811073906523975589, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8811073906523975589, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8811073906523975589, guid: 73b78ac3237fec4488f8b5f96b02db65, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -441204,7 +441550,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -441224,19 +441570,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3338140293119742323, guid: f95d0cf455ee0804b8aea0a656b9a471, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -460235,7 +460581,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -460255,19 +460601,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -460943,7 +461289,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ca3957e7f3effe04ca6ec275aa214197, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Path
-      value: event:/UI/sfx_ui_hint_popup
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Path
@@ -460963,19 +461309,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8ed7ebe425fe49141b022825ad4fe26c, type: 2}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data1
-      value: 567783094
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data2
-      value: 1115945585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data3
-      value: 1177535643
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: solvedPuzzleSound.Guid.Data4
-      value: -707331398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534803418468068170, guid: 69ff27f3744263c4394bbe27230111ff, type: 3}
       propertyPath: teleportSoundEvent.Guid.Data1
@@ -463535,6 +463881,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: messageAfterGivenRightItem.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
       propertyPath: 'messageAfterGivenAllItems.Array.data[0]'
       value: "Hmm... na prawd\u0119 zebra\u0142e\u015B je wszystkie. Dobra robota..."
       objectReference: {fileID: 0}
@@ -463553,6 +463903,10 @@ PrefabInstance:
     - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
       propertyPath: 'messageAfterGivenRightItem.Array.data[0]'
       value: "Dzi\u0119kuj\u0119 za ten dar. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'messageAfterGivenRightItem.Array.data[1]'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -463601,7 +463955,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 810551115}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6704597198442660913, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1745000840}
   m_SourcePrefab: {fileID: 100100000, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
 --- !u!4 &5522043782388207929 stripped
 Transform:
@@ -463743,7 +464100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -104.82
+      value: -104.9
       objectReference: {fileID: 0}
     - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -463751,7 +464108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 26
+      value: 26.09
       objectReference: {fileID: 0}
     - target: {fileID: 1050051560962030005, guid: f31c726cc40791341a63b84570861e9b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -467971,6 +468328,7 @@ SceneRoots:
   - {fileID: 1703685128}
   - {fileID: 45899533}
   - {fileID: 5477016344108286514}
+  - {fileID: 1092093872}
   - {fileID: 112954830}
   - {fileID: 1227149847}
   - {fileID: 1691005648}
@@ -468517,3 +468875,4 @@ SceneRoots:
   - {fileID: 468368703}
   - {fileID: 1424354540}
   - {fileID: 186174968}
+  - {fileID: 271343107}

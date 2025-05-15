@@ -6,9 +6,9 @@ public class EndOfDemo : MonoBehaviour
 {
     public static EndOfDemo instance;
     public bool canBeInteractedWith;
-    [SerializeField] string sceneToLoad;
     public int itemToFix;
-
+    
+    [SerializeField] private GameObject prefabToSpawn;
 
     void Awake()
     {
@@ -17,18 +17,13 @@ public class EndOfDemo : MonoBehaviour
     }
     public void EndingDemo()
     {
-        if (canBeInteractedWith)
-        {
-            Debug.Log("Ending Demo");
-            SceneManager.LoadScene(sceneToLoad);
-        }
+        //fadeout ekranu na chwile
+        //przeniesienie gracza przed chate 
+        // wlaczenie prefabu lisa z dialogami stojacego przed graczem
+        // respienie duchów w lesie
+        prefabToSpawn.SetActive(true); //lis
     }
-
-    public void DemoButton()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
-
+    
     public void ItemFixed()
     {
         itemToFix--;
