@@ -17,9 +17,11 @@ public class EndOfDemo : MonoBehaviour
     [SerializeField] private CanvasGroup fadeCanvasGroup;
     [SerializeField] private float fadeDuration = 0.5f;     // czas trwania fade in/out
     [SerializeField] private float blackScreenDuration = 0.2f; // ile czasu czarny ekran trwa
+    Quest _quest;
 
     void Awake()
     {
+        _quest = GetComponent<Quest>();
         instance = this;
         canBeInteractedWith = false;
         GetComponent<BoxCollider>().enabled = false;
@@ -87,6 +89,7 @@ public class EndOfDemo : MonoBehaviour
         {
             canBeInteractedWith = true;
             GetComponent<BoxCollider>().enabled = true;
+            _quest.ControlQuest();
         }
     }
 }
