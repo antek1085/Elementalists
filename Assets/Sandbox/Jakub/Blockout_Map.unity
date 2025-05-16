@@ -4345,8 +4345,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: "Ach, zapomnia\u0142em! Je\u015Bli nie wiesz, co robi\u0107, wci\u015Bnij
-        J, \u017Ceby otworzy\u0107 dziennik. "
+      value: "Alright, I\u2019m outta here! Until I return, I leave things in your
+        care!"
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: dialoguePopupSound.Path
@@ -15930,8 +15930,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questId: 1
-  questDescription: Use Water Spell to destroy the Fire Wall
-  questName: Break The Wall
+  questDescription: Extinguish the raging flames.
+  questName: Handle It Yourself
   isEndingQuest: 0
 --- !u!1001 &81963771
 PrefabInstance:
@@ -23043,46 +23043,66 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4612314701799340104, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
       propertyPath: 'message.Array.data[0]'
-      value: "A wi\u0119c... Znajdujemy si\u0119 w Krainie \u017Bywio\u0142\xF3w.
-        Me imi\u0119 Fluvio, Dusza \u017Bywio\u0142u Wody!"
+      value: "I\u2019m Fluvio, Guardian of the Water Element!"
       objectReference: {fileID: 0}
     - target: {fileID: 4612314701799340104, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
       propertyPath: 'message.Array.data[1]'
-      value: "No, przynajmniej by\u0142em ni\u0105\u2026 bo teraz ty przej\u0105\u0142e\u015B
-        t\u0119 rol\u0119! Tymczasowo, oczywi\u015Bcie. Nie patrz tak zaskoczony!
-        Musisz sobie zapracowa\u0107 na tytu\u0142 druida! "
+      value: "Well, was the Guardian. You\u2019ve kind of taken over now."
       objectReference: {fileID: 0}
     - target: {fileID: 4612314701799340104, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
       propertyPath: 'message.Array.data[2]'
-      value: "A teraz czas na twoje pierwsze zadanie jako mojego zast\u0119pcy! U\u017Cyj
-        mocy, kt\xF3r\u0105 ci uprzejmie po\u017Cyczy\u0142em, i pozb\u0105d\u017A
-        si\u0119 tej anomalii blokuj\u0105cej drog\u0119.  "
+      value: Temporarily. Probably.
       objectReference: {fileID: 0}
     - target: {fileID: 4612314701799340104, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
       propertyPath: 'message.Array.data[3]'
-      value: "Wyceluj myszk\u0105 w anomali\u0119. Naci\u015Bnij CTRL, \u017Ceby
-        wej\u015B\u0107 w tryb rzucania zakl\u0119cia."
+      value: See that magical mess over there? An anomaly. Very bad. Very dramatic.
       objectReference: {fileID: 0}
     - target: {fileID: 4612314701799340104, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
       propertyPath: 'message.Array.data[4]'
-      value: "Narysuj symbol zakl\u0119cia lewym przyciskiem myszy (tak, tak, podstawowe
-        zdolno\u015Bci artystyczne wymagane). "
+      value: Use the power I lent you. Cast the spell and turn that fire into steam!
       objectReference: {fileID: 0}
     - target: {fileID: 4612314701799340104, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
       propertyPath: 'message.Array.data[5]'
-      value: "Je\u015Bli co\u015B sknocisz, wci\u015Bnij R, \u017Ceby zacz\u0105\u0107
-        od nowa. Jak odtworzysz symbol poprawnie, naci\u015Bnij Q, aby rzuci\u0107
-        zakl\u0119cie. "
+      value: Hold CTRL to enter spellcasting mode, aim with your mouse, then draw
+        the symbol using left-click.
       objectReference: {fileID: 0}
     - target: {fileID: 4612314701799340104, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
       propertyPath: 'message.Array.data[6]'
-      value: "Proste, prawda? No, do dzie\u0142a!"
+      value: Press C to try again. Otherwise, press S to unleash the magic!
       objectReference: {fileID: 0}
     - target: {fileID: 4612314701799340104, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
       propertyPath: 'message.Array.data[7]'
       value: "Je\u015Bli co\u015B sknocisz, wci\u015Bnij C, \u017Ceby zacz\u0105\u0107
         od nowa. Jak odtworzysz symbol poprawnie, naci\u015Bnij S, aby rzuci\u0107
         zakl\u0119cie. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612314701799340104, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
+      propertyPath: 'messageAfterGivenAllItems.Array.data[0]'
+      value: Hold CTRL to enter spellcasting mode, aim with your mouse, then draw
+        the symbol using left-click. Messed up the shape? Press C to try again. Otherwise,
+        press S to unleash the magic!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612314701799340104, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
+      propertyPath: 'messageAfterGivenRightItem.Array.data[0]'
+      value: Hold CTRL to enter spellcasting mode, aim with your mouse, then draw
+        the symbol using left-click. Messed up the shape? Press C to try again. Otherwise,
+        press S to unleash the magic!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612314701799340104, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
+      propertyPath: 'shortMessageAfterGivenWrongItem.Array.data[0]'
+      value: Use the power I lent you. Cast the spell and turn that fire into steam!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324192497192402454, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
+      propertyPath: questName
+      value: Handle It Yourself
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324192497192402454, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
+      propertyPath: questDescription
+      value: Extinguish the raging flames.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189316837014512684, guid: ef5cb1460be285e439ccf0b54a901b51, type: 3}
+      propertyPath: noteDescription
+      value: Fluvio
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -172517,7 +172537,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: "Wracaj! Nie t\u0119dy droga."
+      value: "Hey! I\u2019m talking to you! That\u2019s the opposite of the right
+        way!"
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: dialoguePopupSound.Path
@@ -172697,8 +172718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: "OH! Znakomicie! Naturalny talent! Chyba jednak co\u015B z ciebie b\u0119dzie.
-        Idziemy dalej!"
+      value: "Oh! Splendid! You\u2019ve got a knack for this."
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: dialoguePopupSound.Path
@@ -226472,7 +226492,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: Ej! Gdzie idziesz?
+      value: Unless you're on a quest to find absolutely nothing, I suggest turning
+        around.
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: dialoguePopupSound.Path
@@ -241600,8 +241621,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: "Naci\u015Bnij SHIFT, je\u015Bli chcesz biec. Nie obijaj si\u0119, czas
-        ucieka!"
+      value: Welcome to the Realm of Elements, where nature rules and logic takes
+        frequent vacations.
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: dialoguePopupSound.Path
@@ -243224,7 +243245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: "Podejd\u017A tu, m\u0142ody druidzie."
+      value: "Surprised? You\u2019ll get used to it."
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: dialoguePopupSound.Path
@@ -281525,7 +281546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: "Wracaj tu! Nie t\u0119dy droga!"
+      value: I admire your sense of adventure but you're going the wrong way!
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: dialoguePopupSound.Path
@@ -309448,6 +309469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue Wall (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 317259974134350841, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 637148083175847305, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4243001
@@ -309530,7 +309555,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: "Tak wi\u0119c, baw si\u0119 dobrze! Bywaj, m\u0142ody druidzie!"
+      value: "And now\u2026 I shall begin my long-awaited vacation. You\u2019ve got
+        this!"
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: dialoguePopupSound.Path
@@ -353530,6 +353556,34 @@ PrefabInstance:
       propertyPath: animalSprite
       value: 
       objectReference: {fileID: 21300000, guid: dbac13d39494546fc9557223f9eb4398, type: 3}
+    - target: {fileID: 1788235335237187756, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
+      propertyPath: 'message.Array.data[0]'
+      value: "Look at you! Moving, spellcasting.. Almost like you\u2019ve done this
+        before."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788235335237187756, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
+      propertyPath: 'message.Array.data[1]'
+      value: "Oh no. Volcari's here?! I can\u2019t let him see me... Quick, pretend
+        you\u2019re the responsible one!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788235335237187756, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
+      propertyPath: 'message.Array.data[2]'
+      value: "You\u2019ve got this! You're basically an honorary elemental guardian
+        now. I hereby pass the bucket to you. Splash!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788235335237187756, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
+      propertyPath: 'message.Array.data[3]'
+      value: "Tell him I\u2019m\u2026 unavailable. Meditating. Underwater. With earplugs."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788235335237187756, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
+      propertyPath: 'message.Array.data[4]'
+      value: In case you were lost, curious, or a little panicked, press J to open
+        your journal. It will guide you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788235335237187756, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
+      propertyPath: 'shortMessageAfterGivenWrongItem.Array.data[0]'
+      value: Be the responsible one and find out what this fiery fox is up to!
+      objectReference: {fileID: 0}
     - target: {fileID: 6939568750179551468, guid: c4e75a6cba61f764a8b37dff4de61148, type: 3}
       propertyPath: m_LocalPosition.x
       value: -71.228
@@ -356978,8 +357032,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: "Obudzi\u0142e\u015B si\u0119... Doskonale. No dalej, rusz si\u0119!
-        U\u017Cyj W, A, S, D \u2013 tak, to te literki na klawiaturze."
+      value: "Ah, you\u2019re finally awake! Come on now, no time to stand around!
+        Use the W, A, S, D keys to move, hold SHIFT to run."
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: dialoguePopupSound.Path
@@ -373922,7 +373976,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: "Nie pytaj, gdzie jeste\u015B. Pytaj, dlaczego tu jeste\u015B."
+      value: Sorry about the whole forcibly-transported-to-a-magical-realm thing.
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: dialoguePopupSound.Path
@@ -425381,7 +425435,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: "Czy to Wielka Pr\xF3ba? Mo\u017Ce tak... mo\u017Ce nie."
+      value: "Kidnapping  is such a dramatic word. Let\u2019s call it... an enthusiastic
+        invitation."
       objectReference: {fileID: 0}
     - target: {fileID: 818019900755462673, guid: ae78f404589eaaf4f97c95f11867c968, type: 3}
       propertyPath: dialoguePopupSound.Path
@@ -465466,6 +465521,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 550443551}
     - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'message.Array.data[0]'
+      value: "I only sneezed! I didn\u2019t mean to start a fire!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'message.Array.data[1]'
+      value: Wait, hold on! Who exactly are you?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'message.Array.data[2]'
+      value: "So Fluvio\u2019s unavailable and you\u2019re stuck as his temporary
+        stand-in? Perfect timing as always just when I\u2019m sick and actually need
+        his help."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'message.Array.data[3]'
+      value: "Normally, when I was feeling sick, Fluvio would bring me Flamekeepers...
+        But now that he\u2019s gone... Could you take care of it for me? I need at
+        least five to feel better!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'message.Array.data[4]'
+      value: "Remember, Flamekeepers burn! You\u2019ll need to find a way to cool
+        them down before picking them up."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
       propertyPath: messageAfterGivenAllItems.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -465491,11 +465571,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
       propertyPath: 'messageAfterGivenRightItem.Array.data[0]'
-      value: "Dzi\u0119kuj\u0119 za ten dar. "
+      value: Thank you for the flower!
       objectReference: {fileID: 0}
     - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
       propertyPath: 'messageAfterGivenRightItem.Array.data[1]'
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'shortMessageAfterGivenWrongItem.Array.data[0]'
+      value: Using a water spell might help you collect the flamekeepers. You should
+        give it a try!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973149751444693263, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
+      propertyPath: 'shortMessageAfterGivenWrongItem.Array.data[1]'
+      value: Have you found any flamekeepers yet?
       objectReference: {fileID: 0}
     - target: {fileID: 9044134307422420828, guid: f0ce846a403156a46ae0fd61d2cd11d6, type: 3}
       propertyPath: m_LocalPosition.x
