@@ -10,7 +10,7 @@ public class AnimalInteractionScript : MonoBehaviour,IAnimalInteractable
     [SerializeField] GameObject objectToGive;
     AnimalUI animalUI;
     bool interacted;
-    [SerializeField] int numberOfFlowersToGive;
+    public int numberOfFlowersToGive;
     public int numberOfFlowersGiven;
     bool didHeGiveAllItems;
     [SerializeField] SO_Bool isHeAbleToCast;

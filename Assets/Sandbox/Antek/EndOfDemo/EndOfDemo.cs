@@ -1,14 +1,17 @@
 using System;
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.Serialization;
 
 public class EndOfDemo : MonoBehaviour
 {
     public static EndOfDemo instance;
     public bool canBeInteractedWith;
     public int itemToFix;
-
-    [SerializeField] private GameObject prefabToSpawn;
+    
+    [FormerlySerializedAs("smallGhost")]
+    [SerializeField] private List<GameObject> objectsToEnable  = new List<GameObject>();
 
     [Header("Fade Settings")]
     [SerializeField] private CanvasGroup fadeCanvasGroup;
@@ -19,11 +22,15 @@ public class EndOfDemo : MonoBehaviour
     {
         instance = this;
         canBeInteractedWith = false;
+        GetComponent<BoxCollider>().enabled = false;
     }
 
     public void EndingDemo()
     {
-        StartCoroutine(BlinkEffectAndContinue());
+        if (canBeInteractedWith)
+        {
+            StartCoroutine(BlinkEffectAndContinue());   
+        }
     }
 
     private IEnumerator BlinkEffectAndContinue()
@@ -36,10 +43,13 @@ public class EndOfDemo : MonoBehaviour
 
         // Fade back to visible
         yield return StartCoroutine(Fade(1f, 0f, fadeDuration));
-
-        // Teraz wykonujemy resztę logiki
-        prefabToSpawn.SetActive(true); // lis pojawia się
+        
         // Możesz dodać tutaj inne efekty: np. teleportacja gracza, duchy itp.
+
+        for (int i = 0; i < objectsToEnable.Count; i++)
+        {
+            objectsToEnable?[i].SetActive(true);
+        }
     }
 
     private IEnumerator Fade(float startAlpha, float endAlpha, float duration)
@@ -76,6 +86,7 @@ public class EndOfDemo : MonoBehaviour
         if (itemToFix == 0)
         {
             canBeInteractedWith = true;
+            GetComponent<BoxCollider>().enabled = true;
         }
     }
 }

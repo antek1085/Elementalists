@@ -35,10 +35,12 @@ public class AnimalUI : MonoBehaviour
     bool wasInteracted = false;
     Quest quest;
     Notes _notes;
+    AnimalInteractionScript animalInteractionScript;
     void Awake()
     {
         quest = gameObject.GetComponent<Quest>();
         _notes = gameObject.GetComponent<Notes>();
+        animalInteractionScript = gameObject.GetComponent<AnimalInteractionScript>();
     }
      public void GiveItemUIPopUp(bool isRightItem,bool givenAllItems)
     {
@@ -50,7 +52,7 @@ public class AnimalUI : MonoBehaviour
             
             if (quest != null)
             { 
-                quest.ControlQuest();   
+                quest.ControlQuest();
             }
             if (_notes != null)
             {
@@ -65,11 +67,12 @@ public class AnimalUI : MonoBehaviour
             case true:
                 switch (givenAllItems)
                 {
-
                     case true:
                         break;
                     case false:
-                        AnimalUiEvents.current.DialogueBoxPopUp(messageAfterGivenRightItem,animalName,animalSprite);   
+                        var number = animalInteractionScript.numberOfFlowersToGive - animalInteractionScript.numberOfFlowersGiven;
+                        messageAfterGivenRightItem[0] += number;
+                        AnimalUiEvents.current.DialogueBoxPopUp(messageAfterGivenRightItem, animalName, animalSprite);
                         break;
                 }
                 break;
