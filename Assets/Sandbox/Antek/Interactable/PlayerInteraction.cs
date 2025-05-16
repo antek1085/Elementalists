@@ -193,7 +193,7 @@ public class PlayerInteraction : MonoBehaviour
             if (animalInteractable != null)
             {
                uiInteractText.enabled = true;
-               uiInteractText.text = "Naciśnij E żeby porozmawiać";
+               uiInteractText.text = "Press E to interact";
                 return;
             }
 
