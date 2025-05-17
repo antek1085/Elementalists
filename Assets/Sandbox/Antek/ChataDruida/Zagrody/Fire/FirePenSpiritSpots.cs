@@ -10,6 +10,7 @@ public class FirePenSpiritSpots : MonoBehaviour
     public bool isReconstructed = false;
 
     [SerializeField] private GameObject objectToSpawnAfterAllSpirits;
+    [SerializeField] private GameObject objectToDisableAfterAllSpirits;
     void Start()
     {
         instance = this;
@@ -35,6 +36,8 @@ public class FirePenSpiritSpots : MonoBehaviour
             {
                 quest.ControlQuest();
                 objectToSpawnAfterAllSpirits.SetActive(true);
+                if(objectToDisableAfterAllSpirits != null) 
+                    objectToDisableAfterAllSpirits.SetActive(false); 
             }
         }
     }
