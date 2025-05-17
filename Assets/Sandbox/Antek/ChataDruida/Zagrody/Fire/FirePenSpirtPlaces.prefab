@@ -237,7 +237,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 312d1e2544ffb984db0d03853b9fd986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isReconstructed: 0
+  objectToSpawnAfterAllSpirits: {fileID: 0}
   typeOfPen: 0
+  spiritToDeliver: 0
 --- !u!135 &4005706847487478987
 SphereCollider:
   m_ObjectHideFlags: 0
