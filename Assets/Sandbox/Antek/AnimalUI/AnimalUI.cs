@@ -24,6 +24,7 @@ public class AnimalUI : MonoBehaviour
     
     [Header("Given ALl Items")]
     [SerializeField] List<String> messageAfterGivenAllItems = new List<String>();
+    [SerializeField] public int questId;
     
     [Header("Wrong Item")]
     [SerializeField] List<String> shortMessageAfterGivenWrongItem = new List<String>();
@@ -82,7 +83,7 @@ public class AnimalUI : MonoBehaviour
 
                     case true:
                         AnimalUiEvents.current.DialogueBoxPopUp(messageAfterGivenAllItems,animalName,animalSprite);
-                        
+                        QuestControler.instance.EndQuest(questId);
                         //Demo Script
                         endOfDemo.canBeInteractedWith = true;
                         
