@@ -8,6 +8,7 @@ public class FirePenReconstruction : MonoBehaviour
    private int obstacleDestroyedCounter;
    [SerializeField] GameObject parentTextObject;
    private TextMeshProUGUI obstaclesDestroyedText;
+   [SerializeField] FirePenSpiritSpots penSpots;
    
    void Awake()
    {
@@ -62,6 +63,7 @@ public class FirePenReconstruction : MonoBehaviour
       {
          parentTextObject.SetActive(false);
          gameObject.SetActive(false);
+         penSpots.isReconstructed = true;
       }
    }
 }

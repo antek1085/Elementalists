@@ -10,9 +10,7 @@ public class EndOfDemo : MonoBehaviour
     public bool canBeInteractedWith;
     public int itemToFix;
     
-    [FormerlySerializedAs("smallGhost")]
-    [SerializeField] private List<GameObject> objectsToEnable  = new List<GameObject>();
-    [SerializeField] private List<GameObject> objectsToDisable = new List<GameObject>(); // Dodana lista
+    [FormerlySerializedAs("objectsToEnable")] [SerializeField] private List<GameObject> objectsAfterSleep = new List<GameObject>();
     
     [Header("Fade Settings")]
     [SerializeField] private CanvasGroup fadeCanvasGroup;
@@ -26,13 +24,21 @@ public class EndOfDemo : MonoBehaviour
         instance = this;
         canBeInteractedWith = false;
         GetComponent<BoxCollider>().enabled = false;
+        for (int i = 0; i < objectsAfterSleep.Count; i++)
+        {
+            objectsAfterSleep?[i].SetActive(false);
+        }
     }
 
     public void EndingDemo()
     {
         if (canBeInteractedWith)
         {
-            StartCoroutine(BlinkEffectAndContinue());   
+            StartCoroutine(BlinkEffectAndContinue()); 
+            for (int i = 0; i < objectsAfterSleep.Count; i++)
+            {
+                objectsAfterSleep?[i].SetActive(true);
+            }
         }
     }
 
@@ -48,17 +54,7 @@ public class EndOfDemo : MonoBehaviour
         yield return StartCoroutine(Fade(1f, 0f, fadeDuration));
         
         // Możesz dodać tutaj inne efekty: np. teleportacja gracza, duchy itp.
-
-        for (int i = 0; i < objectsToEnable.Count; i++)
-        {
-            objectsToEnable?[i].SetActive(true);
-        }
         
-        for (int i = 0; i < objectsToDisable.Count; i++)
-        {
-            objectsToDisable?[i].SetActive(false);
-        }
-
     }
 
     private IEnumerator Fade(float startAlpha, float endAlpha, float duration)

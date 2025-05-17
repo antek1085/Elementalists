@@ -15,11 +15,12 @@ public class SpiritRescue : MonoBehaviour
     [Header("SpiritFollow")]
     [SerializeField] GameObject objectToFollow;
     [SerializeField] GameObject spiritObject;
-
-
+    
     void Start()
     { 
         EnableAfterFoxEvent.current.OnHelpingFox += EnableSpirit;
+        var firePenSpiritSpots = FirePenSpiritSpots.instance;
+        firePenSpiritSpots.spiritToDeliver++;
     }
 
     void OnTriggerEnter(Collider other)
