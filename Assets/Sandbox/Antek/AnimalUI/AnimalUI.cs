@@ -21,6 +21,7 @@ public class AnimalUI : MonoBehaviour
     
     [Header("Second Interaction")]
     [SerializeField] List<String> messageAfterGivenRightItem = new List<String>();
+    List<String> messageAfterGivenRightItemWithNumber = new List<String>();
     
     [Header("Given ALl Items")]
     [SerializeField] List<String> messageAfterGivenAllItems = new List<String>();
@@ -72,8 +73,9 @@ public class AnimalUI : MonoBehaviour
                         break;
                     case false:
                         var number = animalInteractionScript.numberOfFlowersToGive - animalInteractionScript.numberOfFlowersGiven;
-                        messageAfterGivenRightItem[0] += number;
-                        AnimalUiEvents.current.DialogueBoxPopUp(messageAfterGivenRightItem, animalName, animalSprite);
+                        messageAfterGivenRightItemWithNumber.Add(messageAfterGivenRightItem[0] + number);
+                        AnimalUiEvents.current.DialogueBoxPopUp(messageAfterGivenRightItemWithNumber, animalName, animalSprite);
+                        messageAfterGivenRightItemWithNumber.Clear();
                         break;
                 }
                 break;
