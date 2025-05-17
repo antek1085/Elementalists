@@ -184,7 +184,7 @@ public class PlayerInteraction : MonoBehaviour
             if (pickable != null && pickable.IcanBePickedUp() == true)
             {
                 uiInteractText.enabled = true;
-                uiInteractText.text = "Naciśnij E żeby podnieść";
+                uiInteractText.text = "Press E to interact";
                 return;
             }
 
@@ -200,7 +200,7 @@ public class PlayerInteraction : MonoBehaviour
             if (hitInfo.transform.GetComponent<EndOfDemo>() != null)
             {
                 uiInteractText.enabled = true;
-                uiInteractText.text = "Naciśnij E żeby odpocząć";
+                uiInteractText.text = "Press E to rest";
                 return;
             }
         }

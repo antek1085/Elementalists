@@ -12,7 +12,8 @@ public class EndOfDemo : MonoBehaviour
     
     [FormerlySerializedAs("smallGhost")]
     [SerializeField] private List<GameObject> objectsToEnable  = new List<GameObject>();
-
+    [SerializeField] private List<GameObject> objectsToDisable = new List<GameObject>(); // Dodana lista
+    
     [Header("Fade Settings")]
     [SerializeField] private CanvasGroup fadeCanvasGroup;
     [SerializeField] private float fadeDuration = 0.5f;     // czas trwania fade in/out
@@ -52,6 +53,12 @@ public class EndOfDemo : MonoBehaviour
         {
             objectsToEnable?[i].SetActive(true);
         }
+        
+        for (int i = 0; i < objectsToDisable.Count; i++)
+        {
+            objectsToDisable?[i].SetActive(false);
+        }
+
     }
 
     private IEnumerator Fade(float startAlpha, float endAlpha, float duration)
