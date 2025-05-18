@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 public class EndOfDemo : MonoBehaviour
@@ -102,5 +103,16 @@ public class EndOfDemo : MonoBehaviour
             GetComponent<BoxCollider>().enabled = true;
             _quest.ControlQuest();
         }
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+    }
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }
