@@ -627,7 +627,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638826483567231854
+  lastModified: 638831910714534570
   FileSizes: []
   Exists: 1
 --- !u!114 &-1330632865554475431
@@ -828,12 +828,15 @@ MonoBehaviour:
   - {fileID: 6317379454772426477}
   - {fileID: -9037742148217509551}
   - {fileID: -1143088657322578057}
+  - {fileID: 8370942210199127243}
+  - {fileID: 5965022962805782481}
+  - {fileID: 5981955382252311100}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2017273070756321204}
   StringsBanks:
   - {fileID: 3381557211253963980}
-  cacheTime: 638826483567241821
+  cacheTime: 638831910714569639
   cacheVersion: 131845
 --- !u!114 &329387357420312703
 MonoBehaviour:
@@ -1159,7 +1162,7 @@ MonoBehaviour:
   Path: Assets/FMODBank/Desktop/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638826483567241821
+  lastModified: 638831910714569639
   FileSizes: []
   Exists: 1
 --- !u!114 &4832339047097106562
@@ -1328,6 +1331,60 @@ MonoBehaviour:
   MinDistance: 2
   MaxDistance: 15
   Length: 35555
+--- !u!114 &5965022962805782481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_littleghost_pen
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_littleghost_pen
+  Guid:
+    Data1: 129881431
+    Data2: 1223021910
+    Data3: 1455898512
+    Data4: 1529603246
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 2
+  MaxDistance: 50
+  Length: 0
+--- !u!114 &5981955382252311100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_littleghost_start_follow
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_littleghost_start_follow
+  Guid:
+    Data1: -1130511402
+    Data2: 1113837382
+    Data3: 133535406
+    Data4: 2086341318
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 4
+  MaxDistance: 70
+  Length: 0
 --- !u!114 &6117103085030998844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1521,6 +1578,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &8370942210199127243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_littleghost_loop
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_littleghost_loop
+  Guid:
+    Data1: 184270096
+    Data2: 1243107065
+    Data3: -487684965
+    Data4: -50588882
+  Banks:
+  - {fileID: -2017273070756321204}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 2
+  MaxDistance: 35
+  Length: 26307
 --- !u!114 &8598194060537746169
 MonoBehaviour:
   m_ObjectHideFlags: 0

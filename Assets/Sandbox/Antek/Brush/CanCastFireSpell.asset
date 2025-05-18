@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: CanCastFireSpell
   m_EditorClassIdentifier: 
   value: 0
+  delay: 2
+  targetGameObject: {fileID: 0}

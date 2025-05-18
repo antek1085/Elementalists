@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using FMOD.Studio;
+using FMODUnity;
 
 public enum SpiritType{Fire,Water,Ice}
 
@@ -11,6 +13,9 @@ public class FirePenSpiritSpots : MonoBehaviour
 
     [SerializeField] private GameObject objectToSpawnAfterAllSpirits;
     [SerializeField] private GameObject objectToDisableAfterAllSpirits;
+    
+    [Header("Sound")]
+    [SerializeField] private EventReference spiritDeliveredSound; 
     void Start()
     {
         instance = this;
@@ -30,6 +35,11 @@ public class FirePenSpiritSpots : MonoBehaviour
                 flyingSpirit.objectToFollow = transform.GetChild(spiritCounter)?.gameObject;
                 spiritCounter++;
                 flyingSpirit.OnPenDestiantion();
+                
+                if (!spiritDeliveredSound.IsNull)
+                {
+                    RuntimeManager.PlayOneShot(spiritDeliveredSound, transform.position);
+                }
             }
 
             if (spiritCounter == spiritToDeliver)

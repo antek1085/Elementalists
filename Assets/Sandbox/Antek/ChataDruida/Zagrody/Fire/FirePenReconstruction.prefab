@@ -14855,6 +14855,7 @@ GameObject:
   - component: {fileID: 8400339993399980044}
   - component: {fileID: 7745613517625709619}
   - component: {fileID: 1859534254734994216}
+  - component: {fileID: 8645181913086174031}
   m_Layer: 0
   m_Name: Obstacles
   m_TagString: Untagged
@@ -14913,6 +14914,37 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.92
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8645181913086174031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5788561014489244627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -693059696
+      Data2: 1145372574
+      Data3: 754257835
+      Data4: 1705198282
+    Path: event:/sfx_fire_loop
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 16.1
 --- !u!1 &6881003844307221027
 GameObject:
   m_ObjectHideFlags: 0
@@ -24652,6 +24684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentTextObject: {fileID: 0}
+  penSpots: {fileID: 0}
 --- !u!1 &8905417319208694723
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using FMOD.Studio;
+using FMODUnity;
 using UnityEngine;
 
 public class SpiritRescue : MonoBehaviour
@@ -15,6 +17,9 @@ public class SpiritRescue : MonoBehaviour
     [Header("SpiritFollow")]
     [SerializeField] GameObject objectToFollow;
     [SerializeField] GameObject spiritObject;
+
+    [Header("Sound")] 
+    [SerializeField] private EventReference ghostFollowSound;
     
     void Start()
     { 
@@ -33,6 +38,10 @@ public class SpiritRescue : MonoBehaviour
                 AnimalUiEvents.current.DialogueStringPopUp(message,duration,spirtiName);
                 var spawnedObject = Instantiate(spiritObject, transform.position, Quaternion.identity);
                 spawnedObject.GetComponent<FlyingSpirit>().objectToFollow = objectToFollow;
+                if (!ghostFollowSound.IsNull)
+                {
+                    RuntimeManager.PlayOneShot(ghostFollowSound, transform.position);
+                }
                 Destroy(gameObject);
             }
         }
@@ -41,6 +50,11 @@ public class SpiritRescue : MonoBehaviour
     void EnableSpirit()
     {
         gameObject.SetActive(true);
+        
+        if (!ghostFollowSound.IsNull)
+        {
+            RuntimeManager.PlayOneShot(ghostFollowSound,transform.position);
+        }
     }
     
 }

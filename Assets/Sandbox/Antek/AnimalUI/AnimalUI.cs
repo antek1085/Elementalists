@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using FMODUnity;
 using Unity.VisualScripting;
@@ -18,6 +19,7 @@ public class AnimalUI : MonoBehaviour
     
     [Header("First Interaction")]
     [SerializeField] List<String> message = new List<String>();
+    [SerializeField] GameObject spellNoteFirstInteraction;
     
     [Header("Second Interaction")]
     [SerializeField] List<String> messageAfterGivenRightItem = new List<String>();
@@ -26,6 +28,7 @@ public class AnimalUI : MonoBehaviour
     [Header("Given ALl Items")]
     [SerializeField] List<String> messageAfterGivenAllItems = new List<String>();
     [SerializeField] public int questId;
+    [SerializeField] private GameObject noteSpellEnable;
     
     [Header("Wrong Item")]
     [SerializeField] List<String> shortMessageAfterGivenWrongItem = new List<String>();
@@ -60,6 +63,10 @@ public class AnimalUI : MonoBehaviour
             {
                 _notes.AddNote();
             }
+            if (spellNoteFirstInteraction != null)
+            {
+                spellNoteFirstInteraction.SetActive(true);
+            }
             return;
         }
 
@@ -85,6 +92,7 @@ public class AnimalUI : MonoBehaviour
 
                     case true:
                         AnimalUiEvents.current.DialogueBoxPopUp(messageAfterGivenAllItems,animalName,animalSprite);
+                        noteSpellEnable.SetActive(true);
                         QuestControler.instance.EndQuest(questId);
                         //Demo Script
                         endOfDemo.canBeInteractedWith = true;

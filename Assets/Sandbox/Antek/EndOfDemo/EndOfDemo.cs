@@ -10,7 +10,10 @@ public class EndOfDemo : MonoBehaviour
     public bool canBeInteractedWith;
     public int itemToFix;
     
-    [FormerlySerializedAs("objectsToEnable")] [SerializeField] private List<GameObject> objectsAfterSleep = new List<GameObject>();
+    [FormerlySerializedAs("objectsToEnable")] 
+    [SerializeField] private List<GameObject> objectsAfterSleep = new List<GameObject>();
+    [Header("Objects To Disable")]
+    [SerializeField] private List<GameObject> objectsToDisable = new List<GameObject>();
     
     [Header("Fade Settings")]
     [SerializeField] private CanvasGroup fadeCanvasGroup;
@@ -52,6 +55,11 @@ public class EndOfDemo : MonoBehaviour
 
         // Fade back to visible
         yield return StartCoroutine(Fade(1f, 0f, fadeDuration));
+        
+        for (int i = 0; i < objectsToDisable.Count; i++)
+        {
+            objectsToDisable[i]?.SetActive(false);
+        }
         
         // Możesz dodać tutaj inne efekty: np. teleportacja gracza, duchy itp.
         
