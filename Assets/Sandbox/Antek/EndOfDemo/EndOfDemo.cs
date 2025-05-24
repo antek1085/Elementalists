@@ -22,9 +22,11 @@ public class EndOfDemo : MonoBehaviour
     [SerializeField] private float blackScreenDuration = 0.2f; // ile czasu czarny ekran trwa
     Quest _quest;
     [SerializeField] SO_Bool canCastFire;
+    RenovationUiController _renovationUiController;
 
     void Awake()
     {
+        _renovationUiController = GetComponentInChildren<RenovationUiController>();
         _quest = GetComponent<Quest>();
         instance = this;
         canBeInteractedWith = false;
@@ -98,6 +100,7 @@ public class EndOfDemo : MonoBehaviour
     public void ItemFixed()
     {
         itemToFix--;
+        _renovationUiController.UpdateRenovationUI();
         if (itemToFix == 0)
         {
             canBeInteractedWith = true;
