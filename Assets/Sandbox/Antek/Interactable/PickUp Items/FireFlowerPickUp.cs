@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using FMOD.Studio;
 using FMODUnity;
 using UnityEngine;
@@ -13,6 +14,8 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
     
     //public Spell.spellType spellType;
     [SerializeField] bool canBePickedUp;
+    
+    [SerializeField] List<GameObject> fireFliesToTurnOff = new List<GameObject>();
     public bool IcanBePickedUp()
     {
         return canBePickedUp;
@@ -80,5 +83,12 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
     {
         flowerLoopInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         flowerLoopInstance.release();
+        foreach (var t in fireFliesToTurnOff)
+        {
+            if (t != null)
+            {
+                t.SetActive(false);   
+            }
+        }
     }
 }
