@@ -12,6 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4595c71e11bd749afb97588fb22a96, type: 3}
   m_Name: CanCastFireSpell
   m_EditorClassIdentifier: 
-  value: 0
-  delay: 2
-  targetGameObject: {fileID: 0}
+  value: 1

@@ -21,6 +21,7 @@ public class EndOfDemo : MonoBehaviour
     [SerializeField] private float fadeDuration = 0.5f;     // czas trwania fade in/out
     [SerializeField] private float blackScreenDuration = 0.2f; // ile czasu czarny ekran trwa
     Quest _quest;
+    [SerializeField] SO_Bool canCastFire;
 
     void Awake()
     {
@@ -36,7 +37,7 @@ public class EndOfDemo : MonoBehaviour
 
     public void EndingDemo()
     {
-        if (canBeInteractedWith)
+        if (canBeInteractedWith && canCastFire.value)
         {
             StartCoroutine(BlinkEffectAndContinue()); 
             for (int i = 0; i < objectsAfterSleep.Count; i++)
@@ -100,8 +101,15 @@ public class EndOfDemo : MonoBehaviour
         if (itemToFix == 0)
         {
             canBeInteractedWith = true;
-            GetComponent<BoxCollider>().enabled = true;
             _quest.ControlQuest();
+            EnablBoxCollider();
+        }
+    }
+    public void EnablBoxCollider()
+    {
+        if (canBeInteractedWith && canCastFire.value)
+        {
+            GetComponent<BoxCollider>().enabled = true;   
         }
     }
     public void QuitGame()

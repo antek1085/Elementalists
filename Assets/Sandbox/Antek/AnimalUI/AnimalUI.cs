@@ -95,7 +95,7 @@ public class AnimalUI : MonoBehaviour
                         noteSpellEnable.SetActive(true);
                         QuestControler.instance.EndQuest(questId);
                         //Demo Script
-                        endOfDemo.canBeInteractedWith = true;
+                        endOfDemo.EnablBoxCollider();
                         
                         if(objectToShow != null)objectToShow.SetActive(true);
                         
