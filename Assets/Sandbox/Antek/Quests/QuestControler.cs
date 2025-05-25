@@ -6,7 +6,7 @@ public class QuestControler : MonoBehaviour
 {
     public static QuestControler instance;
     
-    Dictionary<int,string[]> quests = new Dictionary<int,string[]>();
+    public Dictionary<int,string[]> quests = new Dictionary<int,string[]>();
     
     private QuestUIControler questUIControler;
     private QuestJournalControler questJournalControler;

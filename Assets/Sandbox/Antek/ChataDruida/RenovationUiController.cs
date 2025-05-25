@@ -8,6 +8,7 @@ public class RenovationUiController : MonoBehaviour
     public int obstacleRenovatedCounter;
     [SerializeField] GameObject parentTextObject;
     private TextMeshProUGUI obstaclesRenovatedText;
+    QuestControler questControler;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -19,11 +20,12 @@ public class RenovationUiController : MonoBehaviour
     void Start()
     {
         parentTextObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = numberOfObstacles.ToString();
+        questControler = QuestControler.instance;
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if(other.CompareTag("Player")&& questControler.quests.ContainsKey(3))
         {
             parentTextObject.SetActive(true);
             numberOfObstacles = EndOfDemo.instance.itemToFix;
