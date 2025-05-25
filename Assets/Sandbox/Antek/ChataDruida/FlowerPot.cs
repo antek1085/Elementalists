@@ -2,11 +2,14 @@ using UnityEngine;
 
 public class FlowerPot : RenovateItem
 {
+    [Header("Objects")]
+    [SerializeField] GameObject objectToEnable;
+    [SerializeField] GameObject objectToDisable;
     public override void OnSpellHit()
     {
         base.OnSpellHit();
-        transform.GetChild(1).gameObject.SetActive(false); // turn off old model
-        transform.GetChild(2).gameObject.SetActive(true); // turn on new model
+        objectToDisable.SetActive(false); // turn off old model
+        objectToEnable.SetActive(true); // turn on new model
     }
 
     public override void Awake()
