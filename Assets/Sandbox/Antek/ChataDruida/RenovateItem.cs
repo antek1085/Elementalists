@@ -6,6 +6,8 @@ public class RenovateItem : MonoBehaviour
     public EndOfDemo endOfDemo;
     public GameObject VFXGameObject;
     public Spell.spellType SpellType;
+    
+    QuestControler questControler;
     public virtual void Awake()
     {
         VFXGameObject = transform.GetChild(0).gameObject;
@@ -14,11 +16,14 @@ public class RenovateItem : MonoBehaviour
     {
         endOfDemo = EndOfDemo.instance;
         endOfDemo.itemToFix++;
+        questControler = QuestControler.instance;
     }
 
 
     public virtual void OnTriggerEnter(Collider other)
     {
+        if(!questControler.quests.ContainsKey(3)) return;
+        
         if (other.CompareTag("Player") && VFXGameObject != null)
         {
             VFXGameObject.GetComponent<ParticleSystem>()?.Play();
