@@ -34,6 +34,10 @@ public class Notes : MonoBehaviour
             noteDisplayObject.SetActive(false);
         }
     }
+    public void HideNote()
+    {
+        noteDisplayObject.SetActive(false);
+    }
 }
 
 /*using System;
