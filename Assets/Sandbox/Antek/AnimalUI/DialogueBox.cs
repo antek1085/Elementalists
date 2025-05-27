@@ -74,7 +74,7 @@ public class DialogueBox : MonoBehaviour
     {
         dialogueBreak = false;
         ApplyDialogueData();
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         dialogueBreak = true;
     }
 

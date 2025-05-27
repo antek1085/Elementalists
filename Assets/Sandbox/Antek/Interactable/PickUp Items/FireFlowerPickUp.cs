@@ -90,9 +90,5 @@ public class FireFlowerPickUp : MonoBehaviour,IPickable
                 t.SetActive(false);   
             }
         }
-        if (_notes != null)
-        {
-            _notes.HideNote();
-        }
     }
 }

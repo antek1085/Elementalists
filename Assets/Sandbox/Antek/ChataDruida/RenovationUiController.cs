@@ -21,6 +21,7 @@ public class RenovationUiController : MonoBehaviour
     {
         parentTextObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = numberOfObstacles.ToString();
         questControler = QuestControler.instance;
+        Invoke("SetTextMeshPro",2f);
     }
 
     void OnTriggerEnter(Collider other)
@@ -28,8 +29,6 @@ public class RenovationUiController : MonoBehaviour
         if(other.CompareTag("Player")&& questControler.quests.ContainsKey(3))
         {
             parentTextObject.SetActive(true);
-            numberOfObstacles = EndOfDemo.instance.itemToFix;
-            parentTextObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = numberOfObstacles.ToString();
         }
     }
     void OnTriggerExit(Collider other)
@@ -49,6 +48,11 @@ public class RenovationUiController : MonoBehaviour
             parentTextObject.SetActive(false);
             gameObject.SetActive(false);
         }
+    }
+    void SetTextMeshPro()
+    {
+        numberOfObstacles = EndOfDemo.instance.itemToFix;
+        parentTextObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = numberOfObstacles.ToString();
     }
     
     

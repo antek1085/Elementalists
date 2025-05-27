@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -34,7 +35,12 @@ public class Notes : MonoBehaviour
             noteDisplayObject.SetActive(false);
         }
     }
-    public void HideNote()
+
+    void OnDestroy()
+    {
+        HideNote();
+    }
+     void HideNote()
     {
         noteDisplayObject.SetActive(false);
     }
