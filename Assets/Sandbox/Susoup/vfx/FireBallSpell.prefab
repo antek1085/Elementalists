@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d8d61a5509639b4db75c5377103b36d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blowEffect: {fileID: 0}
+  blowEffect: {fileID: 2471321660169580383, guid: 71b35a30109df4ca6b125a660782c261, type: 3}
   castSpellSound:
     Guid:
       Data1: -207481326
