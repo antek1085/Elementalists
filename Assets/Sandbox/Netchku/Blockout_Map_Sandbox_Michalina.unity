@@ -41459,6 +41459,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af567e72a97f044297c5f8063f6a5f3, type: 3}
+--- !u!1001 &320817472
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -59.15268
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.6064076
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 129.98735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e28c24dfc9d87ec42aab6ef26a7743b8, type: 2}
+    - target: {fileID: 919132149155446097, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
+      propertyPath: m_Name
+      value: studnia
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 33b3acfa6943a504eba96a12b20d5c9f, type: 3}
 --- !u!1001 &322049966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72686,8 +72747,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBeInteractedWith: 0
-  sceneToLoad: EndOFDemoScene
   itemToFix: 0
+  objectsAfterSleep: []
+  objectsToDisable: []
+  fadeCanvasGroup: {fileID: 0}
+  fadeDuration: 0.5
+  blackScreenDuration: 0.2
+  canCastFire: {fileID: 0}
 --- !u!65 &550443552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -120746,20 +120812,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57e466e46086a94387cde95af77147c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicEvent:
+  musicEventReference:
     Guid:
-      Data1: -532438366
-      Data2: 1180049220
-      Data3: -689377870
-      Data4: 1602852995
-    Path: event:/Music/mfx_locations
-  musicZones:
-  - parameterName: location_tutorial
-    triggerZone: {fileID: 916672326}
-  - parameterName: zone_forest
-    triggerZone: {fileID: 1576509229}
-  - parameterName: zone_fire
-    triggerZone: {fileID: 961575009}
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  musicZoneParameters: []
 --- !u!1001 &898473121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -184011,6 +184071,27 @@ MonoBehaviour:
       Data3: 130559650
       Data4: 1070286467
     Path: event:/sfx_footstep
+  jumpSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  landSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  snowFootstepSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   baseStepInterval: 0.5
   sprintMultiplier: 0.75
   groundMask:
@@ -300126,3 +300207,4 @@ SceneRoots:
   - {fileID: 4790496551473682119}
   - {fileID: 7566898019232923597}
   - {fileID: 4512157762445624006}
+  - {fileID: 320817472}
