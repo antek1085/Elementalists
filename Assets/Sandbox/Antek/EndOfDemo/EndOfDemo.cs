@@ -23,6 +23,7 @@ public class EndOfDemo : MonoBehaviour
     Quest _quest;
     [SerializeField] SO_Bool canCastFire;
     RenovationUiController _renovationUiController;
+    
 
     void Awake()
     {
@@ -51,6 +52,7 @@ public class EndOfDemo : MonoBehaviour
 
     private IEnumerator BlinkEffectAndContinue()
     {
+        canBeInteractedWith = false;
         // Fade to black
         yield return StartCoroutine(Fade(0f, 1f, fadeDuration));
 
@@ -64,7 +66,7 @@ public class EndOfDemo : MonoBehaviour
         {
             objectsToDisable[i]?.SetActive(false);
         }
-        
+        canBeInteractedWith = true;
         // Możesz dodać tutaj inne efekty: np. teleportacja gracza, duchy itp.
         
     }
