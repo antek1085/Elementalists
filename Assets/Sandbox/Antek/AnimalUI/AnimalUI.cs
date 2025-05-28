@@ -41,6 +41,8 @@ public class AnimalUI : MonoBehaviour
     Quest quest;
     Notes _notes;
     AnimalInteractionScript animalInteractionScript;
+
+    [SerializeField] GameObject VFX;
     void Awake()
     {
         quest = gameObject.GetComponent<Quest>();
@@ -117,5 +119,10 @@ public class AnimalUI : MonoBehaviour
          {
              RuntimeManager.PlayOneShot(dialoguePopupSound);
          }
+     }
+
+     void OnDestroy()
+     {
+         Instantiate(VFX, transform.position, Quaternion.identity);
      }
 }

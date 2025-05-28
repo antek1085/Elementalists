@@ -15,6 +15,7 @@ public class DialogueTextBoxActivate : MonoBehaviour
     [Header("NPC Transition")] 
     [SerializeField] private GameObject npcToSwap;
     [SerializeField] private GameObject npcSwapped;
+    [SerializeField] GameObject vfx; 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -30,6 +31,7 @@ public class DialogueTextBoxActivate : MonoBehaviour
             if (npcToSwap != null)
             {
                 npcToSwap.SetActive(false);
+                Instantiate(vfx,npcToSwap.transform.position,npcToSwap.transform.rotation);
             }
 
             if (npcSwapped != null)

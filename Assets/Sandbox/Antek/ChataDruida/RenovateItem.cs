@@ -8,6 +8,8 @@ public class RenovateItem : MonoBehaviour
     public Spell.spellType SpellType;
     
     QuestControler questControler;
+    
+    [SerializeField] GameObject VFXPrefab;
     public virtual void Awake()
     {
         VFXGameObject = transform.GetChild(0).gameObject;
@@ -56,5 +58,6 @@ public class RenovateItem : MonoBehaviour
         Destroy(VFXGameObject);
         gameObject.GetComponent<SphereCollider>().enabled = false;
         endOfDemo.ItemFixed();
+        Instantiate(VFXPrefab, transform.position, transform.rotation);
     }
 }

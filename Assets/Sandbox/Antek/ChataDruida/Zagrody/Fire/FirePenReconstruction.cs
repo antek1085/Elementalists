@@ -9,14 +9,13 @@ public class FirePenReconstruction : MonoBehaviour
    [SerializeField] GameObject parentTextObject;
    private TextMeshProUGUI obstaclesDestroyedText;
    [SerializeField] FirePenSpiritSpots penSpots;
+   bool isTextSet = false;
    
    void Awake()
    {
       parentTextObject.SetActive(false);
       numberOfObstacles = transform.childCount;
-      parentTextObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = numberOfObstacles.ToString();
       obstaclesDestroyedText = parentTextObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-      obstaclesDestroyedText.text = obstacleDestroyedCounter.ToString();
    }
 
    void OnTriggerEnter(Collider other)
@@ -28,6 +27,12 @@ public class FirePenReconstruction : MonoBehaviour
          for (int i = 0; i < transform.childCount; i++)
          {
             transform.GetChild(i).GetComponent<FirePenObstacle>().particleSystem.GetComponent<ParticleSystem>().Play();
+         }
+         if (isTextSet == false)
+         {
+            parentTextObject.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = numberOfObstacles.ToString();
+            obstaclesDestroyedText.text = obstacleDestroyedCounter.ToString();
+            isTextSet = true;
          }
       }
    }
