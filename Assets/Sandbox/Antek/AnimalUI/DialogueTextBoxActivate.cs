@@ -31,7 +31,10 @@ public class DialogueTextBoxActivate : MonoBehaviour
             if (npcToSwap != null)
             {
                 npcToSwap.SetActive(false);
-                Instantiate(vfx,npcToSwap.transform.position,npcToSwap.transform.rotation);
+                if (vfx != null)
+                {
+                    Instantiate(vfx,npcToSwap.transform.position,npcToSwap.transform.rotation);   
+                }
             }
 
             if (npcSwapped != null)
