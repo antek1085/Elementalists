@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using FMOD.Studio;
 using FMODUnity;
+using System.Collections.Generic;
 
 public enum SpiritType{Fire,Water,Ice}
 
@@ -12,7 +13,7 @@ public class FirePenSpiritSpots : MonoBehaviour
     public bool isReconstructed = false;
 
     [SerializeField] private GameObject objectToSpawnAfterAllSpirits;
-    [SerializeField] private GameObject objectToDisableAfterAllSpirits;
+    [SerializeField] private List<GameObject> objectsToDisableAfterAllSpirits; 
     
     [Header("Sound")]
     [SerializeField] private EventReference spiritDeliveredSound; 
@@ -46,8 +47,16 @@ public class FirePenSpiritSpots : MonoBehaviour
             {
                 quest.ControlQuest();
                 objectToSpawnAfterAllSpirits.SetActive(true);
-                if(objectToDisableAfterAllSpirits != null) 
-                    objectToDisableAfterAllSpirits.SetActive(false); 
+                if(objectsToDisableAfterAllSpirits != null) 
+                {
+                    foreach (GameObject obj in objectsToDisableAfterAllSpirits)
+                    {
+                        if (obj != null) 
+                        {
+                            obj.SetActive(false);
+                        }
+                    }
+                } 
             }
         }
     }

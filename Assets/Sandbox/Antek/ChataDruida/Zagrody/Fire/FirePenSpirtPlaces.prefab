@@ -239,6 +239,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isReconstructed: 0
   objectToSpawnAfterAllSpirits: {fileID: 0}
+  objectsToDisableAfterAllSpirits:
+  - {fileID: 0}
+  - {fileID: 0}
+  spiritDeliveredSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   typeOfPen: 0
   spiritToDeliver: 0
 --- !u!135 &4005706847487478987
