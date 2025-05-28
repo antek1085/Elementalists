@@ -58,6 +58,6 @@ public class RenovateItem : MonoBehaviour
         Destroy(VFXGameObject);
         gameObject.GetComponent<SphereCollider>().enabled = false;
         endOfDemo.ItemFixed();
-        Instantiate(VFXPrefab, transform.position, transform.rotation);
+        Instantiate(VFXPrefab,  transform.GetChild(1).transform.position, transform.rotation);
     }
 }
