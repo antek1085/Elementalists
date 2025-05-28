@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
@@ -548,6 +548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   drawCamera: {fileID: 3009065816368496370}
   brush: {fileID: 3372610087388414484, guid: d6d7280976994974881057e10df41ecf, type: 3}
+  cursorImage: {fileID: 0}
   drawSound:
     Guid:
       Data1: -234990335
@@ -1118,6 +1119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55241adf5928d974c9b7cd8d7509559d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
 --- !u!1 &5781548102695423085
 GameObject:
   m_ObjectHideFlags: 0
