@@ -6,10 +6,11 @@ public class ActivateSpellCasting : MonoBehaviour
     GameObject brushObjects;
     [SerializeField] GameObject camera;
     bool input;
+
     void Awake()
     {
         brushObjects = transform.GetChild(0).gameObject;
-        
+
         input = true;
     }
     
@@ -17,18 +18,25 @@ public class ActivateSpellCasting : MonoBehaviour
     {
         DrawingSpellsEvent.current.OnSpellCast += SpellCast;
         StopInputEvent.current.OnStopInput += ChangeInput;
-        brushObjects.SetActive(false);
-        camera.SetActive(false);
+        
+        brushObjects.SetActive(false); 
+        camera.SetActive(false); 
+        
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
+
     void ChangeInput(GameObject obj)
     {
         if (obj != gameObject)
         {
             input = false;
         }
-        if (obj == null)
+        if (obj == null) 
         {
             input = true;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 
@@ -37,31 +45,35 @@ public class ActivateSpellCasting : MonoBehaviour
     {
         if(input == false) return;
         
-        
         if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             brushObjects.SetActive(!brushObjects.activeSelf);
             camera.SetActive(!camera.activeSelf);
             
-            if (Cursor.visible == false)
+            if (Cursor.lockState == CursorLockMode.Locked) 
             {
-                StopInputEvent.current.StopInput(gameObject);
+                StopInputEvent.current.StopInput(gameObject); 
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
             }
-            else
+            else 
             {
-                StopInputEvent.current.StopInput(null);
+                StopInputEvent.current.StopInput(null); 
                 Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;
             }
         }
     }
+
     void SpellCast(float[] obj)
     {
-        StopInputEvent.current.StopInput(null);
-        brushObjects.SetActive(false);
-        camera.SetActive(false);
+       
+        StopInputEvent.current.StopInput(null); 
+        brushObjects.SetActive(false); 
+        camera.SetActive(false); 
+        
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
     
 }
